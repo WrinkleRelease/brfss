@@ -4,15 +4,15 @@
 
 ### State FIPS Code
 
-Label: `State FIPS Code`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `1`
-Column: `1-2`
-Type of Variable: `Num`
-SAS Variable Name: `_STATE`
+Label: `State FIPS Code`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `1`  
+Column: `1-2`  
+Type of Variable: `Num`  
+SAS Variable Name: `_STATE`  
 Question Prologue: 
-Question: `State FIPS Code`
+Question: `State FIPS Code`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -75,15 +75,15 @@ Question: `State FIPS Code`
 
 ### File Month
 
-Label: `File Month`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `8`
-Column: `17-18`
-Type of Variable: `Num`
-SAS Variable Name: `FMONTH`
+Label: `File Month`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `8`  
+Column: `17-18`  
+Type of Variable: `Num`  
+SAS Variable Name: `FMONTH`  
 Question Prologue: 
-Question: `File Month`
+Question: `File Month`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -104,15 +104,15 @@ Question: `File Month`
 
 ### Interview Date
 
-Label: `Interview Date`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `9`
-Column: `19-26`
-Type of Variable: `Char`
-SAS Variable Name: `IDATE`
+Label: `Interview Date`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `9`  
+Column: `19-26`  
+Type of Variable: `Char`  
+SAS Variable Name: `IDATE`  
 Question Prologue: 
-Question: `Interview Date`
+Question: `Interview Date`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -122,15 +122,15 @@ Question: `Interview Date`
 
 ### Interview Month
 
-Label: `Interview Month`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `10`
-Column: `19-20`
-Type of Variable: `Char`
-SAS Variable Name: `IMONTH`
+Label: `Interview Month`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `10`  
+Column: `19-20`  
+Type of Variable: `Char`  
+SAS Variable Name: `IMONTH`  
 Question Prologue: 
-Question: `Interview Month`
+Question: `Interview Month`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -151,15 +151,15 @@ Question: `Interview Month`
 
 ### Interview Day
 
-Label: `Interview Day`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `11`
-Column: `21-22`
-Type of Variable: `Char`
-SAS Variable Name: `IDAY`
+Label: `Interview Day`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `11`  
+Column: `21-22`  
+Type of Variable: `Char`  
+SAS Variable Name: `IDAY`  
 Question Prologue: 
-Question: `Interview Day`
+Question: `Interview Day`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -200,15 +200,15 @@ Question: `Interview Day`
 
 ### Interview Year
 
-Label: `Interview Year`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `12`
-Column: `23-26`
-Type of Variable: `Char`
-SAS Variable Name: `IYEAR`
+Label: `Interview Year`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `12`  
+Column: `23-26`  
+Type of Variable: `Char`  
+SAS Variable Name: `IYEAR`  
 Question Prologue: 
-Question: `Interview Year`
+Question: `Interview Year`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -219,15 +219,15 @@ Question: `Interview Year`
 
 ### Final Disposition
 
-Label: `Final Disposition`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `14`
-Column: `32-35`
-Type of Variable: `Num`
-SAS Variable Name: `DISPCODE`
+Label: `Final Disposition`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `14`  
+Column: `32-35`  
+Type of Variable: `Num`  
+SAS Variable Name: `DISPCODE`  
 Question Prologue: 
-Question: `Final Disposition`
+Question: `Final Disposition`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -238,15 +238,15 @@ Question: `Final Disposition`
 
 ### Annual Sequence Number
 
-Label: `Annual Sequence Number`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `15`
-Column: `36-45`
-Type of Variable: `Char`
-SAS Variable Name: `SEQNO`
+Label: `Annual Sequence Number`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `15`  
+Column: `36-45`  
+Type of Variable: `Char`  
+SAS Variable Name: `SEQNO`  
 Question Prologue: 
-Question: `Annual Sequence Number`
+Question: `Annual Sequence Number`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -256,15 +256,15 @@ Question: `Annual Sequence Number`
 
 ### Primary Sampling Unit
 
-Label: `Primary Sampling Unit`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `16`
-Column: `36-45`
-Type of Variable: `Num`
-SAS Variable Name: `_PSU`
+Label: `Primary Sampling Unit`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `16`  
+Column: `36-45`  
+Type of Variable: `Num`  
+SAS Variable Name: `_PSU`  
 Question Prologue: 
-Question: `Primary Sampling Unit (Equal to Annual Sequence Number)`
+Question: `Primary Sampling Unit (Equal to Annual Sequence Number)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -276,15 +276,15 @@ Question: `Primary Sampling Unit (Equal to Annual Sequence Number)`
 
 ### Correct telephone number?
 
-Label: `Correct telephone number?`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `1`
-Column: `63`
-Type of Variable: `Num`
-SAS Variable Name: `CTELENM1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Is this     (phone number)     ?`
+Label: `Correct telephone number?`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `1`  
+Column: `63`  
+Type of Variable: `Num`  
+SAS Variable Name: `CTELENM1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Is this     (phone number)     ?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -296,15 +296,15 @@ Question: `Is this     (phone number)     ?`
 
 ### Private Residence?
 
-Label: `Private Residence?`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `2`
-Column: `64`
-Type of Variable: `Num`
-SAS Variable Name: `PVTRESD1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Is this a private residence?   [READ ONLY IF NECESSARY: By private residence, we mean someplace like a house or apartment.]`
+Label: `Private Residence?`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `2`  
+Column: `64`  
+Type of Variable: `Num`  
+SAS Variable Name: `PVTRESD1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Is this a private residence?   [READ ONLY IF NECESSARY: By private residence, we mean someplace like a house or apartment.]`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -316,15 +316,15 @@ Question: `Is this a private residence?   [READ ONLY IF NECESSARY: By private re
 
 ### Do you live in college housing?
 
-Label: `Do you live in college housing?`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `3`
-Column: `65`
-Type of Variable: `Num`
-SAS Variable Name: `COLGHOUS`
-Question Prologue: `Variable only on the land line survey`
-Question: `Do you live in college housing?`
+Label: `Do you live in college housing?`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `3`  
+Column: `65`  
+Type of Variable: `Num`  
+SAS Variable Name: `COLGHOUS`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Do you live in college housing?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -335,15 +335,15 @@ Question: `Do you live in college housing?`
 
 ### Resident of State
 
-Label: `Resident of State`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `4`
-Column: `66`
-Type of Variable: `Num`
-SAS Variable Name: `STATERE1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Do you currently live in  ____(state)____?`
+Label: `Resident of State`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `4`  
+Column: `66`  
+Type of Variable: `Num`  
+SAS Variable Name: `STATERE1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Do you currently live in  ____(state)____?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -354,15 +354,15 @@ Question: `Do you currently live in  ____(state)____?`
 
 ### Cellular Telephone
 
-Label: `Cellular Telephone`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `5`
-Column: `67`
-Type of Variable: `Num`
-SAS Variable Name: `CELPHON1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Is this a cell telephone?`
+Label: `Cellular Telephone`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `5`  
+Column: `67`  
+Type of Variable: `Num`  
+SAS Variable Name: `CELPHON1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Is this a cell telephone?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -374,15 +374,15 @@ Question: `Is this a cell telephone?`
 
 ### Are you 18 years of age or older?
 
-Label: `Are you 18 years of age or older?`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `6`
-Column: `68`
-Type of Variable: `Num`
-SAS Variable Name: `LADULT1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Are you 18 years of age or older?`
+Label: `Are you 18 years of age or older?`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `6`  
+Column: `68`  
+Type of Variable: `Num`  
+SAS Variable Name: `LADULT1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Are you 18 years of age or older?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -394,15 +394,15 @@ Question: `Are you 18 years of age or older?`
 
 ### Are you male or female?
 
-Label: `Are you male or female?`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `7`
-Column: `69`
-Type of Variable: `Num`
-SAS Variable Name: `COLGSEX1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Are you male or female?`
+Label: `Are you male or female?`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `7`  
+Column: `69`  
+Type of Variable: `Num`  
+SAS Variable Name: `COLGSEX1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Are you male or female?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -414,15 +414,15 @@ Question: `Are you male or female?`
 
 ### Number of Adults in Household
 
-Label: `Number of Adults in Household`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `8`
-Column: `70-71`
-Type of Variable: `Num`
-SAS Variable Name: `NUMADULT`
-Question Prologue: `Variable only on the land line survey`
-Question: `I need to randomly select one adult who lives in your household to be interviewed. Excluding adults living away from home, such as students away at college, how many members of your household, including yourself, are 18 years of age or older?`
+Label: `Number of Adults in Household`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `8`  
+Column: `70-71`  
+Type of Variable: `Num`  
+SAS Variable Name: `NUMADULT`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `I need to randomly select one adult who lives in your household to be interviewed. Excluding adults living away from home, such as students away at college, how many members of your household, including yourself, are 18 years of age or older?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -438,15 +438,15 @@ Question: `I need to randomly select one adult who lives in your household to be
 
 ### Are you male or female?
 
-Label: `Are you male or female?`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `9`
-Column: `72`
-Type of Variable: `Num`
-SAS Variable Name: `LANDSEX1`
-Question Prologue: `Variable only on the land line survey`
-Question: `Are you male or female?`
+Label: `Are you male or female?`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `9`  
+Column: `72`  
+Type of Variable: `Num`  
+SAS Variable Name: `LANDSEX1`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `Are you male or female?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -462,15 +462,15 @@ Question: `Are you male or female?`
 
 ### Number of Adult men in Household
 
-Label: `Number of Adult men in Household`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `10`
-Column: `73-74`
-Type of Variable: `Num`
-SAS Variable Name: `NUMMEN`
-Question Prologue: `Variable only on the land line survey`
-Question: `How many of these adults are men?`
+Label: `Number of Adult men in Household`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `10`  
+Column: `73-74`  
+Type of Variable: `Num`  
+SAS Variable Name: `NUMMEN`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `How many of these adults are men?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -487,15 +487,15 @@ Question: `How many of these adults are men?`
 
 ### Number of Adult women in Household
 
-Label: `Number of Adult women in Household`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `11`
-Column: `75-76`
-Type of Variable: `Num`
-SAS Variable Name: `NUMWOMEN`
-Question Prologue: `Variable only on the land line survey`
-Question: `So the number of women in the household is [X]. Is that correct?`
+Label: `Number of Adult women in Household`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `11`  
+Column: `75-76`  
+Type of Variable: `Num`  
+SAS Variable Name: `NUMWOMEN`  
+Question Prologue: `Variable only on the land line survey`  
+Question: `So the number of women in the household is [X]. Is that correct?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -512,15 +512,15 @@ Question: `So the number of women in the household is [X]. Is that correct?`
 
 ### Respondent selection
 
-Label: `Respondent selection`
-Section Name: `Land Line Introduction`
-Section Number: `0`
-Question Number: `12`
-Column: `77`
-Type of Variable: `Num`
-SAS Variable Name: `RESPSLCT`
+Label: `Respondent selection`  
+Section Name: `Land Line Introduction`  
+Section Number: `0`  
+Question Number: `12`  
+Column: `77`  
+Type of Variable: `Num`  
+SAS Variable Name: `RESPSLCT`  
 Question Prologue: 
-Question: `The person in your household that I need to speak with is [XXX]. Are you the [XXX] in this household`
+Question: `The person in your household that I need to speak with is [XXX]. Are you the [XXX] in this household`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -536,15 +536,15 @@ Question: `The person in your household that I need to speak with is [XXX]. Are 
 
 ### Safe time to talk
 
-Label: `Safe time to talk`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `1`
-Column: `78`
-Type of Variable: `Num`
-SAS Variable Name: `SAFETIME`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Is this a safe time to talk with you?`
+Label: `Safe time to talk`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `1`  
+Column: `78`  
+Type of Variable: `Num`  
+SAS Variable Name: `SAFETIME`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Is this a safe time to talk with you?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -555,15 +555,15 @@ Question: `Is this a safe time to talk with you?`
 
 ### Correct Phone Number?
 
-Label: `Correct Phone Number?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `2`
-Column: `79`
-Type of Variable: `Num`
-SAS Variable Name: `CTELNUM1`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Is this     (phone number)     ?`
+Label: `Correct Phone Number?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `2`  
+Column: `79`  
+Type of Variable: `Num`  
+SAS Variable Name: `CTELNUM1`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Is this     (phone number)     ?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -575,15 +575,15 @@ Question: `Is this     (phone number)     ?`
 
 ### Is this a cell phone?
 
-Label: `Is this a cell phone?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `3`
-Column: `80`
-Type of Variable: `Num`
-SAS Variable Name: `CELLFON5`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Is this a cell phone?`
+Label: `Is this a cell phone?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `3`  
+Column: `80`  
+Type of Variable: `Num`  
+SAS Variable Name: `CELLFON5`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Is this a cell phone?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -594,15 +594,15 @@ Question: `Is this a cell phone?`
 
 ### Are you 18 years of age or older?
 
-Label: `Are you 18 years of age or older?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `4`
-Column: `81`
-Type of Variable: `Num`
-SAS Variable Name: `CADULT1`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Are you 18 years of age or older?`
+Label: `Are you 18 years of age or older?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `4`  
+Column: `81`  
+Type of Variable: `Num`  
+SAS Variable Name: `CADULT1`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Are you 18 years of age or older?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -613,15 +613,15 @@ Question: `Are you 18 years of age or older?`
 
 ### Are you male or female?
 
-Label: `Are you male or female?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `5`
-Column: `82`
-Type of Variable: `Num`
-SAS Variable Name: `CELLSEX1`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Are you male or female?`
+Label: `Are you male or female?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `5`  
+Column: `82`  
+Type of Variable: `Num`  
+SAS Variable Name: `CELLSEX1`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Are you male or female?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -636,15 +636,15 @@ Question: `Are you male or female?`
 
 ### Do you live in a private residence?
 
-Label: `Do you live in a private residence?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `6`
-Column: `83`
-Type of Variable: `Num`
-SAS Variable Name: `PVTRESD3`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Do you live in a private residence?  (By private residence, we mean someplace like a house or apartment.)`
+Label: `Do you live in a private residence?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `6`  
+Column: `83`  
+Type of Variable: `Num`  
+SAS Variable Name: `PVTRESD3`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Do you live in a private residence?  (By private residence, we mean someplace like a house or apartment.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -656,15 +656,15 @@ Question: `Do you live in a private residence?  (By private residence, we mean s
 
 ### Do you live in college housing?
 
-Label: `Do you live in college housing?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `7`
-Column: `84`
-Type of Variable: `Num`
-SAS Variable Name: `CCLGHOUS`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Do you live in college housing?`
+Label: `Do you live in college housing?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `7`  
+Column: `84`  
+Type of Variable: `Num`  
+SAS Variable Name: `CCLGHOUS`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Do you live in college housing?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -675,15 +675,15 @@ Question: `Do you live in college housing?`
 
 ### Do you currently live in  ____(state)____?
 
-Label: `Do you currently live in  ____(state)____?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `8`
-Column: `85`
-Type of Variable: `Num`
-SAS Variable Name: `CSTATE1`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Do you currently live in  ____(state)____?`
+Label: `Do you currently live in  ____(state)____?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `8`  
+Column: `85`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSTATE1`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Do you currently live in  ____(state)____?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -695,15 +695,15 @@ Question: `Do you currently live in  ____(state)____?`
 
 ### Do you also have a landline telephone?
 
-Label: `Do you also have a landline telephone?`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `10`
-Column: `88`
-Type of Variable: `Num`
-SAS Variable Name: `LANDLINE`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `Do you also have a landline telephone in your home that is used to make and receive calls?`
+Label: `Do you also have a landline telephone?`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `10`  
+Column: `88`  
+Type of Variable: `Num`  
+SAS Variable Name: `LANDLINE`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `Do you also have a landline telephone in your home that is used to make and receive calls?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -717,15 +717,15 @@ Question: `Do you also have a landline telephone in your home that is used to ma
 
 ### Number of Adults in Household
 
-Label: `Number of Adults in Household`
-Section Name: `Cell Phone Introduction`
-Section Number: `0`
-Question Number: `11`
-Column: `89-90`
-Type of Variable: `Num`
-SAS Variable Name: `HHADULT`
-Question Prologue: `Variable only on the cell phone survey`
-Question: `How many members of your household, including yourself, are 18 years of age or older?`
+Label: `Number of Adults in Household`  
+Section Name: `Cell Phone Introduction`  
+Section Number: `0`  
+Question Number: `11`  
+Column: `89-90`  
+Type of Variable: `Num`  
+SAS Variable Name: `HHADULT`  
+Question Prologue: `Variable only on the cell phone survey`  
+Question: `How many members of your household, including yourself, are 18 years of age or older?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -742,15 +742,15 @@ Question: `How many members of your household, including yourself, are 18 years 
 
 ### Sex of Respondent
 
-Label: `Sex of Respondent`
-Section Name: `Respondent Sex`
-Section Number: `0`
-Question Number: `1`
-Column: `91`
-Type of Variable: `Num`
-SAS Variable Name: `SEXVAR`
+Label: `Sex of Respondent`  
+Section Name: `Respondent Sex`  
+Section Number: `0`  
+Question Number: `1`  
+Column: `91`  
+Type of Variable: `Num`  
+SAS Variable Name: `SEXVAR`  
 Question Prologue: 
-Question: `Sex of Respondent`
+Question: `Sex of Respondent`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -763,15 +763,15 @@ Question: `Sex of Respondent`
 
 ### General Health
 
-Label: `General Health`
-Section Name: `Health Status`
-Core Section Number: `1`
-Question Number: `1`
-Column: `101`
-Type of Variable: `Num`
-SAS Variable Name: `GENHLTH`
+Label: `General Health`  
+Section Name: `Health Status`  
+Core Section Number: `1`  
+Question Number: `1`  
+Column: `101`  
+Type of Variable: `Num`  
+SAS Variable Name: `GENHLTH`  
 Question Prologue: 
-Question: `Would you say that in general your health is:`
+Question: `Would you say that in general your health is:`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -790,15 +790,15 @@ Question: `Would you say that in general your health is:`
 
 ### Number of Days Physical Health Not Good
 
-Label: `Number of Days Physical Health Not Good`
-Section Name: `Healthy Days`
-Core Section Number: `2`
-Question Number: `1`
-Column: `102-103`
-Type of Variable: `Num`
-SAS Variable Name: `PHYSHLTH`
+Label: `Number of Days Physical Health Not Good`  
+Section Name: `Healthy Days`  
+Core Section Number: `2`  
+Question Number: `1`  
+Column: `102-103`  
+Type of Variable: `Num`  
+SAS Variable Name: `PHYSHLTH`  
 Question Prologue: 
-Question: `Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?`
+Question: `Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -812,15 +812,15 @@ Question: `Now thinking about your physical health, which includes physical illn
 
 ### Number of Days Mental Health Not Good
 
-Label: `Number of Days Mental Health Not Good`
-Section Name: `Healthy Days`
-Core Section Number: `2`
-Question Number: `2`
-Column: `104-105`
-Type of Variable: `Num`
-SAS Variable Name: `MENTHLTH`
+Label: `Number of Days Mental Health Not Good`  
+Section Name: `Healthy Days`  
+Core Section Number: `2`  
+Question Number: `2`  
+Column: `104-105`  
+Type of Variable: `Num`  
+SAS Variable Name: `MENTHLTH`  
 Question Prologue: 
-Question: `Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?`
+Question: `Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -834,15 +834,15 @@ Question: `Now thinking about your mental health, which includes stress, depress
 
 ### Poor Physical or Mental Health
 
-Label: `Poor Physical or Mental Health`
-Section Name: `Healthy Days`
-Core Section Number: `2`
-Question Number: `3`
-Column: `106-107`
-Type of Variable: `Num`
-SAS Variable Name: `POORHLTH`
+Label: `Poor Physical or Mental Health`  
+Section Name: `Healthy Days`  
+Core Section Number: `2`  
+Question Number: `3`  
+Column: `106-107`  
+Type of Variable: `Num`  
+SAS Variable Name: `POORHLTH`  
 Question Prologue: 
-Question: `During the past 30 days, for about how many days did poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?`
+Question: `During the past 30 days, for about how many days did poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -858,15 +858,15 @@ Question: `During the past 30 days, for about how many days did poor physical or
 
 ### What is Primary Source of Health Insurance?
 
-Label: `What is Primary Source of Health Insurance?`
-Section Name: `Health Care Access`
-Core Section Number: `3`
-Question Number: `1`
-Column: `108-109`
-Type of Variable: `Num`
-SAS Variable Name: `PRIMINSR`
+Label: `What is Primary Source of Health Insurance?`  
+Section Name: `Health Care Access`  
+Core Section Number: `3`  
+Question Number: `1`  
+Column: `108-109`  
+Type of Variable: `Num`  
+SAS Variable Name: `PRIMINSR`  
 Question Prologue: 
-Question: `What is the current primary source of your health insurance?`
+Question: `What is the current primary source of your health insurance?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -889,15 +889,15 @@ Question: `What is the current primary source of your health insurance?`
 
 ### Have Personal Health Care Provider?
 
-Label: `Have Personal Health Care Provider?`
-Section Name: `Health Care Access`
-Core Section Number: `3`
-Question Number: `2`
-Column: `110`
-Type of Variable: `Num`
-SAS Variable Name: `PERSDOC3`
+Label: `Have Personal Health Care Provider?`  
+Section Name: `Health Care Access`  
+Core Section Number: `3`  
+Question Number: `2`  
+Column: `110`  
+Type of Variable: `Num`  
+SAS Variable Name: `PERSDOC3`  
 Question Prologue: 
-Question: `Do you have one person or a group of doctors that you think of as your personal health care provider?`
+Question: `Do you have one person or a group of doctors that you think of as your personal health care provider?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -912,15 +912,15 @@ Question: `Do you have one person or a group of doctors that you think of as you
 
 ### Could Not Afford To See Doctor
 
-Label: `Could Not Afford To See Doctor`
-Section Name: `Health Care Access`
-Core Section Number: `3`
-Question Number: `3`
-Column: `111`
-Type of Variable: `Num`
-SAS Variable Name: `MEDCOST1`
+Label: `Could Not Afford To See Doctor`  
+Section Name: `Health Care Access`  
+Core Section Number: `3`  
+Question Number: `3`  
+Column: `111`  
+Type of Variable: `Num`  
+SAS Variable Name: `MEDCOST1`  
 Question Prologue: 
-Question: `Was there a time in the past 12 months when you needed to see a doctor but could not because you could not afford it?`
+Question: `Was there a time in the past 12 months when you needed to see a doctor but could not because you could not afford it?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -934,15 +934,15 @@ Question: `Was there a time in the past 12 months when you needed to see a docto
 
 ### Length of time since last routine checkup
 
-Label: `Length of time since last routine checkup`
-Section Name: `Health Care Access`
-Core Section Number: `3`
-Question Number: `4`
-Column: `112`
-Type of Variable: `Num`
-SAS Variable Name: `CHECKUP1`
+Label: `Length of time since last routine checkup`  
+Section Name: `Health Care Access`  
+Core Section Number: `3`  
+Question Number: `4`  
+Column: `112`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHECKUP1`  
 Question Prologue: 
-Question: `About how long has it been since you last visited a doctor for a routine checkup?`
+Question: `About how long has it been since you last visited a doctor for a routine checkup?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -961,15 +961,15 @@ Question: `About how long has it been since you last visited a doctor for a rout
 
 ### Exercise in Past 30 Days
 
-Label: `Exercise in Past 30 Days`
-Section Name: `Exercise`
-Core Section Number: `4`
-Question Number: `1`
-Column: `113`
-Type of Variable: `Num`
-SAS Variable Name: `EXERANY2`
+Label: `Exercise in Past 30 Days`  
+Section Name: `Exercise`  
+Core Section Number: `4`  
+Question Number: `1`  
+Column: `113`  
+Type of Variable: `Num`  
+SAS Variable Name: `EXERANY2`  
 Question Prologue: 
-Question: `During the past month, other than your regular job, did you participate in any physical activities or exercises such as running, calisthenics, golf, gardening, or walking for exercise?`
+Question: `During the past month, other than your regular job, did you participate in any physical activities or exercises such as running, calisthenics, golf, gardening, or walking for exercise?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -985,15 +985,15 @@ Question: `During the past month, other than your regular job, did you participa
 
 ### How Much Time Do You Sleep
 
-Label: `How Much Time Do You Sleep`
-Section Name: `Inadequate Sleep`
-Core Section Number: `5`
-Question Number: `1`
-Column: `114-115`
-Type of Variable: `Num`
-SAS Variable Name: `SLEPTIM1`
+Label: `How Much Time Do You Sleep`  
+Section Name: `Inadequate Sleep`  
+Core Section Number: `5`  
+Question Number: `1`  
+Column: `114-115`  
+Type of Variable: `Num`  
+SAS Variable Name: `SLEPTIM1`  
 Question Prologue: 
-Question: `On average, how many hours of sleep do you get in a 24-hour period?`
+Question: `On average, how many hours of sleep do you get in a 24-hour period?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1008,15 +1008,15 @@ Question: `On average, how many hours of sleep do you get in a 24-hour period?`
 
 ### Last Visited Dentist or Dental Clinic
 
-Label: `Last Visited Dentist or Dental Clinic`
-Section Name: `Oral Health`
-Core Section Number: `6`
-Question Number: `1`
-Column: `116`
-Type of Variable: `Num`
-SAS Variable Name: `LASTDEN4`
+Label: `Last Visited Dentist or Dental Clinic`  
+Section Name: `Oral Health`  
+Core Section Number: `6`  
+Question Number: `1`  
+Column: `116`  
+Type of Variable: `Num`  
+SAS Variable Name: `LASTDEN4`  
 Question Prologue: 
-Question: `Including all types of dentists, such as orthodontists, oral surgeons, and all other dental specialists, as well as dental hygienists, how long has it been since you last visited a dentist or a dental clinic for any reason?`
+Question: `Including all types of dentists, such as orthodontists, oral surgeons, and all other dental specialists, as well as dental hygienists, how long has it been since you last visited a dentist or a dental clinic for any reason?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1034,15 +1034,15 @@ Question: `Including all types of dentists, such as orthodontists, oral surgeons
 
 ### Number of Permanent Teeth Removed
 
-Label: `Number of Permanent Teeth Removed`
-Section Name: `Oral Health`
-Core Section Number: `6`
-Question Number: `2`
-Column: `117`
-Type of Variable: `Num`
-SAS Variable Name: `RMVTETH4`
+Label: `Number of Permanent Teeth Removed`  
+Section Name: `Oral Health`  
+Core Section Number: `6`  
+Question Number: `2`  
+Column: `117`  
+Type of Variable: `Num`  
+SAS Variable Name: `RMVTETH4`  
 Question Prologue: 
-Question: `Not including teeth lost for injury or orthodontics, how many of your permanent teeth have been removed because of tooth decay or gum disease?`
+Question: `Not including teeth lost for injury or orthodontics, how many of your permanent teeth have been removed because of tooth decay or gum disease?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1060,15 +1060,15 @@ Question: `Not including teeth lost for injury or orthodontics, how many of your
 
 ### Ever Diagnosed with Heart Attack
 
-Label: `Ever Diagnosed with Heart Attack`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `1`
-Column: `118`
-Type of Variable: `Num`
-SAS Variable Name: `CVDINFR4`
+Label: `Ever Diagnosed with Heart Attack`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `1`  
+Column: `118`  
+Type of Variable: `Num`  
+SAS Variable Name: `CVDINFR4`  
 Question Prologue: 
-Question: `(Ever told) you had a heart attack, also called a myocardial infarction?`
+Question: `(Ever told) you had a heart attack, also called a myocardial infarction?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1082,15 +1082,15 @@ Question: `(Ever told) you had a heart attack, also called a myocardial infarcti
 
 ### Ever Diagnosed with Angina or Coronary Heart Disease
 
-Label: `Ever Diagnosed with Angina or Coronary Heart Disease`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `2`
-Column: `119`
-Type of Variable: `Num`
-SAS Variable Name: `CVDCRHD4`
+Label: `Ever Diagnosed with Angina or Coronary Heart Disease`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `2`  
+Column: `119`  
+Type of Variable: `Num`  
+SAS Variable Name: `CVDCRHD4`  
 Question Prologue: 
-Question: `(Ever told) (you had) angina or coronary heart disease?`
+Question: `(Ever told) (you had) angina or coronary heart disease?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1104,15 +1104,15 @@ Question: `(Ever told) (you had) angina or coronary heart disease?`
 
 ### Ever Diagnosed with a Stroke
 
-Label: `Ever Diagnosed with a Stroke`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `3`
-Column: `120`
-Type of Variable: `Num`
-SAS Variable Name: `CVDSTRK3`
+Label: `Ever Diagnosed with a Stroke`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `3`  
+Column: `120`  
+Type of Variable: `Num`  
+SAS Variable Name: `CVDSTRK3`  
 Question Prologue: 
-Question: `(Ever told) (you had) a stroke.`
+Question: `(Ever told) (you had) a stroke.`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1126,15 +1126,15 @@ Question: `(Ever told) (you had) a stroke.`
 
 ### Ever Told Had Asthma
 
-Label: `Ever Told Had Asthma`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `4`
-Column: `121`
-Type of Variable: `Num`
-SAS Variable Name: `ASTHMA3`
+Label: `Ever Told Had Asthma`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `4`  
+Column: `121`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASTHMA3`  
 Question Prologue: 
-Question: `(Ever told) (you had) asthma?`
+Question: `(Ever told) (you had) asthma?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1148,15 +1148,15 @@ Question: `(Ever told) (you had) asthma?`
 
 ### Still Have Asthma
 
-Label: `Still Have Asthma`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `5`
-Column: `122`
-Type of Variable: `Num`
-SAS Variable Name: `ASTHNOW`
+Label: `Still Have Asthma`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `5`  
+Column: `122`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASTHNOW`  
 Question Prologue: 
-Question: `Do you still have asthma?`
+Question: `Do you still have asthma?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1170,15 +1170,15 @@ Question: `Do you still have asthma?`
 
 ### (Ever told) (you had) skin cancer that is not melanoma?
 
-Label: `(Ever told) (you had) skin cancer that is not melanoma?`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `6`
-Column: `123`
-Type of Variable: `Num`
-SAS Variable Name: `CHCSCNC1`
+Label: `(Ever told) (you had) skin cancer that is not melanoma?`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `6`  
+Column: `123`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHCSCNC1`  
 Question Prologue: 
-Question: `(Ever told) (you had) skin cancer that is not melanoma?`
+Question: `(Ever told) (you had) skin cancer that is not melanoma?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1192,15 +1192,15 @@ Question: `(Ever told) (you had) skin cancer that is not melanoma?`
 
 ### (Ever told) (you had)  melanoma or any other types of cancer?
 
-Label: `(Ever told) (you had)  melanoma or any other types of cancer?`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `7`
-Column: `124`
-Type of Variable: `Num`
-SAS Variable Name: `CHCOCNC1`
+Label: `(Ever told) (you had)  melanoma or any other types of cancer?`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `7`  
+Column: `124`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHCOCNC1`  
 Question Prologue: 
-Question: `(Ever told) (you had) melanoma or any other types of cancer?`
+Question: `(Ever told) (you had) melanoma or any other types of cancer?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1214,15 +1214,15 @@ Question: `(Ever told) (you had) melanoma or any other types of cancer?`
 
 ### Ever told you had C.O.P.D. emphysema or chronic bronchitis?
 
-Label: `Ever told you had C.O.P.D. emphysema or chronic bronchitis?`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `8`
-Column: `125`
-Type of Variable: `Num`
-SAS Variable Name: `CHCCOPD3`
+Label: `Ever told you had C.O.P.D. emphysema or chronic bronchitis?`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `8`  
+Column: `125`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHCCOPD3`  
 Question Prologue: 
-Question: `(Ever told) (you had) C.O.P.D. (chronic obstructive pulmonary disease), emphysema or chronic bronchitis?`
+Question: `(Ever told) (you had) C.O.P.D. (chronic obstructive pulmonary disease), emphysema or chronic bronchitis?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1236,15 +1236,15 @@ Question: `(Ever told) (you had) C.O.P.D. (chronic obstructive pulmonary disease
 
 ### (Ever told) you had a depressive disorder
 
-Label: `(Ever told) you had a depressive disorder`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `9`
-Column: `126`
-Type of Variable: `Num`
-SAS Variable Name: `ADDEPEV3`
+Label: `(Ever told) you had a depressive disorder`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `9`  
+Column: `126`  
+Type of Variable: `Num`  
+SAS Variable Name: `ADDEPEV3`  
 Question Prologue: 
-Question: `(Ever told) (you had) a depressive disorder (including depression, major depression, dysthymia, or minor depression)?`
+Question: `(Ever told) (you had) a depressive disorder (including depression, major depression, dysthymia, or minor depression)?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1258,15 +1258,15 @@ Question: `(Ever told) (you had) a depressive disorder (including depression, ma
 
 ### Ever told you have kidney disease?
 
-Label: `Ever told you have kidney disease?`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `10`
-Column: `127`
-Type of Variable: `Num`
-SAS Variable Name: `CHCKDNY2`
+Label: `Ever told you have kidney disease?`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `10`  
+Column: `127`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHCKDNY2`  
 Question Prologue: 
-Question: `Not including kidney stones, bladder infection or incontinence, were you ever told you had kidney disease?`
+Question: `Not including kidney stones, bladder infection or incontinence, were you ever told you had kidney disease?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1280,15 +1280,15 @@ Question: `Not including kidney stones, bladder infection or incontinence, were 
 
 ### Told Had Arthritis
 
-Label: `Told Had Arthritis`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `11`
-Column: `128`
-Type of Variable: `Num`
-SAS Variable Name: `HAVARTH4`
+Label: `Told Had Arthritis`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `11`  
+Column: `128`  
+Type of Variable: `Num`  
+SAS Variable Name: `HAVARTH4`  
 Question Prologue: 
-Question: `(Ever told) (you had) some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia?  (Arthritis diagnoses include: rheumatism, polymyalgia rheumatica; osteoarthritis (not osteporosis); tendonitis, bursitis, bunion, tennis elbow; carpal tunnel syndrome, tarsal tunnel syndrome; joint infection, etc.)`
+Question: `(Ever told) (you had) some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia?  (Arthritis diagnoses include: rheumatism, polymyalgia rheumatica; osteoarthritis (not osteporosis); tendonitis, bursitis, bunion, tennis elbow; carpal tunnel syndrome, tarsal tunnel syndrome; joint infection, etc.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1302,15 +1302,15 @@ Question: `(Ever told) (you had) some form of arthritis, rheumatoid arthritis, g
 
 ### (Ever told) you had diabetes
 
-Label: `(Ever told) you had diabetes`
-Section Name: `Chronic Health Conditions`
-Core Section Number: `7`
-Question Number: `12`
-Column: `129`
-Type of Variable: `Num`
-SAS Variable Name: `DIABETE4`
+Label: `(Ever told) you had diabetes`  
+Section Name: `Chronic Health Conditions`  
+Core Section Number: `7`  
+Question Number: `12`  
+Column: `129`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIABETE4`  
 Question Prologue: 
-Question: `(Ever told) (you had) diabetes?  (If "Yes" and respondent is female, ask "Was this only when you were pregnant?". If Respondent says pre-diabetes or borderline diabetes, use response code 4.)`
+Question: `(Ever told) (you had) diabetes?  (If "Yes" and respondent is female, ask "Was this only when you were pregnant?". If Respondent says pre-diabetes or borderline diabetes, use response code 4.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1328,15 +1328,15 @@ Question: `(Ever told) (you had) diabetes?  (If "Yes" and respondent is female, 
 
 ### Marital Status
 
-Label: `Marital Status`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `5`
-Column: `168`
-Type of Variable: `Num`
-SAS Variable Name: `MARITAL`
+Label: `Marital Status`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `5`  
+Column: `168`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARITAL`  
 Question Prologue: 
-Question: `Are you: (marital status)`
+Question: `Are you: (marital status)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1353,15 +1353,15 @@ Question: `Are you: (marital status)`
 
 ### Education Level
 
-Label: `Education Level`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `6`
-Column: `169`
-Type of Variable: `Num`
-SAS Variable Name: `EDUCA`
+Label: `Education Level`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `6`  
+Column: `169`  
+Type of Variable: `Num`  
+SAS Variable Name: `EDUCA`  
 Question Prologue: 
-Question: `What is the highest grade or year of school you completed?`
+Question: `What is the highest grade or year of school you completed?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1378,15 +1378,15 @@ Question: `What is the highest grade or year of school you completed?`
 
 ### Own or Rent Home
 
-Label: `Own or Rent Home`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `7`
-Column: `170`
-Type of Variable: `Num`
-SAS Variable Name: `RENTHOM1`
+Label: `Own or Rent Home`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `7`  
+Column: `170`  
+Type of Variable: `Num`  
+SAS Variable Name: `RENTHOM1`  
 Question Prologue: 
-Question: `Do you own or rent your home?`
+Question: `Do you own or rent your home?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1401,15 +1401,15 @@ Question: `Do you own or rent your home?`
 
 ### Household Landline Telephones
 
-Label: `Household Landline Telephones`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `10`
-Column: `179`
-Type of Variable: `Num`
-SAS Variable Name: `NUMHHOL4`
+Label: `Household Landline Telephones`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `10`  
+Column: `179`  
+Type of Variable: `Num`  
+SAS Variable Name: `NUMHHOL4`  
 Question Prologue: 
-Question: `Not including cell phones or numbers used for computers, fax machines or security systems, do you have more than one landline telephone number in your household?`
+Question: `Not including cell phones or numbers used for computers, fax machines or security systems, do you have more than one landline telephone number in your household?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1423,15 +1423,15 @@ Question: `Not including cell phones or numbers used for computers, fax machines
 
 ### Are You A Veteran
 
-Label: `Are You A Veteran`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `13`
-Column: `182`
-Type of Variable: `Num`
-SAS Variable Name: `VETERAN3`
+Label: `Are You A Veteran`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `13`  
+Column: `182`  
+Type of Variable: `Num`  
+SAS Variable Name: `VETERAN3`  
 Question Prologue: 
-Question: `Have you ever served on active duty in the United States Armed Forces, either in the regular military or in a National Guard or military reserve unit?`
+Question: `Have you ever served on active duty in the United States Armed Forces, either in the regular military or in a National Guard or military reserve unit?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1445,15 +1445,15 @@ Question: `Have you ever served on active duty in the United States Armed Forces
 
 ### Employment Status
 
-Label: `Employment Status`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `14`
-Column: `183`
-Type of Variable: `Num`
-SAS Variable Name: `EMPLOY1`
+Label: `Employment Status`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `14`  
+Column: `183`  
+Type of Variable: `Num`  
+SAS Variable Name: `EMPLOY1`  
 Question Prologue: 
-Question: `Are you currently?`
+Question: `Are you currently?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1472,15 +1472,15 @@ Question: `Are you currently?`
 
 ### Number of Children in Household
 
-Label: `Number of Children in Household`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `15`
-Column: `184-185`
-Type of Variable: `Num`
-SAS Variable Name: `CHILDREN`
+Label: `Number of Children in Household`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `15`  
+Column: `184-185`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHILDREN`  
 Question Prologue: 
-Question: `How many children less than 18 years of age live in your household?`
+Question: `How many children less than 18 years of age live in your household?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1494,15 +1494,15 @@ Question: `How many children less than 18 years of age live in your household?`
 
 ### Income Level
 
-Label: `Income Level`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `16`
-Column: `186-187`
-Type of Variable: `Num`
-SAS Variable Name: `INCOME3`
+Label: `Income Level`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `16`  
+Column: `186-187`  
+Type of Variable: `Num`  
+SAS Variable Name: `INCOME3`  
 Question Prologue: 
-Question: `Is your annual household income from all sources:  (If respondent refuses at any income level, code 'Refused.')`
+Question: `Is your annual household income from all sources:  (If respondent refuses at any income level, code 'Refused.')`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1525,15 +1525,15 @@ Question: `Is your annual household income from all sources:  (If respondent ref
 
 ### Pregnancy Status
 
-Label: `Pregnancy Status`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `17`
-Column: `188`
-Type of Variable: `Num`
-SAS Variable Name: `PREGNANT`
+Label: `Pregnancy Status`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `17`  
+Column: `188`  
+Type of Variable: `Num`  
+SAS Variable Name: `PREGNANT`  
 Question Prologue: 
-Question: `To your knowledge, are you now pregnant?`
+Question: `To your knowledge, are you now pregnant?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1547,15 +1547,15 @@ Question: `To your knowledge, are you now pregnant?`
 
 ### Reported Weight in Pounds
 
-Label: `Reported Weight in Pounds`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `18`
-Column: `189-192`
-Type of Variable: `Num`
-SAS Variable Name: `WEIGHT2`
+Label: `Reported Weight in Pounds`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `18`  
+Column: `189-192`  
+Type of Variable: `Num`  
+SAS Variable Name: `WEIGHT2`  
 Question Prologue: 
-Question: `About how much do you weigh without shoes?  (If respondent answers in metrics, put a 9 in the first column)[Round fractions up.]`
+Question: `About how much do you weigh without shoes?  (If respondent answers in metrics, put a 9 in the first column)[Round fractions up.]`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1569,15 +1569,15 @@ Question: `About how much do you weigh without shoes?  (If respondent answers in
 
 ### Reported Height in Feet and Inches
 
-Label: `Reported Height in Feet and Inches`
-Section Name: `Demographics`
-Core Section Number: `8`
-Question Number: `19`
-Column: `193-196`
-Type of Variable: `Num`
-SAS Variable Name: `HEIGHT3`
+Label: `Reported Height in Feet and Inches`  
+Section Name: `Demographics`  
+Core Section Number: `8`  
+Question Number: `19`  
+Column: `193-196`  
+Type of Variable: `Num`  
+SAS Variable Name: `HEIGHT3`  
 Question Prologue: 
-Question: `About how tall are you without shoes?  (If respondent answers in metrics, put a 9 in the first column)[Round fractions down.]`
+Question: `About how tall are you without shoes?  (If respondent answers in metrics, put a 9 in the first column)[Round fractions down.]`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1593,15 +1593,15 @@ Question: `About how tall are you without shoes?  (If respondent answers in metr
 
 ### Are you deaf or do you have serious difficulty hearing?
 
-Label: `Are you deaf or do you have serious difficulty hearing?`
-Section Name: `Disability`
-Core Section Number: `9`
-Question Number: `1`
-Column: `197`
-Type of Variable: `Num`
-SAS Variable Name: `DEAF`
+Label: `Are you deaf or do you have serious difficulty hearing?`  
+Section Name: `Disability`  
+Core Section Number: `9`  
+Question Number: `1`  
+Column: `197`  
+Type of Variable: `Num`  
+SAS Variable Name: `DEAF`  
 Question Prologue: 
-Question: `Are you deaf or do you have serious difficulty hearing?`
+Question: `Are you deaf or do you have serious difficulty hearing?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1615,15 +1615,15 @@ Question: `Are you deaf or do you have serious difficulty hearing?`
 
 ### Blind or Difficulty seeing
 
-Label: `Blind or Difficulty seeing`
-Section Name: `Disability`
-Core Section Number: `9`
-Question Number: `2`
-Column: `198`
-Type of Variable: `Num`
-SAS Variable Name: `BLIND`
+Label: `Blind or Difficulty seeing`  
+Section Name: `Disability`  
+Core Section Number: `9`  
+Question Number: `2`  
+Column: `198`  
+Type of Variable: `Num`  
+SAS Variable Name: `BLIND`  
 Question Prologue: 
-Question: `Are you blind or do you have serious difficulty seeing, even when wearing glasses?`
+Question: `Are you blind or do you have serious difficulty seeing, even when wearing glasses?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1637,15 +1637,15 @@ Question: `Are you blind or do you have serious difficulty seeing, even when wea
 
 ### Difficulty Concentrating or Remembering
 
-Label: `Difficulty Concentrating or Remembering`
-Section Name: `Disability`
-Core Section Number: `9`
-Question Number: `3`
-Column: `199`
-Type of Variable: `Num`
-SAS Variable Name: `DECIDE`
+Label: `Difficulty Concentrating or Remembering`  
+Section Name: `Disability`  
+Core Section Number: `9`  
+Question Number: `3`  
+Column: `199`  
+Type of Variable: `Num`  
+SAS Variable Name: `DECIDE`  
 Question Prologue: 
-Question: `Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?`
+Question: `Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1659,15 +1659,15 @@ Question: `Because of a physical, mental, or emotional condition, do you have se
 
 ### Difficulty Walking or Climbing Stairs
 
-Label: `Difficulty Walking or Climbing Stairs`
-Section Name: `Disability`
-Core Section Number: `9`
-Question Number: `4`
-Column: `200`
-Type of Variable: `Num`
-SAS Variable Name: `DIFFWALK`
+Label: `Difficulty Walking or Climbing Stairs`  
+Section Name: `Disability`  
+Core Section Number: `9`  
+Question Number: `4`  
+Column: `200`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIFFWALK`  
 Question Prologue: 
-Question: `Do you have serious difficulty walking or climbing stairs?`
+Question: `Do you have serious difficulty walking or climbing stairs?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1681,15 +1681,15 @@ Question: `Do you have serious difficulty walking or climbing stairs?`
 
 ### Difficulty Dressing or Bathing
 
-Label: `Difficulty Dressing or Bathing`
-Section Name: `Disability`
-Core Section Number: `9`
-Question Number: `5`
-Column: `201`
-Type of Variable: `Num`
-SAS Variable Name: `DIFFDRES`
+Label: `Difficulty Dressing or Bathing`  
+Section Name: `Disability`  
+Core Section Number: `9`  
+Question Number: `5`  
+Column: `201`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIFFDRES`  
 Question Prologue: 
-Question: `Do you have difficulty dressing or bathing?`
+Question: `Do you have difficulty dressing or bathing?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1703,15 +1703,15 @@ Question: `Do you have difficulty dressing or bathing?`
 
 ### Difficulty Doing Errands Alone
 
-Label: `Difficulty Doing Errands Alone`
-Section Name: `Disability`
-Core Section Number: `9`
-Question Number: `6`
-Column: `202`
-Type of Variable: `Num`
-SAS Variable Name: `DIFFALON`
+Label: `Difficulty Doing Errands Alone`  
+Section Name: `Disability`  
+Core Section Number: `9`  
+Question Number: `6`  
+Column: `202`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIFFALON`  
 Question Prologue: 
-Question: `Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?`
+Question: `Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1727,15 +1727,15 @@ Question: `Because of a physical, mental, or emotional condition, do you have di
 
 ### Have You Ever Had a Mammogram
 
-Label: `Have You Ever Had a Mammogram`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `1`
-Column: `203`
-Type of Variable: `Num`
-SAS Variable Name: `HADMAM`
+Label: `Have You Ever Had a Mammogram`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `1`  
+Column: `203`  
+Type of Variable: `Num`  
+SAS Variable Name: `HADMAM`  
 Question Prologue: 
-Question: `Have you ever had a mammogram?`
+Question: `Have you ever had a mammogram?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1749,15 +1749,15 @@ Question: `Have you ever had a mammogram?`
 
 ### How Long since Last Mammogram
 
-Label: `How Long since Last Mammogram`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `2`
-Column: `204`
-Type of Variable: `Num`
-SAS Variable Name: `HOWLONG`
+Label: `How Long since Last Mammogram`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `2`  
+Column: `204`  
+Type of Variable: `Num`  
+SAS Variable Name: `HOWLONG`  
 Question Prologue: 
-Question: `How long has it been since you had your last mammogram?`
+Question: `How long has it been since you had your last mammogram?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1774,15 +1774,15 @@ Question: `How long has it been since you had your last mammogram?`
 
 ### Have you ever had a cervical cancer screening test?
 
-Label: `Have you ever had a cervical cancer screening test?`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `3`
-Column: `205`
-Type of Variable: `Num`
-SAS Variable Name: `CERVSCRN`
+Label: `Have you ever had a cervical cancer screening test?`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `3`  
+Column: `205`  
+Type of Variable: `Num`  
+SAS Variable Name: `CERVSCRN`  
 Question Prologue: 
-Question: `Have you ever had a cervical cancer screening test?`
+Question: `Have you ever had a cervical cancer screening test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1796,15 +1796,15 @@ Question: `Have you ever had a cervical cancer screening test?`
 
 ### Time since last cervical cancer screening test
 
-Label: `Time since last cervical cancer screening test`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `4`
-Column: `206`
-Type of Variable: `Num`
-SAS Variable Name: `CRVCLCNC`
+Label: `Time since last cervical cancer screening test`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `4`  
+Column: `206`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRVCLCNC`  
 Question Prologue: 
-Question: `How long has it been since you had your last cervical cancer screening test?`
+Question: `How long has it been since you had your last cervical cancer screening test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1821,15 +1821,15 @@ Question: `How long has it been since you had your last cervical cancer screenin
 
 ### Have a PAP test and recent cervical cancer screening
 
-Label: `Have a PAP test and recent cervical cancer screening`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `5`
-Column: `207`
-Type of Variable: `Num`
-SAS Variable Name: `CRVCLPAP`
+Label: `Have a PAP test and recent cervical cancer screening`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `5`  
+Column: `207`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRVCLPAP`  
 Question Prologue: 
-Question: `At your most recent cervical cancer screening, did you have a Pap test?`
+Question: `At your most recent cervical cancer screening, did you have a Pap test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1843,15 +1843,15 @@ Question: `At your most recent cervical cancer screening, did you have a Pap tes
 
 ### Have an H.P.V. test and recent cervical cancer screening
 
-Label: `Have an H.P.V. test and recent cervical cancer screening`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `6`
-Column: `208`
-Type of Variable: `Num`
-SAS Variable Name: `CRVCLHPV`
+Label: `Have an H.P.V. test and recent cervical cancer screening`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `6`  
+Column: `208`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRVCLHPV`  
 Question Prologue: 
-Question: `At your most recent cervical cancer screening, did you have an H.P.V. test?`
+Question: `At your most recent cervical cancer screening, did you have an H.P.V. test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1865,15 +1865,15 @@ Question: `At your most recent cervical cancer screening, did you have an H.P.V.
 
 ### Had Hysterectomy
 
-Label: `Had Hysterectomy`
-Section Name: `Breast and Cervical Cancer Screening`
-Core Section Number: `10`
-Question Number: `7`
-Column: `209`
-Type of Variable: `Num`
-SAS Variable Name: `HADHYST2`
+Label: `Had Hysterectomy`  
+Section Name: `Breast and Cervical Cancer Screening`  
+Core Section Number: `10`  
+Question Number: `7`  
+Column: `209`  
+Type of Variable: `Num`  
+SAS Variable Name: `HADHYST2`  
 Question Prologue: 
-Question: `Have you had a hysterectomy?  (A hysterectomy is an operation to remove the uterus (womb).)`
+Question: `Have you had a hysterectomy?  (A hysterectomy is an operation to remove the uterus (womb).)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1889,15 +1889,15 @@ Question: `Have you had a hysterectomy?  (A hysterectomy is an operation to remo
 
 ### Ever Had Sigmoidoscopy/Colonoscopy
 
-Label: `Ever Had Sigmoidoscopy/Colonoscopy`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `1`
-Column: `210`
-Type of Variable: `Num`
-SAS Variable Name: `HADSIGM4`
+Label: `Ever Had Sigmoidoscopy/Colonoscopy`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `1`  
+Column: `210`  
+Type of Variable: `Num`  
+SAS Variable Name: `HADSIGM4`  
 Question Prologue: 
-Question: `Colonoscopy and sigmoidoscopy are exams to check for colon cancer. Have you ever had either of these exams?`
+Question: `Colonoscopy and sigmoidoscopy are exams to check for colon cancer. Have you ever had either of these exams?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1911,15 +1911,15 @@ Question: `Colonoscopy and sigmoidoscopy are exams to check for colon cancer. Ha
 
 ### Ever had a colonoscopy, sigmoidoscopy, or both
 
-Label: `Ever had a colonoscopy, sigmoidoscopy, or both`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `2`
-Column: `211`
-Type of Variable: `Num`
-SAS Variable Name: `COLNSIGM`
+Label: `Ever had a colonoscopy, sigmoidoscopy, or both`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `2`  
+Column: `211`  
+Type of Variable: `Num`  
+SAS Variable Name: `COLNSIGM`  
 Question Prologue: 
-Question: `Have you had a colonoscopy, a sigmoidoscopy, or both?`
+Question: `Have you had a colonoscopy, a sigmoidoscopy, or both?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1934,15 +1934,15 @@ Question: `Have you had a colonoscopy, a sigmoidoscopy, or both?`
 
 ### How long since you had colonoscopy
 
-Label: `How long since you had colonoscopy`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `3`
-Column: `212`
-Type of Variable: `Num`
-SAS Variable Name: `COLNTES1`
+Label: `How long since you had colonoscopy`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `3`  
+Column: `212`  
+Type of Variable: `Num`  
+SAS Variable Name: `COLNTES1`  
 Question Prologue: 
-Question: `How long has it been since your most recent colonoscopy?`
+Question: `How long has it been since your most recent colonoscopy?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1959,15 +1959,15 @@ Question: `How long has it been since your most recent colonoscopy?`
 
 ### How long since you had sigmoidoscopy
 
-Label: `How long since you had sigmoidoscopy`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `4`
-Column: `213`
-Type of Variable: `Num`
-SAS Variable Name: `SIGMTES1`
+Label: `How long since you had sigmoidoscopy`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `4`  
+Column: `213`  
+Type of Variable: `Num`  
+SAS Variable Name: `SIGMTES1`  
 Question Prologue: 
-Question: `How long has it been since your most recent sigmoidoscopy?`
+Question: `How long has it been since your most recent sigmoidoscopy?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -1984,15 +1984,15 @@ Question: `How long has it been since your most recent sigmoidoscopy?`
 
 ### Time Since Last Sigmoidoscopy/Colonoscopy
 
-Label: `Time Since Last Sigmoidoscopy/Colonoscopy`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `5`
-Column: `214`
-Type of Variable: `Num`
-SAS Variable Name: `LASTSIG4`
+Label: `Time Since Last Sigmoidoscopy/Colonoscopy`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `5`  
+Column: `214`  
+Type of Variable: `Num`  
+SAS Variable Name: `LASTSIG4`  
 Question Prologue: 
-Question: `How long has it been since your most recent colonoscopy or sigmoidoscopy?`
+Question: `How long has it been since your most recent colonoscopy or sigmoidoscopy?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2009,15 +2009,15 @@ Question: `How long has it been since your most recent colonoscopy or sigmoidosc
 
 ### Ever had any other kind of test for colorectal cancer
 
-Label: `Ever had any other kind of test for colorectal cancer`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `6`
-Column: `215`
-Type of Variable: `Num`
-SAS Variable Name: `COLNCNCR`
+Label: `Ever had any other kind of test for colorectal cancer`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `6`  
+Column: `215`  
+Type of Variable: `Num`  
+SAS Variable Name: `COLNCNCR`  
 Question Prologue: 
-Question: `Have you ever had any other kind of test for colorectal cancer, such as virtual colonoscopy, CT colonography, blood stool test, FIT DNA, or Cologuard test?`
+Question: `Have you ever had any other kind of test for colorectal cancer, such as virtual colonoscopy, CT colonography, blood stool test, FIT DNA, or Cologuard test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2031,15 +2031,15 @@ Question: `Have you ever had any other kind of test for colorectal cancer, such 
 
 ### Ever had a virtual colonoscopy
 
-Label: `Ever had a virtual colonoscopy`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `7`
-Column: `216`
-Type of Variable: `Num`
-SAS Variable Name: `VIRCOLO1`
+Label: `Ever had a virtual colonoscopy`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `7`  
+Column: `216`  
+Type of Variable: `Num`  
+SAS Variable Name: `VIRCOLO1`  
 Question Prologue: 
-Question: `A virtual colonoscopy uses a series of X-rays to take pictures of inside the colon.  Have you ever had a virtual colonoscopy?`
+Question: `A virtual colonoscopy uses a series of X-rays to take pictures of inside the colon.  Have you ever had a virtual colonoscopy?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2053,15 +2053,15 @@ Question: `A virtual colonoscopy uses a series of X-rays to take pictures of ins
 
 ### How long since you had  virtual colonoscopy
 
-Label: `How long since you had  virtual colonoscopy`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `8`
-Column: `217`
-Type of Variable: `Num`
-SAS Variable Name: `VCLNTES2`
+Label: `How long since you had  virtual colonoscopy`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `8`  
+Column: `217`  
+Type of Variable: `Num`  
+SAS Variable Name: `VCLNTES2`  
 Question Prologue: 
-Question: `When was your most recent CT colonography or virtual colonoscopy?`
+Question: `When was your most recent CT colonography or virtual colonoscopy?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2078,15 +2078,15 @@ Question: `When was your most recent CT colonography or virtual colonoscopy?`
 
 ### Ever had stool test?
 
-Label: `Ever had stool test?`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `9`
-Column: `218`
-Type of Variable: `Num`
-SAS Variable Name: `SMALSTOL`
+Label: `Ever had stool test?`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `9`  
+Column: `218`  
+Type of Variable: `Num`  
+SAS Variable Name: `SMALSTOL`  
 Question Prologue: 
-Question: `One stool test uses a special kit to obtain a small amount of stool at home and returns the kit to the doctor or the lab. Have you ever had this test?`
+Question: `One stool test uses a special kit to obtain a small amount of stool at home and returns the kit to the doctor or the lab. Have you ever had this test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2100,15 +2100,15 @@ Question: `One stool test uses a special kit to obtain a small amount of stool a
 
 ### How long since you had stool test?
 
-Label: `How long since you had stool test?`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `10`
-Column: `219`
-Type of Variable: `Num`
-SAS Variable Name: `STOLTEST`
+Label: `How long since you had stool test?`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `10`  
+Column: `219`  
+Type of Variable: `Num`  
+SAS Variable Name: `STOLTEST`  
 Question Prologue: 
-Question: `How long has it been since you had this test?`
+Question: `How long has it been since you had this test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2125,15 +2125,15 @@ Question: `How long has it been since you had this test?`
 
 ### Ever had stool DNA test?
 
-Label: `Ever had stool DNA test?`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `11`
-Column: `220`
-Type of Variable: `Num`
-SAS Variable Name: `STOOLDN2`
+Label: `Ever had stool DNA test?`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `11`  
+Column: `220`  
+Type of Variable: `Num`  
+SAS Variable Name: `STOOLDN2`  
 Question Prologue: 
-Question: `Another stool test uses a special kit to obtain an entire bowel movement at home and returns the kit to a lab.   Have you ever had this test?`
+Question: `Another stool test uses a special kit to obtain an entire bowel movement at home and returns the kit to a lab.   Have you ever had this test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2147,15 +2147,15 @@ Question: `Another stool test uses a special kit to obtain an entire bowel movem
 
 ### Was test part of Cologuard test?
 
-Label: `Was test part of Cologuard test?`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `12`
-Column: `221`
-Type of Variable: `Num`
-SAS Variable Name: `BLDSTFIT`
+Label: `Was test part of Cologuard test?`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `12`  
+Column: `221`  
+Type of Variable: `Num`  
+SAS Variable Name: `BLDSTFIT`  
 Question Prologue: 
-Question: `Was the blood stool or FIT (you reported earlier) conducted as part of a Cologuard test?`
+Question: `Was the blood stool or FIT (you reported earlier) conducted as part of a Cologuard test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2169,15 +2169,15 @@ Question: `Was the blood stool or FIT (you reported earlier) conducted as part o
 
 ### How long since you had stool DNA
 
-Label: `How long since you had stool DNA`
-Section Name: `Colorectal Cancer Screening`
-Core Section Number: `11`
-Question Number: `13`
-Column: `222`
-Type of Variable: `Num`
-SAS Variable Name: `SDNATES1`
+Label: `How long since you had stool DNA`  
+Section Name: `Colorectal Cancer Screening`  
+Core Section Number: `11`  
+Question Number: `13`  
+Column: `222`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDNATES1`  
 Question Prologue: 
-Question: `How long has it been since you had this test?`
+Question: `How long has it been since you had this test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2196,15 +2196,15 @@ Question: `How long has it been since you had this test?`
 
 ### Smoked at Least 100 Cigarettes
 
-Label: `Smoked at Least 100 Cigarettes`
-Section Name: `Tobacco Use`
-Core Section Number: `12`
-Question Number: `1`
-Column: `223`
-Type of Variable: `Num`
-SAS Variable Name: `SMOKE100`
+Label: `Smoked at Least 100 Cigarettes`  
+Section Name: `Tobacco Use`  
+Core Section Number: `12`  
+Question Number: `1`  
+Column: `223`  
+Type of Variable: `Num`  
+SAS Variable Name: `SMOKE100`  
 Question Prologue: 
-Question: `Have you smoked at least 100 cigarettes in your entire life?   [Note:  5 packs = 100 cigarettes]`
+Question: `Have you smoked at least 100 cigarettes in your entire life?   [Note:  5 packs = 100 cigarettes]`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2218,15 +2218,15 @@ Question: `Have you smoked at least 100 cigarettes in your entire life?   [Note:
 
 ### Frequency of Days Now Smoking
 
-Label: `Frequency of Days Now Smoking`
-Section Name: `Tobacco Use`
-Core Section Number: `12`
-Question Number: `2`
-Column: `224`
-Type of Variable: `Num`
-SAS Variable Name: `SMOKDAY2`
+Label: `Frequency of Days Now Smoking`  
+Section Name: `Tobacco Use`  
+Core Section Number: `12`  
+Question Number: `2`  
+Column: `224`  
+Type of Variable: `Num`  
+SAS Variable Name: `SMOKDAY2`  
 Question Prologue: 
-Question: `Do you now smoke cigarettes every day, some days, or not at all?`
+Question: `Do you now smoke cigarettes every day, some days, or not at all?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2241,15 +2241,15 @@ Question: `Do you now smoke cigarettes every day, some days, or not at all?`
 
 ### Use of Smokeless Tobacco Products
 
-Label: `Use of Smokeless Tobacco Products`
-Section Name: `Tobacco Use`
-Core Section Number: `12`
-Question Number: `3`
-Column: `225`
-Type of Variable: `Num`
-SAS Variable Name: `USENOW3`
+Label: `Use of Smokeless Tobacco Products`  
+Section Name: `Tobacco Use`  
+Core Section Number: `12`  
+Question Number: `3`  
+Column: `225`  
+Type of Variable: `Num`  
+SAS Variable Name: `USENOW3`  
 Question Prologue: 
-Question: `Do you currently use chewing tobacco, snuff, or snus every day, some days, or not at all?  (Snus (Swedish for snuff) is a moist smokeless tobacco, usually sold in small pouches that are placed under the lip against the gum.)`
+Question: `Do you currently use chewing tobacco, snuff, or snus every day, some days, or not at all?  (Snus (Swedish for snuff) is a moist smokeless tobacco, usually sold in small pouches that are placed under the lip against the gum.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2264,15 +2264,15 @@ Question: `Do you currently use chewing tobacco, snuff, or snus every day, some 
 
 ### Do you now use e-cigarettes, or vaping products every day, some days, or not at all?
 
-Label: `Do you now use e-cigarettes, or vaping products every day, some days, or not at all?`
-Section Name: `Tobacco Use`
-Core Section Number: `12`
-Question Number: `4`
-Column: `226`
-Type of Variable: `Num`
-SAS Variable Name: `ECIGNOW2`
+Label: `Do you now use e-cigarettes, or vaping products every day, some days, or not at all?`  
+Section Name: `Tobacco Use`  
+Core Section Number: `12`  
+Question Number: `4`  
+Column: `226`  
+Type of Variable: `Num`  
+SAS Variable Name: `ECIGNOW2`  
 Question Prologue: 
-Question: `Would you say you have never used e-cigarettes or other electronic vaping products in your entire life or now use them every day, use them some days, or used them in the past but do not currently use them at all?`
+Question: `Would you say you have never used e-cigarettes or other electronic vaping products in your entire life or now use them every day, use them some days, or used them in the past but do not currently use them at all?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2290,15 +2290,15 @@ Question: `Would you say you have never used e-cigarettes or other electronic va
 
 ### How old when you first started smoking?
 
-Label: `How old when you first started smoking?`
-Section Name: `Lung Cancer Screening`
-Core Section Number: `13`
-Question Number: `1`
-Column: `227-229`
-Type of Variable: `Num`
-SAS Variable Name: `LCSFIRST`
+Label: `How old when you first started smoking?`  
+Section Name: `Lung Cancer Screening`  
+Core Section Number: `13`  
+Question Number: `1`  
+Column: `227-229`  
+Type of Variable: `Num`  
+SAS Variable Name: `LCSFIRST`  
 Question Prologue: 
-Question: `How old were you when you first started to smoke cigarettes regularly`
+Question: `How old were you when you first started to smoke cigarettes regularly`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2312,15 +2312,15 @@ Question: `How old were you when you first started to smoke cigarettes regularly
 
 ### How old when you last smoked?
 
-Label: `How old when you last smoked?`
-Section Name: `Lung Cancer Screening`
-Core Section Number: `13`
-Question Number: `2`
-Column: `230-232`
-Type of Variable: `Num`
-SAS Variable Name: `LCSLAST`
+Label: `How old when you last smoked?`  
+Section Name: `Lung Cancer Screening`  
+Core Section Number: `13`  
+Question Number: `2`  
+Column: `230-232`  
+Type of Variable: `Num`  
+SAS Variable Name: `LCSLAST`  
 Question Prologue: 
-Question: `How old were you when you last smoked cigarettes regularly?`
+Question: `How old were you when you last smoked cigarettes regularly?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2333,15 +2333,15 @@ Question: `How old were you when you last smoked cigarettes regularly?`
 
 ### On average, how many cigarettes do you smoke each day?
 
-Label: `On average, how many cigarettes do you smoke each day?`
-Section Name: `Lung Cancer Screening`
-Core Section Number: `13`
-Question Number: `3`
-Column: `233-235`
-Type of Variable: `Num`
-SAS Variable Name: `LCSNUMCG`
+Label: `On average, how many cigarettes do you smoke each day?`  
+Section Name: `Lung Cancer Screening`  
+Core Section Number: `13`  
+Question Number: `3`  
+Column: `233-235`  
+Type of Variable: `Num`  
+SAS Variable Name: `LCSNUMCG`  
 Question Prologue: 
-Question: `On average, when you {smoke/smoked} regularly, about how many cigarettes {do/did} you usually smoke each day?`
+Question: `On average, when you {smoke/smoked} regularly, about how many cigarettes {do/did} you usually smoke each day?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2355,15 +2355,15 @@ Question: `On average, when you {smoke/smoked} regularly, about how many cigaret
 
 ### Did you have a CT or CAT scan?
 
-Label: `Did you have a CT or CAT scan?`
-Section Name: `Lung Cancer Screening`
-Core Section Number: `13`
-Question Number: `4`
-Column: `236`
-Type of Variable: `Num`
-SAS Variable Name: `LCSCTSC1`
-Question Prologue: `The next question is about CT or CAT scans of your chest area. During this test, you lie flat on your back and are moved through an open, donut shaped x-ray machine.`
-Question: `Have you ever had a CT or CAT scan of your chest area?`
+Label: `Did you have a CT or CAT scan?`  
+Section Name: `Lung Cancer Screening`  
+Core Section Number: `13`  
+Question Number: `4`  
+Column: `236`  
+Type of Variable: `Num`  
+SAS Variable Name: `LCSCTSC1`  
+Question Prologue: `The next question is about CT or CAT scans of your chest area. During this test, you lie flat on your back and are moved through an open, donut shaped x-ray machine.`  
+Question: `Have you ever had a CT or CAT scan of your chest area?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2377,15 +2377,15 @@ Question: `Have you ever had a CT or CAT scan of your chest area?`
 
 ### Were any CT or CAT scans done to check for lung cancer?
 
-Label: `Were any CT or CAT scans done to check for lung cancer?`
-Section Name: `Lung Cancer Screening`
-Core Section Number: `13`
-Question Number: `5`
-Column: `237`
-Type of Variable: `Num`
-SAS Variable Name: `LCSSCNCR`
+Label: `Were any CT or CAT scans done to check for lung cancer?`  
+Section Name: `Lung Cancer Screening`  
+Core Section Number: `13`  
+Question Number: `5`  
+Column: `237`  
+Type of Variable: `Num`  
+SAS Variable Name: `LCSSCNCR`  
 Question Prologue: 
-Question: `Were any of the CT or CAT scans of your chest area done mainly to check or screen for lung cancer?`
+Question: `Were any of the CT or CAT scans of your chest area done mainly to check or screen for lung cancer?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2399,15 +2399,15 @@ Question: `Were any of the CT or CAT scans of your chest area done mainly to che
 
 ### When did you have your most recent CT or CAT scan?
 
-Label: `When did you have your most recent CT or CAT scan?`
-Section Name: `Lung Cancer Screening`
-Core Section Number: `13`
-Question Number: `6`
-Column: `238`
-Type of Variable: `Num`
-SAS Variable Name: `LCSCTWHN`
+Label: `When did you have your most recent CT or CAT scan?`  
+Section Name: `Lung Cancer Screening`  
+Core Section Number: `13`  
+Question Number: `6`  
+Column: `238`  
+Type of Variable: `Num`  
+SAS Variable Name: `LCSCTWHN`  
 Question Prologue: 
-Question: `When did you have your most recent CT or CAT scan of your chest area mainly to check or screen for lung cancer?`
+Question: `When did you have your most recent CT or CAT scan of your chest area mainly to check or screen for lung cancer?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2427,15 +2427,15 @@ Question: `When did you have your most recent CT or CAT scan of your chest area 
 
 ### Days in past 30 had alcoholic beverage
 
-Label: `Days in past 30 had alcoholic beverage`
-Section Name: `Alcohol Consumption`
-Core Section Number: `14`
-Question Number: `1`
-Column: `239-241`
-Type of Variable: `Num`
-SAS Variable Name: `ALCDAY4`
+Label: `Days in past 30 had alcoholic beverage`  
+Section Name: `Alcohol Consumption`  
+Core Section Number: `14`  
+Question Number: `1`  
+Column: `239-241`  
+Type of Variable: `Num`  
+SAS Variable Name: `ALCDAY4`  
 Question Prologue: 
-Question: `During the past 30 days, how many days per week or per month did you have at least one drink of any alcoholic beverage?`
+Question: `During the past 30 days, how many days per week or per month did you have at least one drink of any alcoholic beverage?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2450,15 +2450,15 @@ Question: `During the past 30 days, how many days per week or per month did you 
 
 ### Avg alcoholic drinks per day in past 30
 
-Label: `Avg alcoholic drinks per day in past 30`
-Section Name: `Alcohol Consumption`
-Core Section Number: `14`
-Question Number: `2`
-Column: `242-243`
-Type of Variable: `Num`
-SAS Variable Name: `AVEDRNK3`
+Label: `Avg alcoholic drinks per day in past 30`  
+Section Name: `Alcohol Consumption`  
+Core Section Number: `14`  
+Question Number: `2`  
+Column: `242-243`  
+Type of Variable: `Num`  
+SAS Variable Name: `AVEDRNK3`  
 Question Prologue: 
-Question: `One drink is equivalent to a 12-ounce beer, a 5-ounce glass of wine, or a drink with one shot of liquor. During the past 30 days, on the days when you drank, about how many drinks did you drink on the average?  (A 40 ounce beer would count as 3 drinks, or a cocktail drink with 2 shots would count as 2 drinks.)`
+Question: `One drink is equivalent to a 12-ounce beer, a 5-ounce glass of wine, or a drink with one shot of liquor. During the past 30 days, on the days when you drank, about how many drinks did you drink on the average?  (A 40 ounce beer would count as 3 drinks, or a cocktail drink with 2 shots would count as 2 drinks.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2472,15 +2472,15 @@ Question: `One drink is equivalent to a 12-ounce beer, a 5-ounce glass of wine, 
 
 ### Binge Drinking
 
-Label: `Binge Drinking`
-Section Name: `Alcohol Consumption`
-Core Section Number: `14`
-Question Number: `3`
-Column: `244-245`
-Type of Variable: `Num`
-SAS Variable Name: `DRNK3GE5`
+Label: `Binge Drinking`  
+Section Name: `Alcohol Consumption`  
+Core Section Number: `14`  
+Question Number: `3`  
+Column: `244-245`  
+Type of Variable: `Num`  
+SAS Variable Name: `DRNK3GE5`  
 Question Prologue: 
-Question: `Considering all types of alcoholic beverages, how many times during the past 30 days did you have 5 or more drinks for men or 4 or more drinks for women on an occasion?`
+Question: `Considering all types of alcoholic beverages, how many times during the past 30 days did you have 5 or more drinks for men or 4 or more drinks for women on an occasion?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2494,15 +2494,15 @@ Question: `Considering all types of alcoholic beverages, how many times during t
 
 ### Most drinks on single occasion past 30 days
 
-Label: `Most drinks on single occasion past 30 days`
-Section Name: `Alcohol Consumption`
-Core Section Number: `14`
-Question Number: `4`
-Column: `246-247`
-Type of Variable: `Num`
-SAS Variable Name: `MAXDRNKS`
+Label: `Most drinks on single occasion past 30 days`  
+Section Name: `Alcohol Consumption`  
+Core Section Number: `14`  
+Question Number: `4`  
+Column: `246-247`  
+Type of Variable: `Num`  
+SAS Variable Name: `MAXDRNKS`  
 Question Prologue: 
-Question: `During the past 30 days, what is the largest number of drinks you had on any occasion?`
+Question: `During the past 30 days, what is the largest number of drinks you had on any occasion?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2518,15 +2518,15 @@ Question: `During the past 30 days, what is the largest number of drinks you had
 
 ### Adult flu shot/spray past 12 mos
 
-Label: `Adult flu shot/spray past 12 mos`
-Section Name: `Immunization`
-Core Section Number: `15`
-Question Number: `1`
-Column: `248`
-Type of Variable: `Num`
-SAS Variable Name: `FLUSHOT7`
+Label: `Adult flu shot/spray past 12 mos`  
+Section Name: `Immunization`  
+Core Section Number: `15`  
+Question Number: `1`  
+Column: `248`  
+Type of Variable: `Num`  
+SAS Variable Name: `FLUSHOT7`  
 Question Prologue: 
-Question: `During the past 12 months, have you had either flu vaccine that was sprayed in your nose or flu shot injected into your arm?`
+Question: `During the past 12 months, have you had either flu vaccine that was sprayed in your nose or flu shot injected into your arm?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2540,15 +2540,15 @@ Question: `During the past 12 months, have you had either flu vaccine that was s
 
 ### When did you receive your most recent seasonal flu shot/spray?
 
-Label: `When did you receive your most recent seasonal flu shot/spray?`
-Section Name: `Immunization`
-Core Section Number: `15`
-Question Number: `2`
-Column: `249-254`
-Type of Variable: `Num`
-SAS Variable Name: `FLSHTMY3`
+Label: `When did you receive your most recent seasonal flu shot/spray?`  
+Section Name: `Immunization`  
+Core Section Number: `15`  
+Question Number: `2`  
+Column: `249-254`  
+Type of Variable: `Num`  
+SAS Variable Name: `FLSHTMY3`  
 Question Prologue: 
-Question: `During what month and year did you receive your most recent flu vaccine that was sprayed in your nose or flu shot injected into your arm?`
+Question: `During what month and year did you receive your most recent flu vaccine that was sprayed in your nose or flu shot injected into your arm?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2561,15 +2561,15 @@ Question: `During what month and year did you receive your most recent flu vacci
 
 ### Pneumonia shot ever
 
-Label: `Pneumonia shot ever`
-Section Name: `Immunization`
-Core Section Number: `15`
-Question Number: `3`
-Column: `255`
-Type of Variable: `Num`
-SAS Variable Name: `PNEUVAC4`
+Label: `Pneumonia shot ever`  
+Section Name: `Immunization`  
+Core Section Number: `15`  
+Question Number: `3`  
+Column: `255`  
+Type of Variable: `Num`  
+SAS Variable Name: `PNEUVAC4`  
 Question Prologue: 
-Question: `Have you ever had a pneumonia shot also known as a pneumococcal vaccine?`
+Question: `Have you ever had a pneumonia shot also known as a pneumococcal vaccine?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2583,15 +2583,15 @@ Question: `Have you ever had a pneumonia shot also known as a pneumococcal vacci
 
 ### Received Tetanus Shot Since 2005?
 
-Label: `Received Tetanus Shot Since 2005?`
-Section Name: `Immunization`
-Core Section Number: `15`
-Question Number: `4`
-Column: `256`
-Type of Variable: `Num`
-SAS Variable Name: `TETANUS1`
+Label: `Received Tetanus Shot Since 2005?`  
+Section Name: `Immunization`  
+Core Section Number: `15`  
+Question Number: `4`  
+Column: `256`  
+Type of Variable: `Num`  
+SAS Variable Name: `TETANUS1`  
 Question Prologue: 
-Question: `Have you received a tetanus shot in the past 10 years?  (If yes, ask: "Was this Tdap, the tetanus shot that also has pertussis or whooping cough vaccine?")`
+Question: `Have you received a tetanus shot in the past 10 years?  (If yes, ask: "Was this Tdap, the tetanus shot that also has pertussis or whooping cough vaccine?")`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2609,15 +2609,15 @@ Question: `Have you received a tetanus shot in the past 10 years?  (If yes, ask:
 
 ### Ever tested H.I.V.
 
-Label: `Ever tested H.I.V.`
-Section Name: `HIV/AIDS`
-Core Section Number: `16`
-Question Number: `1`
-Column: `257`
-Type of Variable: `Num`
-SAS Variable Name: `HIVTST7`
+Label: `Ever tested H.I.V.`  
+Section Name: `HIV/AIDS`  
+Core Section Number: `16`  
+Question Number: `1`  
+Column: `257`  
+Type of Variable: `Num`  
+SAS Variable Name: `HIVTST7`  
 Question Prologue: 
-Question: `Including fluid testing from your mouth, but not including tests you may have had for blood donation, have you ever been tested for H.I.V?`
+Question: `Including fluid testing from your mouth, but not including tests you may have had for blood donation, have you ever been tested for H.I.V?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2631,15 +2631,15 @@ Question: `Including fluid testing from your mouth, but not including tests you 
 
 ### Month and Year of Last HIV Test
 
-Label: `Month and Year of Last HIV Test`
-Section Name: `HIV/AIDS`
-Core Section Number: `16`
-Question Number: `2`
-Column: `258-263`
-Type of Variable: `Num`
-SAS Variable Name: `HIVTSTD3`
+Label: `Month and Year of Last HIV Test`  
+Section Name: `HIV/AIDS`  
+Core Section Number: `16`  
+Question Number: `2`  
+Column: `258-263`  
+Type of Variable: `Num`  
+SAS Variable Name: `HIVTSTD3`  
 Question Prologue: 
-Question: `Not including blood donations, in what month and year was your last H.I.V. test?  (If response is before January 1985, code '77777'.)`
+Question: `Not including blood donations, in what month and year was your last H.I.V. test?  (If response is before January 1985, code '77777'.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2652,15 +2652,15 @@ Question: `Not including blood donations, in what month and year was your last H
 
 ### Do Any High Risk Situations Apply
 
-Label: `Do Any High Risk Situations Apply`
-Section Name: `HIV/AIDS`
-Core Section Number: `16`
-Question Number: `3`
-Column: `264`
-Type of Variable: `Num`
-SAS Variable Name: `HIVRISK5`
+Label: `Do Any High Risk Situations Apply`  
+Section Name: `HIV/AIDS`  
+Core Section Number: `16`  
+Question Number: `3`  
+Column: `264`  
+Type of Variable: `Num`  
+SAS Variable Name: `HIVRISK5`  
 Question Prologue: 
-Question: `I am going to read you a list. When I am done, please tell me if any of the situations apply to you. You do not need to tell me which one. You have injected any drug other than those prescribed for you in the past year. You have been treated for a sexually transmitted disease or STD in the past year.  You have given or received money or drugs in exchange for sex in the past year.`
+Question: `I am going to read you a list. When I am done, please tell me if any of the situations apply to you. You do not need to tell me which one. You have injected any drug other than those prescribed for you in the past year. You have been treated for a sexually transmitted disease or STD in the past year.  You have given or received money or drugs in exchange for sex in the past year.`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2676,15 +2676,15 @@ Question: `I am going to read you a list. When I am done, please tell me if any 
 
 ### Have you ever been told you tested positive for COVID 19?
 
-Label: `Have you ever been told you tested positive for COVID 19?`
-Section Name: `Long-term COVID Effects`
-Core Section Number: `17`
-Question Number: `1`
-Column: `265`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDPOS`
+Label: `Have you ever been told you tested positive for COVID 19?`  
+Section Name: `Long-term COVID Effects`  
+Core Section Number: `17`  
+Question Number: `1`  
+Column: `265`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDPOS`  
 Question Prologue: 
-Question: `Has a doctor, nurse, or other health professional ever told you that you tested positive for COVID 19?`
+Question: `Has a doctor, nurse, or other health professional ever told you that you tested positive for COVID 19?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2699,15 +2699,15 @@ Question: `Has a doctor, nurse, or other health professional ever told you that 
 
 ### Have an 3 month or longer covid symptoms?
 
-Label: `Have an 3 month or longer covid symptoms?`
-Section Name: `Long-term COVID Effects`
-Core Section Number: `17`
-Question Number: `2`
-Column: `266`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDSMP`
+Label: `Have an 3 month or longer covid symptoms?`  
+Section Name: `Long-term COVID Effects`  
+Core Section Number: `17`  
+Question Number: `2`  
+Column: `266`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDSMP`  
 Question Prologue: 
-Question: `Did you have any symptoms lasting 3 months or longer that you did not have prior to having coronavirus or COVID-19?`
+Question: `Did you have any symptoms lasting 3 months or longer that you did not have prior to having coronavirus or COVID-19?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2721,15 +2721,15 @@ Question: `Did you have any symptoms lasting 3 months or longer that you did not
 
 ### Which was the primary symptom that you experienced?
 
-Label: `Which was the primary symptom that you experienced?`
-Section Name: `Long-term COVID Effects`
-Core Section Number: `17`
-Question Number: `3`
-Column: `267-268`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDPRM`
+Label: `Which was the primary symptom that you experienced?`  
+Section Name: `Long-term COVID Effects`  
+Core Section Number: `17`  
+Question Number: `3`  
+Column: `267-268`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDPRM`  
 Question Prologue: 
-Question: `Which of the following was the primary symptom that you experienced? Was it...`
+Question: `Which of the following was the primary symptom that you experienced? Was it...`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2754,15 +2754,15 @@ Question: `Which of the following was the primary symptom that you experienced? 
 
 ### When was your last blood test for high blood sugar?
 
-Label: `When was your last blood test for high blood sugar?`
-Section Name: `Pre-Diabetes`
-Module Number: `1`
-Question Number: `1`
-Column: `269`
-Type of Variable: `Num`
-SAS Variable Name: `PDIABTS1`
+Label: `When was your last blood test for high blood sugar?`  
+Section Name: `Pre-Diabetes`  
+Module Number: `1`  
+Question Number: `1`  
+Column: `269`  
+Type of Variable: `Num`  
+SAS Variable Name: `PDIABTS1`  
 Question Prologue: 
-Question: `When was the last time you had a blood test for high blood sugar or diabetes by a doctor, nurse, or other health professional?`
+Question: `When was the last time you had a blood test for high blood sugar or diabetes by a doctor, nurse, or other health professional?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2781,15 +2781,15 @@ Question: `When was the last time you had a blood test for high blood sugar or d
 
 ### Ever been told by a doctor or other health professional that you have pre-diabetes or borderline diabetes?
 
-Label: `Ever been told by a doctor or other health professional that you have pre-diabetes or borderline diabetes?`
-Section Name: `Pre-Diabetes`
-Module Number: `1`
-Question Number: `2`
-Column: `270`
-Type of Variable: `Num`
-SAS Variable Name: `PREDIAB2`
+Label: `Ever been told by a doctor or other health professional that you have pre-diabetes or borderline diabetes?`  
+Section Name: `Pre-Diabetes`  
+Module Number: `1`  
+Question Number: `2`  
+Column: `270`  
+Type of Variable: `Num`  
+SAS Variable Name: `PREDIAB2`  
 Question Prologue: 
-Question: `Has a doctor or other health professional ever told you that you had prediabetes or borderline diabetes?  (If "Yes" and respondent is female, ask: "Was this only when you were pregnant?")`
+Question: `Has a doctor or other health professional ever told you that you had prediabetes or borderline diabetes?  (If "Yes" and respondent is female, ask: "Was this only when you were pregnant?")`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2806,15 +2806,15 @@ Question: `Has a doctor or other health professional ever told you that you had 
 
 ### What type of diabetes do you have?
 
-Label: `What type of diabetes do you have?`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `1`
-Column: `271`
-Type of Variable: `Num`
-SAS Variable Name: `DIABTYPE`
+Label: `What type of diabetes do you have?`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `1`  
+Column: `271`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIABTYPE`  
 Question Prologue: 
-Question: `According to your doctor or other health professional, what type of diabetes do you have?`
+Question: `According to your doctor or other health professional, what type of diabetes do you have?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2828,15 +2828,15 @@ Question: `According to your doctor or other health professional, what type of d
 
 ### Now Taking Insulin
 
-Label: `Now Taking Insulin`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `2`
-Column: `272`
-Type of Variable: `Num`
-SAS Variable Name: `INSULIN1`
+Label: `Now Taking Insulin`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `2`  
+Column: `272`  
+Type of Variable: `Num`  
+SAS Variable Name: `INSULIN1`  
 Question Prologue: 
-Question: `Are you now taking insulin?`
+Question: `Are you now taking insulin?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2850,15 +2850,15 @@ Question: `Are you now taking insulin?`
 
 ### Times Checked for Glycosylated Hemoglobin
 
-Label: `Times Checked for Glycosylated Hemoglobin`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `3`
-Column: `273-274`
-Type of Variable: `Num`
-SAS Variable Name: `CHKHEMO3`
+Label: `Times Checked for Glycosylated Hemoglobin`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `3`  
+Column: `273-274`  
+Type of Variable: `Num`  
+SAS Variable Name: `CHKHEMO3`  
 Question Prologue: 
-Question: `About how many times in the past 12 months has a doctor, nurse, or other health professional checked you for A-one-C?`
+Question: `About how many times in the past 12 months has a doctor, nurse, or other health professional checked you for A-one-C?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2873,15 +2873,15 @@ Question: `About how many times in the past 12 months has a doctor, nurse, or ot
 
 ### Last Eye Exam Where Pupils Were Dilated
 
-Label: `Last Eye Exam Where Pupils Were Dilated`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `4`
-Column: `275`
-Type of Variable: `Num`
-SAS Variable Name: `EYEEXAM1`
+Label: `Last Eye Exam Where Pupils Were Dilated`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `4`  
+Column: `275`  
+Type of Variable: `Num`  
+SAS Variable Name: `EYEEXAM1`  
 Question Prologue: 
-Question: `When was the last time you had an eye exam in which the pupils were dilated, making you temporarily sensitive to bright light?`
+Question: `When was the last time you had an eye exam in which the pupils were dilated, making you temporarily sensitive to bright light?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2898,15 +2898,15 @@ Question: `When was the last time you had an eye exam in which the pupils were d
 
 ### When was the last time a they took a photo of the back of your eye?
 
-Label: `When was the last time a they took a photo of the back of your eye?`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `5`
-Column: `276`
-Type of Variable: `Num`
-SAS Variable Name: `DIABEYE1`
+Label: `When was the last time a they took a photo of the back of your eye?`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `5`  
+Column: `276`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIABEYE1`  
 Question Prologue: 
-Question: `When was the last time a doctor, nurse or other health professional took a photo of the back of your eye with a specialized camera?`
+Question: `When was the last time a doctor, nurse or other health professional took a photo of the back of your eye with a specialized camera?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2923,15 +2923,15 @@ Question: `When was the last time a doctor, nurse or other health professional t
 
 ### When was the last time you took a course or class in how to manage your diabetes?
 
-Label: `When was the last time you took a course or class in how to manage your diabetes?`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `6`
-Column: `277`
-Type of Variable: `Num`
-SAS Variable Name: `DIABEDU1`
+Label: `When was the last time you took a course or class in how to manage your diabetes?`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `6`  
+Column: `277`  
+Type of Variable: `Num`  
+SAS Variable Name: `DIABEDU1`  
 Question Prologue: 
-Question: `When was the last time you took a course or class in how to manage your diabetes yourself?`
+Question: `When was the last time you took a course or class in how to manage your diabetes yourself?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2950,15 +2950,15 @@ Question: `When was the last time you took a course or class in how to manage yo
 
 ### Ever Had Feet Sores or Irritations Lasting More Than Four Weeks
 
-Label: `Ever Had Feet Sores or Irritations Lasting More Than Four Weeks`
-Section Name: `Diabetes`
-Module Number: `2`
-Question Number: `7`
-Column: `278`
-Type of Variable: `Num`
-SAS Variable Name: `FEETSORE`
+Label: `Ever Had Feet Sores or Irritations Lasting More Than Four Weeks`  
+Section Name: `Diabetes`  
+Module Number: `2`  
+Question Number: `7`  
+Column: `278`  
+Type of Variable: `Num`  
+SAS Variable Name: `FEETSORE`  
 Question Prologue: 
-Question: `Have you ever had any sores or irritations on your feet that took more than four weeks to heal?`
+Question: `Have you ever had any sores or irritations on your feet that took more than four weeks to heal?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2974,15 +2974,15 @@ Question: `Have you ever had any sores or irritations on your feet that took mor
 
 ### Told had Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME
 
-Label: `Told had Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME`
-Section Name: `ME/CFS`
-Module Number: `3`
-Question Number: `1`
-Column: `279`
-Type of Variable: `Num`
-SAS Variable Name: `TOLDCFS`
+Label: `Told had Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME`  
+Section Name: `ME/CFS`  
+Module Number: `3`  
+Question Number: `1`  
+Column: `279`  
+Type of Variable: `Num`  
+SAS Variable Name: `TOLDCFS`  
 Question Prologue: 
-Question: `Have you ever been told by a doctor or other health professional that you had Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME?`
+Question: `Have you ever been told by a doctor or other health professional that you had Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -2992,15 +2992,15 @@ Question: `Have you ever been told by a doctor or other health professional that
 
 ### Still have Chronic Fatigue Syndrome or Myalgic Encephalomyelitis
 
-Label: `Still have Chronic Fatigue Syndrome or Myalgic Encephalomyelitis`
-Section Name: `ME/CFS`
-Module Number: `3`
-Question Number: `2`
-Column: `280`
-Type of Variable: `Num`
-SAS Variable Name: `HAVECFS`
+Label: `Still have Chronic Fatigue Syndrome or Myalgic Encephalomyelitis`  
+Section Name: `ME/CFS`  
+Module Number: `3`  
+Question Number: `2`  
+Column: `280`  
+Type of Variable: `Num`  
+SAS Variable Name: `HAVECFS`  
 Question Prologue: 
-Question: `Do you still have Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME?`
+Question: `Do you still have Chronic Fatigue Syndrome (CFS) or (Myalgic Encephalomyelitis) ME?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3010,15 +3010,15 @@ Question: `Do you still have Chronic Fatigue Syndrome (CFS) or (Myalgic Encephal
 
 ### How many hours a week are you been able to work
 
-Label: `How many hours a week are you been able to work`
-Section Name: `ME/CFS`
-Module Number: `3`
-Question Number: `3`
-Column: `281`
-Type of Variable: `Num`
-SAS Variable Name: `WORKCFS`
+Label: `How many hours a week are you been able to work`  
+Section Name: `ME/CFS`  
+Module Number: `3`  
+Question Number: `3`  
+Column: `281`  
+Type of Variable: `Num`  
+SAS Variable Name: `WORKCFS`  
 Question Prologue: 
-Question: `Thinking about your CFS or ME, during the past 6 months, how many hours a week on average have you been able to work at a job or business for pay?`
+Question: `Thinking about your CFS or ME, during the past 6 months, how many hours a week on average have you been able to work at a job or business for pay?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3030,15 +3030,15 @@ Question: `Thinking about your CFS or ME, during the past 6 months, how many hou
 
 ### Where did you get your last flu shot/vaccine?
 
-Label: `Where did you get your last flu shot/vaccine?`
-Section Name: `Place of Flu Vaccination`
-Module Number: `4`
-Question Number: `1`
-Column: `282-283`
-Type of Variable: `Num`
-SAS Variable Name: `IMFVPLA3`
+Label: `Where did you get your last flu shot/vaccine?`  
+Section Name: `Place of Flu Vaccination`  
+Module Number: `4`  
+Question Number: `1`  
+Column: `282-283`  
+Type of Variable: `Num`  
+SAS Variable Name: `IMFVPLA3`  
 Question Prologue: 
-Question: `At what kind of place did you get your last flu shot or vaccine?`
+Question: `At what kind of place did you get your last flu shot or vaccine?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3063,15 +3063,15 @@ Question: `At what kind of place did you get your last flu shot or vaccine?`
 
 ### Have you ever had an H.P.V. vaccination?
 
-Label: `Have you ever had an H.P.V. vaccination?`
-Section Name: `HPV Vaccination`
-Module Number: `5`
-Question Number: `1`
-Column: `284`
-Type of Variable: `Num`
-SAS Variable Name: `HPVADVC4`
+Label: `Have you ever had an H.P.V. vaccination?`  
+Section Name: `HPV Vaccination`  
+Module Number: `5`  
+Question Number: `1`  
+Column: `284`  
+Type of Variable: `Num`  
+SAS Variable Name: `HPVADVC4`  
 Question Prologue: 
-Question: `Have you ever had an H.P.V. vaccination?`
+Question: `Have you ever had an H.P.V. vaccination?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3086,15 +3086,15 @@ Question: `Have you ever had an H.P.V. vaccination?`
 
 ### How many HPV shots did you receive?
 
-Label: `How many HPV shots did you receive?`
-Section Name: `HPV Vaccination`
-Module Number: `5`
-Question Number: `2`
-Column: `285-286`
-Type of Variable: `Num`
-SAS Variable Name: `HPVADSHT`
+Label: `How many HPV shots did you receive?`  
+Section Name: `HPV Vaccination`  
+Module Number: `5`  
+Question Number: `2`  
+Column: `285-286`  
+Type of Variable: `Num`  
+SAS Variable Name: `HPVADSHT`  
 Question Prologue: 
-Question: `How many HPV shots did you receive?`
+Question: `How many HPV shots did you receive?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3110,15 +3110,15 @@ Question: `How many HPV shots did you receive?`
 
 ### Have you ever had the shingles or zoster vaccine?
 
-Label: `Have you ever had the shingles or zoster vaccine?`
-Section Name: `Shingles Vaccination`
-Module Number: `6`
-Question Number: `1`
-Column: `287`
-Type of Variable: `Num`
-SAS Variable Name: `SHINGLE2`
+Label: `Have you ever had the shingles or zoster vaccine?`  
+Section Name: `Shingles Vaccination`  
+Module Number: `6`  
+Question Number: `1`  
+Column: `287`  
+Type of Variable: `Num`  
+SAS Variable Name: `SHINGLE2`  
 Question Prologue: 
-Question: `Have you ever had the shingles or zoster vaccine?`
+Question: `Have you ever had the shingles or zoster vaccine?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3134,15 +3134,15 @@ Question: `Have you ever had the shingles or zoster vaccine?`
 
 ### Received at least one COVID-19 vaccination
 
-Label: `Received at least one COVID-19 vaccination`
-Section Name: `COVID Vaccination`
-Module Number: `7`
-Question Number: `1`
-Column: `288`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDVA1`
+Label: `Received at least one COVID-19 vaccination`  
+Section Name: `COVID Vaccination`  
+Module Number: `7`  
+Question Number: `1`  
+Column: `288`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDVA1`  
 Question Prologue: 
-Question: `Have you received at least one dose of a  COVID-19 vaccination?`
+Question: `Have you received at least one dose of a  COVID-19 vaccination?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3156,15 +3156,15 @@ Question: `Have you received at least one dose of a  COVID-19 vaccination?`
 
 ### Will you get COVID-19 vaccination?
 
-Label: `Will you get COVID-19 vaccination?`
-Section Name: `COVID Vaccination`
-Module Number: `7`
-Question Number: `2`
-Column: `289`
-Type of Variable: `Num`
-SAS Variable Name: `COVACGET`
+Label: `Will you get COVID-19 vaccination?`  
+Section Name: `COVID Vaccination`  
+Module Number: `7`  
+Question Number: `2`  
+Column: `289`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVACGET`  
 Question Prologue: 
-Question: `Would you say you would definitely get a vaccine, probably get a vaccine, probably not get a vaccine, definitely not get a vaccine, or are not sure?`
+Question: `Would you say you would definitely get a vaccine, probably get a vaccine, probably not get a vaccine, definitely not get a vaccine, or are not sure?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3180,15 +3180,15 @@ Question: `Would you say you would definitely get a vaccine, probably get a vacc
 
 ### Number of COVID-19 vaccinations received
 
-Label: `Number of COVID-19 vaccinations received`
-Section Name: `COVID Vaccination`
-Module Number: `7`
-Question Number: `3`
-Column: `290`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDNU1`
+Label: `Number of COVID-19 vaccinations received`  
+Section Name: `COVID Vaccination`  
+Module Number: `7`  
+Question Number: `3`  
+Column: `290`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDNU1`  
 Question Prologue: 
-Question: `How many COVID-19 vaccinations have you received?`
+Question: `How many COVID-19 vaccinations have you received?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3204,15 +3204,15 @@ Question: `How many COVID-19 vaccinations have you received?`
 
 ### Intend to get COVID-19 vaccination
 
-Label: `Intend to get COVID-19 vaccination`
-Section Name: `COVID Vaccination`
-Module Number: `7`
-Question Number: `4`
-Column: `291`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDINT`
-Question Prologue: `Which of the following best describes your intent to take the recommended COVID vaccinations?`
-Question: `Would you say you have already received all recommended doses, plan to receive all recommended doses or do not plan to receive all recommended doses?`
+Label: `Intend to get COVID-19 vaccination`  
+Section Name: `COVID Vaccination`  
+Module Number: `7`  
+Question Number: `4`  
+Column: `291`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDINT`  
+Question Prologue: `Which of the following best describes your intent to take the recommended COVID vaccinations?`  
+Question: `Would you say you have already received all recommended doses, plan to receive all recommended doses or do not plan to receive all recommended doses?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3227,15 +3227,15 @@ Question: `Would you say you have already received all recommended doses, plan t
 
 ### Month/Year of first COVID-19 vaccination
 
-Label: `Month/Year of first COVID-19 vaccination`
-Section Name: `COVID Vaccination`
-Module Number: `7`
-Question Number: `5`
-Column: `292-297`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDFS1`
+Label: `Month/Year of first COVID-19 vaccination`  
+Section Name: `COVID Vaccination`  
+Module Number: `7`  
+Question Number: `5`  
+Column: `292-297`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDFS1`  
 Question Prologue: 
-Question: `During what month and year did you receive your (first) COVID-19 vaccination?`
+Question: `During what month and year did you receive your (first) COVID-19 vaccination?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3300,15 +3300,15 @@ Question: `During what month and year did you receive your (first) COVID-19 vacc
 
 ### Month/Year of second COVID-19 vaccination
 
-Label: `Month/Year of second COVID-19 vaccination`
-Section Name: `COVID Vaccination`
-Module Number: `7`
-Question Number: `6`
-Column: `298-303`
-Type of Variable: `Num`
-SAS Variable Name: `COVIDSE1`
+Label: `Month/Year of second COVID-19 vaccination`  
+Section Name: `COVID Vaccination`  
+Module Number: `7`  
+Question Number: `6`  
+Column: `298-303`  
+Type of Variable: `Num`  
+SAS Variable Name: `COVIDSE1`  
 Question Prologue: 
-Question: `During what month and year did you receive your second COVID-19 vaccination?`
+Question: `During what month and year did you receive your second COVID-19 vaccination?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3375,15 +3375,15 @@ Question: `During what month and year did you receive your second COVID-19 vacci
 
 ### Did you have a cough?
 
-Label: `Did you have a cough?`
-Section Name: `Respiratory Health`
-Module Number: `8`
-Question Number: `1`
-Column: `304`
-Type of Variable: `Num`
-SAS Variable Name: `COPDCOGH`
+Label: `Did you have a cough?`  
+Section Name: `Respiratory Health`  
+Module Number: `8`  
+Question Number: `1`  
+Column: `304`  
+Type of Variable: `Num`  
+SAS Variable Name: `COPDCOGH`  
 Question Prologue: 
-Question: `During the past 3 months, did you have a cough on most days?`
+Question: `During the past 3 months, did you have a cough on most days?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3397,15 +3397,15 @@ Question: `During the past 3 months, did you have a cough on most days?`
 
 ### Did you cough up phlegm?
 
-Label: `Did you cough up phlegm?`
-Section Name: `Respiratory Health`
-Module Number: `8`
-Question Number: `2`
-Column: `305`
-Type of Variable: `Num`
-SAS Variable Name: `COPDFLEM`
+Label: `Did you cough up phlegm?`  
+Section Name: `Respiratory Health`  
+Module Number: `8`  
+Question Number: `2`  
+Column: `305`  
+Type of Variable: `Num`  
+SAS Variable Name: `COPDFLEM`  
 Question Prologue: 
-Question: `During the past 3 months, did you cough up phlegm [FLEM] or mucus on most days?`
+Question: `During the past 3 months, did you cough up phlegm [FLEM] or mucus on most days?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3419,15 +3419,15 @@ Question: `During the past 3 months, did you cough up phlegm [FLEM] or mucus on 
 
 ### Did you have shortness of breath?
 
-Label: `Did you have shortness of breath?`
-Section Name: `Respiratory Health`
-Module Number: `8`
-Question Number: `3`
-Column: `306`
-Type of Variable: `Num`
-SAS Variable Name: `COPDBRTH`
+Label: `Did you have shortness of breath?`  
+Section Name: `Respiratory Health`  
+Module Number: `8`  
+Question Number: `3`  
+Column: `306`  
+Type of Variable: `Num`  
+SAS Variable Name: `COPDBRTH`  
 Question Prologue: 
-Question: `Do you have shortness of breath either when hurrying on level ground or when walking up a slight hill or stairs?`
+Question: `Do you have shortness of breath either when hurrying on level ground or when walking up a slight hill or stairs?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3441,15 +3441,15 @@ Question: `Do you have shortness of breath either when hurrying on level ground 
 
 ### Have you ever been given a breathing test?
 
-Label: `Have you ever been given a breathing test?`
-Section Name: `Respiratory Health`
-Module Number: `8`
-Question Number: `4`
-Column: `307`
-Type of Variable: `Num`
-SAS Variable Name: `COPDBTST`
+Label: `Have you ever been given a breathing test?`  
+Section Name: `Respiratory Health`  
+Module Number: `8`  
+Question Number: `4`  
+Column: `307`  
+Type of Variable: `Num`  
+SAS Variable Name: `COPDBTST`  
 Question Prologue: 
-Question: `Have you ever been given a breathing test to diagnose breathing problems?`
+Question: `Have you ever been given a breathing test to diagnose breathing problems?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3463,15 +3463,15 @@ Question: `Have you ever been given a breathing test to diagnose breathing probl
 
 ### How many years have you smoked tobacco products?
 
-Label: `How many years have you smoked tobacco products?`
-Section Name: `Respiratory Health`
-Module Number: `8`
-Question Number: `5`
-Column: `308-309`
-Type of Variable: `Num`
-SAS Variable Name: `COPDSMOK`
+Label: `How many years have you smoked tobacco products?`  
+Section Name: `Respiratory Health`  
+Module Number: `8`  
+Question Number: `5`  
+Column: `308-309`  
+Type of Variable: `Num`  
+SAS Variable Name: `COPDSMOK`  
 Question Prologue: 
-Question: `Over your lifetime, how many years have you smoked tobacco products?`
+Question: `Over your lifetime, how many years have you smoked tobacco products?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3487,15 +3487,15 @@ Question: `Over your lifetime, how many years have you smoked tobacco products?`
 
 ### How Many Types of Cancer?
 
-Label: `How Many Types of Cancer?`
-Section Name: `Cancer Survivorship: Type of Cancer`
-Module Number: `9`
-Question Number: `1`
-Column: `310`
-Type of Variable: `Num`
-SAS Variable Name: `CNCRDIFF`
+Label: `How Many Types of Cancer?`  
+Section Name: `Cancer Survivorship: Type of Cancer`  
+Module Number: `9`  
+Question Number: `1`  
+Column: `310`  
+Type of Variable: `Num`  
+SAS Variable Name: `CNCRDIFF`  
 Question Prologue: 
-Question: `How many different types of cancer have you had?`
+Question: `How many different types of cancer have you had?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3510,15 +3510,15 @@ Question: `How many different types of cancer have you had?`
 
 ### Age Told Had Cancer
 
-Label: `Age Told Had Cancer`
-Section Name: `Cancer Survivorship: Type of Cancer`
-Module Number: `9`
-Question Number: `2`
-Column: `311-312`
-Type of Variable: `Num`
-SAS Variable Name: `CNCRAGE`
+Label: `Age Told Had Cancer`  
+Section Name: `Cancer Survivorship: Type of Cancer`  
+Module Number: `9`  
+Question Number: `2`  
+Column: `311-312`  
+Type of Variable: `Num`  
+SAS Variable Name: `CNCRAGE`  
 Question Prologue: 
-Question: `At what age were you told that you had cancer?  (If Response = 2 (Two) or 3 (Three or more), ask: "At what age was your first diagnosis of cancer?"")`
+Question: `At what age were you told that you had cancer?  (If Response = 2 (Two) or 3 (Three or more), ask: "At what age was your first diagnosis of cancer?"")`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3531,15 +3531,15 @@ Question: `At what age were you told that you had cancer?  (If Response = 2 (Two
 
 ### Type of Cancer
 
-Label: `Type of Cancer`
-Section Name: `Cancer Survivorship: Type of Cancer`
-Module Number: `9`
-Question Number: `3`
-Column: `313-314`
-Type of Variable: `Num`
-SAS Variable Name: `CNCRTYP2`
+Label: `Type of Cancer`  
+Section Name: `Cancer Survivorship: Type of Cancer`  
+Module Number: `9`  
+Question Number: `3`  
+Column: `313-314`  
+Type of Variable: `Num`  
+SAS Variable Name: `CNCRTYP2`  
 Question Prologue: 
-Question: `What kind of cancer is it?`
+Question: `What kind of cancer is it?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3583,15 +3583,15 @@ Question: `What kind of cancer is it?`
 
 ### Currently Receiving Treatment for Cancer
 
-Label: `Currently Receiving Treatment for Cancer`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `1`
-Column: `315`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVTRT3`
+Label: `Currently Receiving Treatment for Cancer`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `1`  
+Column: `315`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVTRT3`  
 Question Prologue: 
-Question: `Are you currently receiving treatment for cancer?`
+Question: `Are you currently receiving treatment for cancer?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3608,15 +3608,15 @@ Question: `Are you currently receiving treatment for cancer?`
 
 ### What Type of Doctor Provides Majority of Your Care
 
-Label: `What Type of Doctor Provides Majority of Your Care`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `2`
-Column: `316-317`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVDOC1`
+Label: `What Type of Doctor Provides Majority of Your Care`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `2`  
+Column: `316-317`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVDOC1`  
 Question Prologue: 
-Question: `What type of doctor provides the majority of your health care? Is it a...`
+Question: `What type of doctor provides the majority of your health care? Is it a...`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3638,15 +3638,15 @@ Question: `What type of doctor provides the majority of your health care? Is it 
 
 ### Did You Receive a Summary of Cancer Treatments Received
 
-Label: `Did You Receive a Summary of Cancer Treatments Received`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `3`
-Column: `318`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVSUM`
+Label: `Did You Receive a Summary of Cancer Treatments Received`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `3`  
+Column: `318`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVSUM`  
 Question Prologue: 
-Question: `Did any doctor, nurse, or other health professional ever give you a written summary of all the cancer treatments that you received?`
+Question: `Did any doctor, nurse, or other health professional ever give you a written summary of all the cancer treatments that you received?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3660,15 +3660,15 @@ Question: `Did any doctor, nurse, or other health professional ever give you a w
 
 ### Ever Receive Instructions From A Doctor For Follow-Up Check-Ups
 
-Label: `Ever Receive Instructions From A Doctor For Follow-Up Check-Ups`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `4`
-Column: `319`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVRTRN`
+Label: `Ever Receive Instructions From A Doctor For Follow-Up Check-Ups`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `4`  
+Column: `319`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVRTRN`  
 Question Prologue: 
-Question: `Have you ever received instructions from a doctor, nurse, or other health professional about where you should return or who you should see for routine cancer check-ups after completing treatment for cancer?`
+Question: `Have you ever received instructions from a doctor, nurse, or other health professional about where you should return or who you should see for routine cancer check-ups after completing treatment for cancer?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3682,15 +3682,15 @@ Question: `Have you ever received instructions from a doctor, nurse, or other he
 
 ### Instructions Written or Printed
 
-Label: `Instructions Written or Printed`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `5`
-Column: `320`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVINST`
+Label: `Instructions Written or Printed`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `5`  
+Column: `320`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVINST`  
 Question Prologue: 
-Question: `Were these instructions written down or printed on paper for you?`
+Question: `Were these instructions written down or printed on paper for you?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3704,15 +3704,15 @@ Question: `Were these instructions written down or printed on paper for you?`
 
 ### Did Health Insurance Pay For All Of Your Cancer Treatment
 
-Label: `Did Health Insurance Pay For All Of Your Cancer Treatment`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `6`
-Column: `321`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVINSR`
+Label: `Did Health Insurance Pay For All Of Your Cancer Treatment`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `6`  
+Column: `321`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVINSR`  
 Question Prologue: 
-Question: `With your most recent diagnosis of cancer, did you have health insurance that paid for all or part of your cancer treatment?  ('Health insurance' also includes Medicare, Medicaid, or other types of state health programs.)`
+Question: `With your most recent diagnosis of cancer, did you have health insurance that paid for all or part of your cancer treatment?  ('Health insurance' also includes Medicare, Medicaid, or other types of state health programs.)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3726,15 +3726,15 @@ Question: `With your most recent diagnosis of cancer, did you have health insura
 
 ### Ever Denied Insurance Coverage Because Of Your Cancer?
 
-Label: `Ever Denied Insurance Coverage Because Of Your Cancer?`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `7`
-Column: `322`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVDEIN`
+Label: `Ever Denied Insurance Coverage Because Of Your Cancer?`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `7`  
+Column: `322`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVDEIN`  
 Question Prologue: 
-Question: `Were you ever denied health insurance or life insurance coverage because of your cancer?`
+Question: `Were you ever denied health insurance or life insurance coverage because of your cancer?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3748,15 +3748,15 @@ Question: `Were you ever denied health insurance or life insurance coverage beca
 
 ### Participate In Clinical Trial As Part Of Cancer Treatment?
 
-Label: `Participate In Clinical Trial As Part Of Cancer Treatment?`
-Section Name: `Cancer Survivorship: Course of Treatment`
-Module Number: `10`
-Question Number: `8`
-Column: `323`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVCLIN`
+Label: `Participate In Clinical Trial As Part Of Cancer Treatment?`  
+Section Name: `Cancer Survivorship: Course of Treatment`  
+Module Number: `10`  
+Question Number: `8`  
+Column: `323`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVCLIN`  
 Question Prologue: 
-Question: `Did you participate in a clinical trial as part of your cancer treatment?`
+Question: `Did you participate in a clinical trial as part of your cancer treatment?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3772,15 +3772,15 @@ Question: `Did you participate in a clinical trial as part of your cancer treatm
 
 ### Currently Have Physical Pain From Cancer Or Treatment?
 
-Label: `Currently Have Physical Pain From Cancer Or Treatment?`
-Section Name: `Cancer Survivorship: Pain Management`
-Module Number: `11`
-Question Number: `1`
-Column: `324`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVPAIN`
+Label: `Currently Have Physical Pain From Cancer Or Treatment?`  
+Section Name: `Cancer Survivorship: Pain Management`  
+Module Number: `11`  
+Question Number: `1`  
+Column: `324`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVPAIN`  
 Question Prologue: 
-Question: `Do you currently have physical pain caused by your cancer or cancer treatment?`
+Question: `Do you currently have physical pain caused by your cancer or cancer treatment?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3794,15 +3794,15 @@ Question: `Do you currently have physical pain caused by your cancer or cancer t
 
 ### Is Pain Under Control?
 
-Label: `Is Pain Under Control?`
-Section Name: `Cancer Survivorship: Pain Management`
-Module Number: `11`
-Question Number: `2`
-Column: `325`
-Type of Variable: `Num`
-SAS Variable Name: `CSRVCTL2`
+Label: `Is Pain Under Control?`  
+Section Name: `Cancer Survivorship: Pain Management`  
+Module Number: `11`  
+Question Number: `2`  
+Column: `325`  
+Type of Variable: `Num`  
+SAS Variable Name: `CSRVCTL2`  
 Question Prologue: 
-Question: `Would you say your pain is currently under control?`
+Question: `Would you say your pain is currently under control?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3820,15 +3820,15 @@ Question: `Would you say your pain is currently under control?`
 
 ### Ever Had PSA Test
 
-Label: `Ever Had PSA Test`
-Section Name: `Prostate Cancer Screening`
-Module Number: `12`
-Question Number: `1`
-Column: `326`
-Type of Variable: `Num`
-SAS Variable Name: `PSATEST1`
+Label: `Ever Had PSA Test`  
+Section Name: `Prostate Cancer Screening`  
+Module Number: `12`  
+Question Number: `1`  
+Column: `326`  
+Type of Variable: `Num`  
+SAS Variable Name: `PSATEST1`  
 Question Prologue: 
-Question: `Have you ever had a P.S.A. test?`
+Question: `Have you ever had a P.S.A. test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3842,15 +3842,15 @@ Question: `Have you ever had a P.S.A. test?`
 
 ### Time Since Most Recent PSA Test
 
-Label: `Time Since Most Recent PSA Test`
-Section Name: `Prostate Cancer Screening`
-Module Number: `12`
-Question Number: `2`
-Column: `327`
-Type of Variable: `Num`
-SAS Variable Name: `PSATIME1`
+Label: `Time Since Most Recent PSA Test`  
+Section Name: `Prostate Cancer Screening`  
+Module Number: `12`  
+Question Number: `2`  
+Column: `327`  
+Type of Variable: `Num`  
+SAS Variable Name: `PSATIME1`  
 Question Prologue: 
-Question: `About how long has it been since your most recent P.S.A. test?`
+Question: `About how long has it been since your most recent P.S.A. test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3867,15 +3867,15 @@ Question: `About how long has it been since your most recent P.S.A. test?`
 
 ### What was the MAIN reason you had this PSA test?
 
-Label: `What was the MAIN reason you had this PSA test?`
-Section Name: `Prostate Cancer Screening`
-Module Number: `12`
-Question Number: `3`
-Column: `328`
-Type of Variable: `Num`
-SAS Variable Name: `PCPSARS2`
+Label: `What was the MAIN reason you had this PSA test?`  
+Section Name: `Prostate Cancer Screening`  
+Module Number: `12`  
+Question Number: `3`  
+Column: `328`  
+Type of Variable: `Num`  
+SAS Variable Name: `PCPSARS2`  
 Question Prologue: 
-Question: `What was the main reason you had this P.S.A. test - was it...?`
+Question: `What was the main reason you had this P.S.A. test - was it...?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3890,15 +3890,15 @@ Question: `What was the main reason you had this P.S.A. test - was it...?`
 
 ### Who first suggested this PSA test?
 
-Label: `Who first suggested this PSA test?`
-Section Name: `Prostate Cancer Screening`
-Module Number: `12`
-Question Number: `4`
-Column: `329`
-Type of Variable: `Num`
-SAS Variable Name: `PSASUGST`
+Label: `Who first suggested this PSA test?`  
+Section Name: `Prostate Cancer Screening`  
+Module Number: `12`  
+Question Number: `4`  
+Column: `329`  
+Type of Variable: `Num`  
+SAS Variable Name: `PSASUGST`  
 Question Prologue: 
-Question: `Who first suggested this PSA test: you, your doctor, or someone else?`
+Question: `Who first suggested this PSA test: you, your doctor, or someone else?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3913,15 +3913,15 @@ Question: `Who first suggested this PSA test: you, your doctor, or someone else?
 
 ### Did you talk about the advantages or disadvantages of P.S.A. test
 
-Label: `Did you talk about the advantages or disadvantages of P.S.A. test`
-Section Name: `Prostate Cancer Screening`
-Module Number: `12`
-Question Number: `5`
-Column: `330`
-Type of Variable: `Num`
-SAS Variable Name: `PCSTALK1`
+Label: `Did you talk about the advantages or disadvantages of P.S.A. test`  
+Section Name: `Prostate Cancer Screening`  
+Module Number: `12`  
+Question Number: `5`  
+Column: `330`  
+Type of Variable: `Num`  
+SAS Variable Name: `PCSTALK1`  
 Question Prologue: 
-Question: `When you met with a doctor, nurse, or other health professional, did they talk about the advantages, the disadvantages, or both advantages and disadvantages of the prostate-specific antigen or P.S.A. test?`
+Question: `When you met with a doctor, nurse, or other health professional, did they talk about the advantages, the disadvantages, or both advantages and disadvantages of the prostate-specific antigen or P.S.A. test?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3939,15 +3939,15 @@ Question: `When you met with a doctor, nurse, or other health professional, did 
 
 ### Have you experienced confusion or memory loss that is happening more often or is getting worse?
 
-Label: `Have you experienced confusion or memory loss that is happening more often or is getting worse?`
-Section Name: `Cognitive Decline`
-Module Number: `13`
-Question Number: `1`
-Column: `331`
-Type of Variable: `Num`
-SAS Variable Name: `CIMEMLOS`
+Label: `Have you experienced confusion or memory loss that is happening more often or is getting worse?`  
+Section Name: `Cognitive Decline`  
+Module Number: `13`  
+Question Number: `1`  
+Column: `331`  
+Type of Variable: `Num`  
+SAS Variable Name: `CIMEMLOS`  
 Question Prologue: 
-Question: `During the past 12 months, have you experienced confusion or memory loss that is happening more often or is getting worse?`
+Question: `During the past 12 months, have you experienced confusion or memory loss that is happening more often or is getting worse?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3961,15 +3961,15 @@ Question: `During the past 12 months, have you experienced confusion or memory l
 
 ### Given up day-to-day chores due to confusion or memory loss
 
-Label: `Given up day-to-day chores due to confusion or memory loss`
-Section Name: `Cognitive Decline`
-Module Number: `13`
-Question Number: `2`
-Column: `332`
-Type of Variable: `Num`
-SAS Variable Name: `CDHOUSE`
+Label: `Given up day-to-day chores due to confusion or memory loss`  
+Section Name: `Cognitive Decline`  
+Module Number: `13`  
+Question Number: `2`  
+Column: `332`  
+Type of Variable: `Num`  
+SAS Variable Name: `CDHOUSE`  
 Question Prologue: 
-Question: `During the past 12 months, as a result of confusion or memory loss, how often have you given up day-to-day household activities or chores you used to do, such as cooking, cleaning, taking medications, driving, or paying bills?`
+Question: `During the past 12 months, as a result of confusion or memory loss, how often have you given up day-to-day household activities or chores you used to do, such as cooking, cleaning, taking medications, driving, or paying bills?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -3986,15 +3986,15 @@ Question: `During the past 12 months, as a result of confusion or memory loss, h
 
 ### Need assistance with day-to_day activities due to confusion or memory loss
 
-Label: `Need assistance with day-to_day activities due to confusion or memory loss`
-Section Name: `Cognitive Decline`
-Module Number: `13`
-Question Number: `3`
-Column: `333`
-Type of Variable: `Num`
-SAS Variable Name: `CDASSIST`
+Label: `Need assistance with day-to_day activities due to confusion or memory loss`  
+Section Name: `Cognitive Decline`  
+Module Number: `13`  
+Question Number: `3`  
+Column: `333`  
+Type of Variable: `Num`  
+SAS Variable Name: `CDASSIST`  
 Question Prologue: 
-Question: `As a result of confusion or memory loss, how often do you need assistance with these day-to-day activities?`
+Question: `As a result of confusion or memory loss, how often do you need assistance with these day-to-day activities?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4011,15 +4011,15 @@ Question: `As a result of confusion or memory loss, how often do you need assist
 
 ### When you need help with day-to-day activities are you able to get it
 
-Label: `When you need help with day-to-day activities are you able to get it`
-Section Name: `Cognitive Decline`
-Module Number: `13`
-Question Number: `4`
-Column: `334`
-Type of Variable: `Num`
-SAS Variable Name: `CDHELP`
+Label: `When you need help with day-to-day activities are you able to get it`  
+Section Name: `Cognitive Decline`  
+Module Number: `13`  
+Question Number: `4`  
+Column: `334`  
+Type of Variable: `Num`  
+SAS Variable Name: `CDHELP`  
 Question Prologue: 
-Question: `When you need help with these day-to-day activities, how often are you able to get the help that you need?`
+Question: `When you need help with these day-to-day activities, how often are you able to get the help that you need?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4036,15 +4036,15 @@ Question: `When you need help with these day-to-day activities, how often are yo
 
 ### Does confusion or memory loss interfere with work or social activities
 
-Label: `Does confusion or memory loss interfere with work or social activities`
-Section Name: `Cognitive Decline`
-Module Number: `13`
-Question Number: `5`
-Column: `335`
-Type of Variable: `Num`
-SAS Variable Name: `CDSOCIAL`
+Label: `Does confusion or memory loss interfere with work or social activities`  
+Section Name: `Cognitive Decline`  
+Module Number: `13`  
+Question Number: `5`  
+Column: `335`  
+Type of Variable: `Num`  
+SAS Variable Name: `CDSOCIAL`  
 Question Prologue: 
-Question: `During the past 12 months, how often has confusion or memory loss interfered with your ability to work, volunteer, or engage in social activities outside the home?`
+Question: `During the past 12 months, how often has confusion or memory loss interfered with your ability to work, volunteer, or engage in social activities outside the home?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4061,15 +4061,15 @@ Question: `During the past 12 months, how often has confusion or memory loss int
 
 ### Have you discussed your confusion or memory loss with a health care professional?
 
-Label: `Have you discussed your confusion or memory loss with a health care professional?`
-Section Name: `Cognitive Decline`
-Module Number: `13`
-Question Number: `6`
-Column: `336`
-Type of Variable: `Num`
-SAS Variable Name: `CDDISCUS`
+Label: `Have you discussed your confusion or memory loss with a health care professional?`  
+Section Name: `Cognitive Decline`  
+Module Number: `13`  
+Question Number: `6`  
+Column: `336`  
+Type of Variable: `Num`  
+SAS Variable Name: `CDDISCUS`  
 Question Prologue: 
-Question: `Have you or anyone else discussed your confusion or memory loss with a health care professional?`
+Question: `Have you or anyone else discussed your confusion or memory loss with a health care professional?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4085,15 +4085,15 @@ Question: `Have you or anyone else discussed your confusion or memory loss with 
 
 ### Provided regular care for family or friend
 
-Label: `Provided regular care for family or friend`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `1`
-Column: `337`
-Type of Variable: `Num`
-SAS Variable Name: `CAREGIV1`
+Label: `Provided regular care for family or friend`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `1`  
+Column: `337`  
+Type of Variable: `Num`  
+SAS Variable Name: `CAREGIV1`  
 Question Prologue: 
-Question: `During the past 30 days, did you provide regular care or assistance to a friend or family member who has a health problem or disability?`
+Question: `During the past 30 days, did you provide regular care or assistance to a friend or family member who has a health problem or disability?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4108,15 +4108,15 @@ Question: `During the past 30 days, did you provide regular care or assistance t
 
 ### Relationship Of Person To Whom You Are Giving Care?
 
-Label: `Relationship Of Person To Whom You Are Giving Care?`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `2`
-Column: `338-339`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVREL4`
+Label: `Relationship Of Person To Whom You Are Giving Care?`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `2`  
+Column: `338-339`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVREL4`  
 Question Prologue: 
-Question: `What is his or her relationship to you?`
+Question: `What is his or her relationship to you?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4143,15 +4143,15 @@ Question: `What is his or her relationship to you?`
 
 ### How Long Provided Care For Person.
 
-Label: `How Long Provided Care For Person.`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `3`
-Column: `340`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVLNG1`
+Label: `How Long Provided Care For Person.`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `3`  
+Column: `340`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVLNG1`  
 Question Prologue: 
-Question: `For how long have you provided care for that person?`
+Question: `For how long have you provided care for that person?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4168,15 +4168,15 @@ Question: `For how long have you provided care for that person?`
 
 ### How Many Hours Do You Provide Care For Person?
 
-Label: `How Many Hours Do You Provide Care For Person?`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `4`
-Column: `341`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVHRS1`
+Label: `How Many Hours Do You Provide Care For Person?`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `4`  
+Column: `341`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVHRS1`  
 Question Prologue: 
-Question: `In an average week, how many hours do you provide care or assistance?`
+Question: `In an average week, how many hours do you provide care or assistance?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4192,15 +4192,15 @@ Question: `In an average week, how many hours do you provide care or assistance?
 
 ### What Is The Major Health Problem, Illness, Disability For Care For Person?
 
-Label: `What Is The Major Health Problem, Illness, Disability For Care For Person?`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `5`
-Column: `342-343`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVPRB3`
+Label: `What Is The Major Health Problem, Illness, Disability For Care For Person?`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `5`  
+Column: `342-343`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVPRB3`  
 Question Prologue: 
-Question: `What is the main health problem, long-term illness, or disability that the person you care for has?`
+Question: `What is the main health problem, long-term illness, or disability that the person you care for has?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4227,15 +4227,15 @@ Question: `What is the main health problem, long-term illness, or disability tha
 
 ### Does Person Being Cared For Have Alzheimer's Disease?
 
-Label: `Does Person Being Cared For Have Alzheimer's Disease?`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `6`
-Column: `344`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVALZD`
+Label: `Does Person Being Cared For Have Alzheimer's Disease?`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `6`  
+Column: `344`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVALZD`  
 Question Prologue: 
-Question: `Does the person you care for also have Alzheimer's disease, dementia or other cognitive impairment disorder?`
+Question: `Does the person you care for also have Alzheimer's disease, dementia or other cognitive impairment disorder?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4249,15 +4249,15 @@ Question: `Does the person you care for also have Alzheimer's disease, dementia 
 
 ### Managed personal care
 
-Label: `Managed personal care`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `7`
-Column: `345`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVPER1`
+Label: `Managed personal care`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `7`  
+Column: `345`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVPER1`  
 Question Prologue: 
-Question: `In the past 30 days, did you provide care for this person by managing personal care such as giving medications, feeding, dressing, or bathing?`
+Question: `In the past 30 days, did you provide care for this person by managing personal care such as giving medications, feeding, dressing, or bathing?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4271,15 +4271,15 @@ Question: `In the past 30 days, did you provide care for this person by managing
 
 ### Managed household tasks
 
-Label: `Managed household tasks`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `8`
-Column: `346`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVHOU1`
+Label: `Managed household tasks`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `8`  
+Column: `346`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVHOU1`  
 Question Prologue: 
-Question: `In the past 30 days, did you provide care for this person by managing household tasks such as cleaning, managing money, or preparing meals?`
+Question: `In the past 30 days, did you provide care for this person by managing household tasks such as cleaning, managing money, or preparing meals?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4293,15 +4293,15 @@ Question: `In the past 30 days, did you provide care for this person by managing
 
 ### Do you expect to have a relative you will need to provide care for?
 
-Label: `Do you expect to have a relative you will need to provide care for?`
-Section Name: `Caregiver`
-Module Number: `14`
-Question Number: `9`
-Column: `347`
-Type of Variable: `Num`
-SAS Variable Name: `CRGVEXPT`
+Label: `Do you expect to have a relative you will need to provide care for?`  
+Section Name: `Caregiver`  
+Module Number: `14`  
+Question Number: `9`  
+Column: `347`  
+Type of Variable: `Num`  
+SAS Variable Name: `CRGVEXPT`  
 Question Prologue: 
-Question: `In the next 2 years, do you expect to provide care or assistance to a friend or family member who has a health problem or disability?`
+Question: `In the next 2 years, do you expect to provide care or assistance to a friend or family member who has a health problem or disability?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4317,15 +4317,15 @@ Question: `In the next 2 years, do you expect to provide care or assistance to a
 
 ### Live With Anyone Depressed, Mentally Ill, Or Suicidal?
 
-Label: `Live With Anyone Depressed, Mentally Ill, Or Suicidal?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `1`
-Column: `348`
-Type of Variable: `Num`
-SAS Variable Name: `ACEDEPRS`
+Label: `Live With Anyone Depressed, Mentally Ill, Or Suicidal?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `1`  
+Column: `348`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEDEPRS`  
 Question Prologue: 
-Question: `Did you live with anyone who was depressed, mentally ill, or suicidal?`
+Question: `Did you live with anyone who was depressed, mentally ill, or suicidal?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4339,15 +4339,15 @@ Question: `Did you live with anyone who was depressed, mentally ill, or suicidal
 
 ### Live With a Problem Drinker/Alcoholic?
 
-Label: `Live With a Problem Drinker/Alcoholic?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `2`
-Column: `349`
-Type of Variable: `Num`
-SAS Variable Name: `ACEDRINK`
+Label: `Live With a Problem Drinker/Alcoholic?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `2`  
+Column: `349`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEDRINK`  
 Question Prologue: 
-Question: `Did you live with anyone who was a problem drinker or alcoholic?`
+Question: `Did you live with anyone who was a problem drinker or alcoholic?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4361,15 +4361,15 @@ Question: `Did you live with anyone who was a problem drinker or alcoholic?`
 
 ### Live With Anyone Who Used Illegal Drugs or Abused Prescriptions?
 
-Label: `Live With Anyone Who Used Illegal Drugs or Abused Prescriptions?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `3`
-Column: `350`
-Type of Variable: `Num`
-SAS Variable Name: `ACEDRUGS`
+Label: `Live With Anyone Who Used Illegal Drugs or Abused Prescriptions?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `3`  
+Column: `350`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEDRUGS`  
 Question Prologue: 
-Question: `Did you live with anyone who used illegal street drugs or who abused prescription medications?`
+Question: `Did you live with anyone who used illegal street drugs or who abused prescription medications?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4383,15 +4383,15 @@ Question: `Did you live with anyone who used illegal street drugs or who abused 
 
 ### Live With Anyone Who Served TIme in Prison or Jail?
 
-Label: `Live With Anyone Who Served TIme in Prison or Jail?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `4`
-Column: `351`
-Type of Variable: `Num`
-SAS Variable Name: `ACEPRISN`
+Label: `Live With Anyone Who Served TIme in Prison or Jail?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `4`  
+Column: `351`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEPRISN`  
 Question Prologue: 
-Question: `Did you live with anyone who served time or was sentenced to serve time in a prison, jail, or other correctional facility?`
+Question: `Did you live with anyone who served time or was sentenced to serve time in a prison, jail, or other correctional facility?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4405,15 +4405,15 @@ Question: `Did you live with anyone who served time or was sentenced to serve ti
 
 ### Were Your Parents Divorced/Seperated?
 
-Label: `Were Your Parents Divorced/Seperated?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `5`
-Column: `352`
-Type of Variable: `Num`
-SAS Variable Name: `ACEDIVRC`
+Label: `Were Your Parents Divorced/Seperated?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `5`  
+Column: `352`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEDIVRC`  
 Question Prologue: 
-Question: `Were your parents separated or divorced?`
+Question: `Were your parents separated or divorced?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4428,15 +4428,15 @@ Question: `Were your parents separated or divorced?`
 
 ### How Often Did Your Parents Beat Each Other Up?
 
-Label: `How Often Did Your Parents Beat Each Other Up?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `6`
-Column: `353`
-Type of Variable: `Num`
-SAS Variable Name: `ACEPUNCH`
+Label: `How Often Did Your Parents Beat Each Other Up?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `6`  
+Column: `353`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEPUNCH`  
 Question Prologue: 
-Question: `How often did your parents or adults in your home ever slap, hit, kick, punch or beat each other up?`
+Question: `How often did your parents or adults in your home ever slap, hit, kick, punch or beat each other up?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4451,15 +4451,15 @@ Question: `How often did your parents or adults in your home ever slap, hit, kic
 
 ### How Often Did A Parent Physically Hurt You In Any Way?
 
-Label: `How Often Did A Parent Physically Hurt You In Any Way?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `7`
-Column: `354`
-Type of Variable: `Num`
-SAS Variable Name: `ACEHURT1`
+Label: `How Often Did A Parent Physically Hurt You In Any Way?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `7`  
+Column: `354`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEHURT1`  
 Question Prologue: 
-Question: `Not including spanking, (before age 18), how often did a parent or adult in your home ever hit, beat, kick, or physically hurt you in any way? Was it...`
+Question: `Not including spanking, (before age 18), how often did a parent or adult in your home ever hit, beat, kick, or physically hurt you in any way? Was it...`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4474,15 +4474,15 @@ Question: `Not including spanking, (before age 18), how often did a parent or ad
 
 ### How Often Did A Parent Swear At You?
 
-Label: `How Often Did A Parent Swear At You?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `8`
-Column: `355`
-Type of Variable: `Num`
-SAS Variable Name: `ACESWEAR`
+Label: `How Often Did A Parent Swear At You?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `8`  
+Column: `355`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACESWEAR`  
 Question Prologue: 
-Question: `How often did a parent or adult in your home ever swear at you, insult you, or put you down?`
+Question: `How often did a parent or adult in your home ever swear at you, insult you, or put you down?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4497,15 +4497,15 @@ Question: `How often did a parent or adult in your home ever swear at you, insul
 
 ### How Often Did Anyone Ever Touch You Sexually?
 
-Label: `How Often Did Anyone Ever Touch You Sexually?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `9`
-Column: `356`
-Type of Variable: `Num`
-SAS Variable Name: `ACETOUCH`
+Label: `How Often Did Anyone Ever Touch You Sexually?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `9`  
+Column: `356`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACETOUCH`  
 Question Prologue: 
-Question: `How often did anyone at least 5 years older than you or an adult, ever touch you sexually?`
+Question: `How often did anyone at least 5 years older than you or an adult, ever touch you sexually?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4520,15 +4520,15 @@ Question: `How often did anyone at least 5 years older than you or an adult, eve
 
 ### How Often Did Anyone Make You Touch Them Sexually?
 
-Label: `How Often Did Anyone Make You Touch Them Sexually?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `10`
-Column: `357`
-Type of Variable: `Num`
-SAS Variable Name: `ACETTHEM`
+Label: `How Often Did Anyone Make You Touch Them Sexually?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `10`  
+Column: `357`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACETTHEM`  
 Question Prologue: 
-Question: `How often did anyone at least 5 years older than you or an adult, try to make you touch them sexually?`
+Question: `How often did anyone at least 5 years older than you or an adult, try to make you touch them sexually?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4543,15 +4543,15 @@ Question: `How often did anyone at least 5 years older than you or an adult, try
 
 ### How Often Did Anyone Ever Force You to Have Sex?
 
-Label: `How Often Did Anyone Ever Force You to Have Sex?`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `11`
-Column: `358`
-Type of Variable: `Num`
-SAS Variable Name: `ACEHVSEX`
+Label: `How Often Did Anyone Ever Force You to Have Sex?`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `11`  
+Column: `358`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEHVSEX`  
 Question Prologue: 
-Question: `How often did anyone at least 5 years older than you or an adult, force you to have sex?`
+Question: `How often did anyone at least 5 years older than you or an adult, force you to have sex?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4566,15 +4566,15 @@ Question: `How often did anyone at least 5 years older than you or an adult, for
 
 ### Did an adult make you feel safe and protected
 
-Label: `Did an adult make you feel safe and protected`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `12`
-Column: `359`
-Type of Variable: `Num`
-SAS Variable Name: `ACEADSAF`
+Label: `Did an adult make you feel safe and protected`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `12`  
+Column: `359`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEADSAF`  
 Question Prologue: 
-Question: `For how much of your childhood was there an adult in your household who made you feel safe and protected? Would you say never, a little of the time, some of the time, most of the time, or all of the time?`
+Question: `For how much of your childhood was there an adult in your household who made you feel safe and protected? Would you say never, a little of the time, some of the time, most of the time, or all of the time?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4591,15 +4591,15 @@ Question: `For how much of your childhood was there an adult in your household w
 
 ### Did an adult make sure basic needs were met
 
-Label: `Did an adult make sure basic needs were met`
-Section Name: `Adverse Childhood Experiences`
-Module Number: `15`
-Question Number: `13`
-Column: `360`
-Type of Variable: `Num`
-SAS Variable Name: `ACEADNED`
+Label: `Did an adult make sure basic needs were met`  
+Section Name: `Adverse Childhood Experiences`  
+Module Number: `15`  
+Question Number: `13`  
+Column: `360`  
+Type of Variable: `Num`  
+SAS Variable Name: `ACEADNED`  
 Question Prologue: 
-Question: `For how much of your childhood was there an adult in your household who tried hard to make sure your basic needs were met? Would you say never, a little of the time, some of the time, most of the time, or all of the time?`
+Question: `For how much of your childhood was there an adult in your household who tried hard to make sure your basic needs were met? Would you say never, a little of the time, some of the time, most of the time, or all of the time?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4618,15 +4618,15 @@ Question: `For how much of your childhood was there an adult in your household w
 
 ### Satisfaction with life
 
-Label: `Satisfaction with life`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `1`
-Column: `361`
-Type of Variable: `Num`
-SAS Variable Name: `LSATISFY`
+Label: `Satisfaction with life`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `1`  
+Column: `361`  
+Type of Variable: `Num`  
+SAS Variable Name: `LSATISFY`  
 Question Prologue: 
-Question: `In general, how satisfied are you with your life?`
+Question: `In general, how satisfied are you with your life?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4642,15 +4642,15 @@ Question: `In general, how satisfied are you with your life?`
 
 ### How often get emotional support needed
 
-Label: `How often get emotional support needed`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `2`
-Column: `362`
-Type of Variable: `Num`
-SAS Variable Name: `EMTSUPRT`
+Label: `How often get emotional support needed`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `2`  
+Column: `362`  
+Type of Variable: `Num`  
+SAS Variable Name: `EMTSUPRT`  
 Question Prologue: 
-Question: `How often do you get the social and emotional support you need?`
+Question: `How often do you get the social and emotional support you need?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4667,15 +4667,15 @@ Question: `How often do you get the social and emotional support you need?`
 
 ### How often do you feel socially isolated from others?
 
-Label: `How often do you feel socially isolated from others?`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `3`
-Column: `363`
-Type of Variable: `Num`
-SAS Variable Name: `SDHISOLT`
+Label: `How often do you feel socially isolated from others?`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `3`  
+Column: `363`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHISOLT`  
 Question Prologue: 
-Question: `How often do you feel socially isolated from others?  Is it...`
+Question: `How often do you feel socially isolated from others?  Is it...`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4692,15 +4692,15 @@ Question: `How often do you feel socially isolated from others?  Is it...`
 
 ### Have you lost employment or had hours reduced?
 
-Label: `Have you lost employment or had hours reduced?`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `4`
-Column: `364`
-Type of Variable: `Num`
-SAS Variable Name: `SDHEMPLY`
+Label: `Have you lost employment or had hours reduced?`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `4`  
+Column: `364`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHEMPLY`  
 Question Prologue: 
-Question: `In the past 12 months have you lost employment or had hours reduced?`
+Question: `In the past 12 months have you lost employment or had hours reduced?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4714,15 +4714,15 @@ Question: `In the past 12 months have you lost employment or had hours reduced?`
 
 ### During the past 12 months have you received food stamps
 
-Label: `During the past 12 months have you received food stamps`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `5`
-Column: `365`
-Type of Variable: `Num`
-SAS Variable Name: `FOODSTMP`
+Label: `During the past 12 months have you received food stamps`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `5`  
+Column: `365`  
+Type of Variable: `Num`  
+SAS Variable Name: `FOODSTMP`  
 Question Prologue: 
-Question: `During the past 12 months, have you received food stamps, also called SNAP, the Supplemental Nutrition Assistance Program on an EBT card?`
+Question: `During the past 12 months, have you received food stamps, also called SNAP, the Supplemental Nutrition Assistance Program on an EBT card?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4736,15 +4736,15 @@ Question: `During the past 12 months, have you received food stamps, also called
 
 ### How often did the food that you bought not last, and you didn't have money to get more?
 
-Label: `How often did the food that you bought not last, and you didn't have money to get more?`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `6`
-Column: `366`
-Type of Variable: `Num`
-SAS Variable Name: `SDHFOOD1`
+Label: `How often did the food that you bought not last, and you didn't have money to get more?`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `6`  
+Column: `366`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHFOOD1`  
 Question Prologue: 
-Question: `During the past 12 months how often did the food that you bought not last, and you didn't have money to get more? Was that...`
+Question: `During the past 12 months how often did the food that you bought not last, and you didn't have money to get more? Was that...`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4761,15 +4761,15 @@ Question: `During the past 12 months how often did the food that you bought not 
 
 ### Were you not able to pay your bills?
 
-Label: `Were you not able to pay your bills?`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `7`
-Column: `367`
-Type of Variable: `Num`
-SAS Variable Name: `SDHBILLS`
+Label: `Were you not able to pay your bills?`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `7`  
+Column: `367`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHBILLS`  
 Question Prologue: 
-Question: `During the last 12 months, was there a time when you were not able to pay your mortgage, rent or utility bills?`
+Question: `During the last 12 months, was there a time when you were not able to pay your mortgage, rent or utility bills?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4783,15 +4783,15 @@ Question: `During the last 12 months, was there a time when you were not able to
 
 ### Were you not able to pay utility bills or threatened to lose service?
 
-Label: `Were you not able to pay utility bills or threatened to lose service?`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `8`
-Column: `368`
-Type of Variable: `Num`
-SAS Variable Name: `SDHUTILS`
+Label: `Were you not able to pay utility bills or threatened to lose service?`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `8`  
+Column: `368`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHUTILS`  
 Question Prologue: 
-Question: `During the last 12 months was there a time when an electric, gas, oil, or water company threatened to shut off services?`
+Question: `During the last 12 months was there a time when an electric, gas, oil, or water company threatened to shut off services?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4805,15 +4805,15 @@ Question: `During the last 12 months was there a time when an electric, gas, oil
 
 ### Has a lack of reliable transportation kept you from appointments, meetings, work, or getting things needed
 
-Label: `Has a lack of reliable transportation kept you from appointments, meetings, work, or getting things needed`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `9`
-Column: `369`
-Type of Variable: `Num`
-SAS Variable Name: `SDHTRNSP`
+Label: `Has a lack of reliable transportation kept you from appointments, meetings, work, or getting things needed`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `9`  
+Column: `369`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHTRNSP`  
 Question Prologue: 
-Question: `During the past 12 months has a lack of reliable transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living?`
+Question: `During the past 12 months has a lack of reliable transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4827,15 +4827,15 @@ Question: `During the past 12 months has a lack of reliable transportation kept 
 
 ### How often have you felt this kind of stress?
 
-Label: `How often have you felt this kind of stress?`
-Section Name: `Social Determinants and Health Equity`
-Module Number: `16`
-Question Number: `10`
-Column: `370`
-Type of Variable: `Num`
-SAS Variable Name: `SDHSTRE1`
-Question Prologue: `Stress means a situation in which a person feels tense, restless, nervous, or anxious, or is unable to sleep at night because his/her mind is troubled all the time.`
-Question: `Within the last 30 days, how often have you felt this kind of stress?`
+Label: `How often have you felt this kind of stress?`  
+Section Name: `Social Determinants and Health Equity`  
+Module Number: `16`  
+Question Number: `10`  
+Column: `370`  
+Type of Variable: `Num`  
+SAS Variable Name: `SDHSTRE1`  
+Question Prologue: `Stress means a situation in which a person feels tense, restless, nervous, or anxious, or is unable to sleep at night because his/her mind is troubled all the time.`  
+Question: `Within the last 30 days, how often have you felt this kind of stress?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4854,15 +4854,15 @@ Question: `Within the last 30 days, how often have you felt this kind of stress?
 
 ### During the past 30 days, on how many days did you use marijuana or hashish?
 
-Label: `During the past 30 days, on how many days did you use marijuana or hashish?`
-Section Name: `Marijuana Use`
-Module Number: `17`
-Question Number: `1`
-Column: `371-372`
-Type of Variable: `Num`
-SAS Variable Name: `MARIJAN1`
+Label: `During the past 30 days, on how many days did you use marijuana or hashish?`  
+Section Name: `Marijuana Use`  
+Module Number: `17`  
+Question Number: `1`  
+Column: `371-372`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARIJAN1`  
 Question Prologue: 
-Question: `During the past 30 days, on how many days did you use marijuana or cannabis?`
+Question: `During the past 30 days, on how many days did you use marijuana or cannabis?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4876,15 +4876,15 @@ Question: `During the past 30 days, on how many days did you use marijuana or ca
 
 ### Did you smoke marijuana or cannabis?
 
-Label: `Did you smoke marijuana or cannabis?`
-Section Name: `Marijuana Use`
-Module Number: `17`
-Question Number: `2`
-Column: `373`
-Type of Variable: `Num`
-SAS Variable Name: `MARJSMOK`
+Label: `Did you smoke marijuana or cannabis?`  
+Section Name: `Marijuana Use`  
+Module Number: `17`  
+Question Number: `2`  
+Column: `373`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARJSMOK`  
 Question Prologue: 
-Question: `During the past 30 days, did you smoke it (for example, in a joint, bong, pipe, or blunt)?`
+Question: `During the past 30 days, did you smoke it (for example, in a joint, bong, pipe, or blunt)?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4898,15 +4898,15 @@ Question: `During the past 30 days, did you smoke it (for example, in a joint, b
 
 ### Did you eat marijuana or cannabis?
 
-Label: `Did you eat marijuana or cannabis?`
-Section Name: `Marijuana Use`
-Module Number: `17`
-Question Number: `3`
-Column: `374`
-Type of Variable: `Num`
-SAS Variable Name: `MARJEAT`
+Label: `Did you eat marijuana or cannabis?`  
+Section Name: `Marijuana Use`  
+Module Number: `17`  
+Question Number: `3`  
+Column: `374`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARJEAT`  
 Question Prologue: 
-Question: `eat it or drink it (for example, in brownies, cakes, cookies, or candy, or in tea, cola, or alcohol)?`
+Question: `eat it or drink it (for example, in brownies, cakes, cookies, or candy, or in tea, cola, or alcohol)?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4920,15 +4920,15 @@ Question: `eat it or drink it (for example, in brownies, cakes, cookies, or cand
 
 ### Did you vape marijuana or cannabis?
 
-Label: `Did you vape marijuana or cannabis?`
-Section Name: `Marijuana Use`
-Module Number: `17`
-Question Number: `4`
-Column: `375`
-Type of Variable: `Num`
-SAS Variable Name: `MARJVAPE`
+Label: `Did you vape marijuana or cannabis?`  
+Section Name: `Marijuana Use`  
+Module Number: `17`  
+Question Number: `4`  
+Column: `375`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARJVAPE`  
 Question Prologue: 
-Question: `vaporize it (for example, in an e-cigarette-like vaporizer or another vaporizing device)`
+Question: `vaporize it (for example, in an e-cigarette-like vaporizer or another vaporizing device)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4942,15 +4942,15 @@ Question: `vaporize it (for example, in an e-cigarette-like vaporizer or another
 
 ### Did you dab marijuana or cannabis?
 
-Label: `Did you dab marijuana or cannabis?`
-Section Name: `Marijuana Use`
-Module Number: `17`
-Question Number: `5`
-Column: `376`
-Type of Variable: `Num`
-SAS Variable Name: `MARJDAB`
+Label: `Did you dab marijuana or cannabis?`  
+Section Name: `Marijuana Use`  
+Module Number: `17`  
+Question Number: `5`  
+Column: `376`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARJDAB`  
 Question Prologue: 
-Question: `dab it (for example, using a dabbing rig, knife, or dab pen)?`
+Question: `dab it (for example, using a dabbing rig, knife, or dab pen)?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4964,15 +4964,15 @@ Question: `dab it (for example, using a dabbing rig, knife, or dab pen)?`
 
 ### Did you use marijuana or cannabis some other way?
 
-Label: `Did you use marijuana or cannabis some other way?`
-Section Name: `Marijuana Use`
-Module Number: `17`
-Question Number: `6`
-Column: `377`
-Type of Variable: `Num`
-SAS Variable Name: `MARJOTHR`
+Label: `Did you use marijuana or cannabis some other way?`  
+Section Name: `Marijuana Use`  
+Module Number: `17`  
+Question Number: `6`  
+Column: `377`  
+Type of Variable: `Num`  
+SAS Variable Name: `MARJOTHR`  
 Question Prologue: 
-Question: `use it in some other way?`
+Question: `use it in some other way?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -4988,15 +4988,15 @@ Question: `use it in some other way?`
 
 ### Interval Since Last Smoked
 
-Label: `Interval Since Last Smoked`
-Section Name: `Tobacco Cessation`
-Module Number: `18`
-Question Number: `1`
-Column: `379-380`
-Type of Variable: `Num`
-SAS Variable Name: `LASTSMK2`
+Label: `Interval Since Last Smoked`  
+Section Name: `Tobacco Cessation`  
+Module Number: `18`  
+Question Number: `1`  
+Column: `379-380`  
+Type of Variable: `Num`  
+SAS Variable Name: `LASTSMK2`  
 Question Prologue: 
-Question: `How long has it been since you last smoked a cigarette, even one or two puffs?`
+Question: `How long has it been since you last smoked a cigarette, even one or two puffs?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5016,15 +5016,15 @@ Question: `How long has it been since you last smoked a cigarette, even one or t
 
 ### Stopped Smoking in past 12 months
 
-Label: `Stopped Smoking in past 12 months`
-Section Name: `Tobacco Cessation`
-Module Number: `18`
-Question Number: `2`
-Column: `381`
-Type of Variable: `Num`
-SAS Variable Name: `STOPSMK2`
+Label: `Stopped Smoking in past 12 months`  
+Section Name: `Tobacco Cessation`  
+Module Number: `18`  
+Question Number: `2`  
+Column: `381`  
+Type of Variable: `Num`  
+SAS Variable Name: `STOPSMK2`  
 Question Prologue: 
-Question: `During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking?`
+Question: `During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5040,15 +5040,15 @@ Question: `During the past 12 months, have you stopped smoking for one day or lo
 
 ### Do you usually smoke menthol cigarettes?
 
-Label: `Do you usually smoke menthol cigarettes?`
-Section Name: `Other Tobacco Use`
-Module Number: `19`
-Question Number: `1`
-Column: `382`
-Type of Variable: `Num`
-SAS Variable Name: `MENTCIGS`
+Label: `Do you usually smoke menthol cigarettes?`  
+Section Name: `Other Tobacco Use`  
+Module Number: `19`  
+Question Number: `1`  
+Column: `382`  
+Type of Variable: `Num`  
+SAS Variable Name: `MENTCIGS`  
 Question Prologue: 
-Question: `Currently, when you smoke cigarettes, do you usually smoke menthol cigarettes?`
+Question: `Currently, when you smoke cigarettes, do you usually smoke menthol cigarettes?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5062,15 +5062,15 @@ Question: `Currently, when you smoke cigarettes, do you usually smoke menthol ci
 
 ### Do you usually use menthol e-cigarettes?
 
-Label: `Do you usually use menthol e-cigarettes?`
-Section Name: `Other Tobacco Use`
-Module Number: `19`
-Question Number: `2`
-Column: `383`
-Type of Variable: `Num`
-SAS Variable Name: `MENTECIG`
+Label: `Do you usually use menthol e-cigarettes?`  
+Section Name: `Other Tobacco Use`  
+Module Number: `19`  
+Question Number: `2`  
+Column: `383`  
+Type of Variable: `Num`  
+SAS Variable Name: `MENTECIG`  
 Question Prologue: 
-Question: `Currently, when you use e-cigarettes, do you usually use menthol e-cigarettes?`
+Question: `Currently, when you use e-cigarettes, do you usually use menthol e-cigarettes?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5084,15 +5084,15 @@ Question: `Currently, when you use e-cigarettes, do you usually use menthol e-ci
 
 ### Have you heard of heated tobacco products?
 
-Label: `Have you heard of heated tobacco products?`
-Section Name: `Other Tobacco Use`
-Module Number: `19`
-Question Number: `3`
-Column: `384`
-Type of Variable: `Num`
-SAS Variable Name: `HEATTBCO`
+Label: `Have you heard of heated tobacco products?`  
+Section Name: `Other Tobacco Use`  
+Module Number: `19`  
+Question Number: `3`  
+Column: `384`  
+Type of Variable: `Num`  
+SAS Variable Name: `HEATTBCO`  
 Question Prologue: 
-Question: `Before today, have you heard of heated tobacco products?`
+Question: `Before today, have you heard of heated tobacco products?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5108,15 +5108,15 @@ Question: `Before today, have you heard of heated tobacco products?`
 
 ### Asked during checkup if you drink alchohol
 
-Label: `Asked during checkup if you drink alchohol`
-Section Name: `Alcohol Screening & Brief Intervention (ASBI)`
-Module Number: `20`
-Question Number: `1`
-Column: `385`
-Type of Variable: `Num`
-SAS Variable Name: `ASBIALCH`
+Label: `Asked during checkup if you drink alchohol`  
+Section Name: `Alcohol Screening & Brief Intervention (ASBI)`  
+Module Number: `20`  
+Question Number: `1`  
+Column: `385`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASBIALCH`  
 Question Prologue: 
-Question: `You told me earlier that your last routine checkup was [within the past year/within the past 2 years]. At that checkup, were you asked in person or on a form if you drink alcohol?`
+Question: `You told me earlier that your last routine checkup was [within the past year/within the past 2 years]. At that checkup, were you asked in person or on a form if you drink alcohol?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5130,15 +5130,15 @@ Question: `You told me earlier that your last routine checkup was [within the pa
 
 ### Asked in person or by form how much you drink?
 
-Label: `Asked in person or by form how much you drink?`
-Section Name: `Alcohol Screening & Brief Intervention (ASBI)`
-Module Number: `20`
-Question Number: `2`
-Column: `386`
-Type of Variable: `Num`
-SAS Variable Name: `ASBIDRNK`
+Label: `Asked in person or by form how much you drink?`  
+Section Name: `Alcohol Screening & Brief Intervention (ASBI)`  
+Module Number: `20`  
+Question Number: `2`  
+Column: `386`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASBIDRNK`  
 Question Prologue: 
-Question: `Did the health care provider ask you in person or on a form how much you drink?`
+Question: `Did the health care provider ask you in person or on a form how much you drink?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5152,15 +5152,15 @@ Question: `Did the health care provider ask you in person or on a form how much 
 
 ### Asked whether you drank [5 FOR MEN /4 FOR WOMEN] or more alcoholic drinks on an occasion?
 
-Label: `Asked whether you drank [5 FOR MEN /4 FOR WOMEN] or more alcoholic drinks on an occasion?`
-Section Name: `Alcohol Screening & Brief Intervention (ASBI)`
-Module Number: `20`
-Question Number: `3`
-Column: `387`
-Type of Variable: `Num`
-SAS Variable Name: `ASBIBING`
+Label: `Asked whether you drank [5 FOR MEN /4 FOR WOMEN] or more alcoholic drinks on an occasion?`  
+Section Name: `Alcohol Screening & Brief Intervention (ASBI)`  
+Module Number: `20`  
+Question Number: `3`  
+Column: `387`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASBIBING`  
 Question Prologue: 
-Question: `Did the healthcare provider specifically ask whether you drank [5 FOR MEN /4 FOR WOMEN] or more alcoholic drinks on an occasion?`
+Question: `Did the healthcare provider specifically ask whether you drank [5 FOR MEN /4 FOR WOMEN] or more alcoholic drinks on an occasion?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5174,15 +5174,15 @@ Question: `Did the healthcare provider specifically ask whether you drank [5 FOR
 
 ### Offered advice about what level of drinking is harmful or risky?
 
-Label: `Offered advice about what level of drinking is harmful or risky?`
-Section Name: `Alcohol Screening & Brief Intervention (ASBI)`
-Module Number: `20`
-Question Number: `4`
-Column: `388`
-Type of Variable: `Num`
-SAS Variable Name: `ASBIADVC`
+Label: `Offered advice about what level of drinking is harmful or risky?`  
+Section Name: `Alcohol Screening & Brief Intervention (ASBI)`  
+Module Number: `20`  
+Question Number: `4`  
+Column: `388`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASBIADVC`  
 Question Prologue: 
-Question: `Were you offered advice about what level of drinking is harmful or risky for your health?`
+Question: `Were you offered advice about what level of drinking is harmful or risky for your health?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5196,15 +5196,15 @@ Question: `Were you offered advice about what level of drinking is harmful or ri
 
 ### Were you advised to reduce or quit your drinking?
 
-Label: `Were you advised to reduce or quit your drinking?`
-Section Name: `Alcohol Screening & Brief Intervention (ASBI)`
-Module Number: `20`
-Question Number: `5`
-Column: `389`
-Type of Variable: `Num`
-SAS Variable Name: `ASBIRDUC`
-Question Prologue: `Healthcare providers may also advise patients to drink less for various reasons.`
-Question: `At your last routine checkup, were you advised to reduce or quit your drinking?`
+Label: `Were you advised to reduce or quit your drinking?`  
+Section Name: `Alcohol Screening & Brief Intervention (ASBI)`  
+Module Number: `20`  
+Question Number: `5`  
+Column: `389`  
+Type of Variable: `Num`  
+SAS Variable Name: `ASBIRDUC`  
+Question Prologue: `Healthcare providers may also advise patients to drink less for various reasons.`  
+Question: `At your last routine checkup, were you advised to reduce or quit your drinking?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5220,15 +5220,15 @@ Question: `At your last routine checkup, were you advised to reduce or quit your
 
 ### Any Firearms in Home
 
-Label: `Any Firearms in Home`
-Section Name: `Firearm Safety`
-Module Number: `21`
-Question Number: `1`
-Column: `390`
-Type of Variable: `Num`
-SAS Variable Name: `FIREARM5`
+Label: `Any Firearms in Home`  
+Section Name: `Firearm Safety`  
+Module Number: `21`  
+Question Number: `1`  
+Column: `390`  
+Type of Variable: `Num`  
+SAS Variable Name: `FIREARM5`  
 Question Prologue: 
-Question: `Are any firearms now kept in or around your home?`
+Question: `Are any firearms now kept in or around your home?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5242,15 +5242,15 @@ Question: `Are any firearms now kept in or around your home?`
 
 ### Any Firearms Loaded
 
-Label: `Any Firearms Loaded`
-Section Name: `Firearm Safety`
-Module Number: `21`
-Question Number: `2`
-Column: `391`
-Type of Variable: `Num`
-SAS Variable Name: `GUNLOAD`
+Label: `Any Firearms Loaded`  
+Section Name: `Firearm Safety`  
+Module Number: `21`  
+Question Number: `2`  
+Column: `391`  
+Type of Variable: `Num`  
+SAS Variable Name: `GUNLOAD`  
 Question Prologue: 
-Question: `Are any of these firearms now loaded?`
+Question: `Are any of these firearms now loaded?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5264,15 +5264,15 @@ Question: `Are any of these firearms now loaded?`
 
 ### Any Loaded Firearms Also Unlocked
 
-Label: `Any Loaded Firearms Also Unlocked`
-Section Name: `Firearm Safety`
-Module Number: `21`
-Question Number: `3`
-Column: `392`
-Type of Variable: `Num`
-SAS Variable Name: `LOADULK2`
+Label: `Any Loaded Firearms Also Unlocked`  
+Section Name: `Firearm Safety`  
+Module Number: `21`  
+Question Number: `3`  
+Column: `392`  
+Type of Variable: `Num`  
+SAS Variable Name: `LOADULK2`  
 Question Prologue: 
-Question: `Are any of these loaded firearms also unlocked?`
+Question: `Are any of these loaded firearms also unlocked?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5288,15 +5288,15 @@ Question: `Are any of these loaded firearms also unlocked?`
 
 ### Gender of child
 
-Label: `Gender of child`
-Section Name: `Random Child Selection`
-Module Number: `23`
-Question Number: `2`
-Column: `599`
-Type of Variable: `Num`
-SAS Variable Name: `RCSGEND1`
+Label: `Gender of child`  
+Section Name: `Random Child Selection`  
+Module Number: `23`  
+Question Number: `2`  
+Column: `599`  
+Type of Variable: `Num`  
+SAS Variable Name: `RCSGEND1`  
 Question Prologue: 
-Question: `Is the child a boy or a girl?`
+Question: `Is the child a boy or a girl?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5310,15 +5310,15 @@ Question: `Is the child a boy or a girl?`
 
 ### Child's sex at birth
 
-Label: `Child's sex at birth`
-Section Name: `Random Child Selection`
-Module Number: `23`
-Question Number: `3`
-Column: `600`
-Type of Variable: `Num`
-SAS Variable Name: `RCSXBRTH`
+Label: `Child's sex at birth`  
+Section Name: `Random Child Selection`  
+Module Number: `23`  
+Question Number: `3`  
+Column: `600`  
+Type of Variable: `Num`  
+SAS Variable Name: `RCSXBRTH`  
 Question Prologue: 
-Question: `What was the child's sex on their original birth certificate?`
+Question: `What was the child's sex on their original birth certificate?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5332,15 +5332,15 @@ Question: `What was the child's sex on their original birth certificate?`
 
 ### Relationship to child
 
-Label: `Relationship to child`
-Section Name: `Random Child Selection`
-Module Number: `23`
-Question Number: `7`
-Column: `635`
-Type of Variable: `Num`
-SAS Variable Name: `RCSRLTN2`
+Label: `Relationship to child`  
+Section Name: `Random Child Selection`  
+Module Number: `23`  
+Question Number: `7`  
+Column: `635`  
+Type of Variable: `Num`  
+SAS Variable Name: `RCSRLTN2`  
 Question Prologue: 
-Question: `How are you related to the child?`
+Question: `How are you related to the child?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5360,15 +5360,15 @@ Question: `How are you related to the child?`
 
 ### Hlth pro ever said child has asthma
 
-Label: `Hlth pro ever said child has asthma`
-Section Name: `Childhood Asthma Prevalence`
-Module Number: `24`
-Question Number: `1`
-Column: `636`
-Type of Variable: `Num`
-SAS Variable Name: `CASTHDX2`
+Label: `Hlth pro ever said child has asthma`  
+Section Name: `Childhood Asthma Prevalence`  
+Module Number: `24`  
+Question Number: `1`  
+Column: `636`  
+Type of Variable: `Num`  
+SAS Variable Name: `CASTHDX2`  
 Question Prologue: 
-Question: `Has a doctor, nurse or other health professional EVER said that the child has asthma?`
+Question: `Has a doctor, nurse or other health professional EVER said that the child has asthma?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5382,15 +5382,15 @@ Question: `Has a doctor, nurse or other health professional EVER said that the c
 
 ### Child still have asthma?
 
-Label: `Child still have asthma?`
-Section Name: `Childhood Asthma Prevalence`
-Module Number: `24`
-Question Number: `2`
-Column: `637`
-Type of Variable: `Num`
-SAS Variable Name: `CASTHNO2`
+Label: `Child still have asthma?`  
+Section Name: `Childhood Asthma Prevalence`  
+Module Number: `24`  
+Question Number: `2`  
+Column: `637`  
+Type of Variable: `Num`  
+SAS Variable Name: `CASTHNO2`  
 Question Prologue: 
-Question: `Does the child still have asthma?`
+Question: `Does the child still have asthma?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5406,15 +5406,15 @@ Question: `Does the child still have asthma?`
 
 ### Are you male or female?
 
-Label: `Are you male or female?`
-Section Name: `Sex at Birth`
-Module Number: `25`
-Question Number: `1`
-Column: `638`
-Type of Variable: `Num`
-SAS Variable Name: `BIRTHSEX`
+Label: `Are you male or female?`  
+Section Name: `Sex at Birth`  
+Module Number: `25`  
+Question Number: `1`  
+Column: `638`  
+Type of Variable: `Num`  
+SAS Variable Name: `BIRTHSEX`  
 Question Prologue: 
-Question: `What was your sex at birth? Was it male or female?`
+Question: `What was your sex at birth? Was it male or female?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5430,15 +5430,15 @@ Question: `What was your sex at birth? Was it male or female?`
 
 ### Sexual orientation
 
-Label: `Sexual orientation`
-Section Name: `Sexual Orientation and Gender Identity (SOGI)`
-Module Number: `26`
-Question Number: `1a`
-Column: `639`
-Type of Variable: `Num`
-SAS Variable Name: `SOMALE`
+Label: `Sexual orientation`  
+Section Name: `Sexual Orientation and Gender Identity (SOGI)`  
+Module Number: `26`  
+Question Number: `1a`  
+Column: `639`  
+Type of Variable: `Num`  
+SAS Variable Name: `SOMALE`  
 Question Prologue: 
-Question: `Which of the following best represents how you think of yourself?`
+Question: `Which of the following best represents how you think of yourself?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5454,15 +5454,15 @@ Question: `Which of the following best represents how you think of yourself?`
 
 ### Sexual orientation
 
-Label: `Sexual orientation`
-Section Name: `Sexual Orientation and Gender Identity (SOGI)`
-Module Number: `26`
-Question Number: `1b`
-Column: `640`
-Type of Variable: `Num`
-SAS Variable Name: `SOFEMALE`
+Label: `Sexual orientation`  
+Section Name: `Sexual Orientation and Gender Identity (SOGI)`  
+Module Number: `26`  
+Question Number: `1b`  
+Column: `640`  
+Type of Variable: `Num`  
+SAS Variable Name: `SOFEMALE`  
 Question Prologue: 
-Question: `Which of the following best represents how you think of yourself?`
+Question: `Which of the following best represents how you think of yourself?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5478,15 +5478,15 @@ Question: `Which of the following best represents how you think of yourself?`
 
 ### Do you consider yourself to be transgender?
 
-Label: `Do you consider yourself to be transgender?`
-Section Name: `Sexual Orientation and Gender Identity (SOGI)`
-Module Number: `26`
-Question Number: `2`
-Column: `641`
-Type of Variable: `Num`
-SAS Variable Name: `TRNSGNDR`
+Label: `Do you consider yourself to be transgender?`  
+Section Name: `Sexual Orientation and Gender Identity (SOGI)`  
+Module Number: `26`  
+Question Number: `2`  
+Column: `641`  
+Type of Variable: `Num`  
+SAS Variable Name: `TRNSGNDR`  
 Question Prologue: 
-Question: `Do you consider yourself to be transgender?  (If yes, ask - Do you consider yourself to be male-to-female, female-to-male, or gender non-conforming?)`
+Question: `Do you consider yourself to be transgender?  (If yes, ask - Do you consider yourself to be male-to-female, female-to-male, or gender non-conforming?)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5504,15 +5504,15 @@ Question: `Do you consider yourself to be transgender?  (If yes, ask - Do you co
 
 ### Have you have sexual intercourse?
 
-Label: `Have you have sexual intercourse?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `1`
-Column: `642`
-Type of Variable: `Num`
-SAS Variable Name: `HADSEX`
+Label: `Have you have sexual intercourse?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `1`  
+Column: `642`  
+Type of Variable: `Num`  
+SAS Variable Name: `HADSEX`  
 Question Prologue: 
-Question: `In the past 12 months, did you have sexual intercourse?`
+Question: `In the past 12 months, did you have sexual intercourse?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5526,15 +5526,15 @@ Question: `In the past 12 months, did you have sexual intercourse?`
 
 ### Did you do anything to keep from getting pregnant?
 
-Label: `Did you do anything to keep from getting pregnant?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `2`
-Column: `643`
-Type of Variable: `Num`
-SAS Variable Name: `PFPPRVN4`
+Label: `Did you do anything to keep from getting pregnant?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `2`  
+Column: `643`  
+Type of Variable: `Num`  
+SAS Variable Name: `PFPPRVN4`  
 Question Prologue: 
-Question: `The last time you had sexual intercourse, did you or your partner do anything to keep you from getting pregnant?`
+Question: `The last time you had sexual intercourse, did you or your partner do anything to keep you from getting pregnant?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5548,15 +5548,15 @@ Question: `The last time you had sexual intercourse, did you or your partner do 
 
 ### What did you do to keep you from getting pregnant?
 
-Label: `What did you do to keep you from getting pregnant?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `3`
-Column: `644-645`
-Type of Variable: `Num`
-SAS Variable Name: `TYPCNTR9`
+Label: `What did you do to keep you from getting pregnant?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `3`  
+Column: `644-645`  
+Type of Variable: `Num`  
+SAS Variable Name: `TYPCNTR9`  
 Question Prologue: 
-Question: `The last time you had sexual intercourse, what did you or your partner do to keep you from getting pregnant?`
+Question: `The last time you had sexual intercourse, what did you or your partner do to keep you from getting pregnant?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5580,15 +5580,15 @@ Question: `The last time you had sexual intercourse, what did you or your partne
 
 ### Are You Doing Anything to Keep From Getting Pregnant?
 
-Label: `Are You Doing Anything to Keep From Getting Pregnant?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `4`
-Column: `646-647`
-Type of Variable: `Num`
-SAS Variable Name: `BRTHCNT4`
+Label: `Are You Doing Anything to Keep From Getting Pregnant?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `4`  
+Column: `646-647`  
+Type of Variable: `Num`  
+SAS Variable Name: `BRTHCNT4`  
 Question Prologue: 
-Question: `The last time you had sexual intercourse, what else, if anything, did you or your partner do to keep you from getting pregnant?`
+Question: `The last time you had sexual intercourse, what else, if anything, did you or your partner do to keep you from getting pregnant?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5613,15 +5613,15 @@ Question: `The last time you had sexual intercourse, what else, if anything, did
 
 ### Where did you get what you used to prevent pregnancy?
 
-Label: `Where did you get what you used to prevent pregnancy?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `5`
-Column: `648-649`
-Type of Variable: `Num`
-SAS Variable Name: `WHEREGET`
+Label: `Where did you get what you used to prevent pregnancy?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `5`  
+Column: `648-649`  
+Type of Variable: `Num`  
+SAS Variable Name: `WHEREGET`  
 Question Prologue: 
-Question: `Where did you get the [response from Q3] you used when you last had sexual intercourse?`
+Question: `Where did you get the [response from Q3] you used when you last had sexual intercourse?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5643,15 +5643,15 @@ Question: `Where did you get the [response from Q3] you used when you last had s
 
 ### What was main reason for not doing anything to keep you from getting pregnant?
 
-Label: `What was main reason for not doing anything to keep you from getting pregnant?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `6`
-Column: `650-651`
-Type of Variable: `Num`
-SAS Variable Name: `NOBCUSE8`
+Label: `What was main reason for not doing anything to keep you from getting pregnant?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `6`  
+Column: `650-651`  
+Type of Variable: `Num`  
+SAS Variable Name: `NOBCUSE8`  
 Question Prologue: 
-Question: `What was your main reason for not doing anything to prevent pregnancy the last time you had sexual intercourse?`
+Question: `What was your main reason for not doing anything to prevent pregnancy the last time you had sexual intercourse?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5677,15 +5677,15 @@ Question: `What was your main reason for not doing anything to prevent pregnancy
 
 ### What is your preferred birth control method?
 
-Label: `What is your preferred birth control method?`
-Section Name: `Family Planning`
-Module Number: `27`
-Question Number: `7`
-Column: `652-653`
-Type of Variable: `Num`
-SAS Variable Name: `BCPREFER`
+Label: `What is your preferred birth control method?`  
+Section Name: `Family Planning`  
+Module Number: `27`  
+Question Number: `7`  
+Column: `652-653`  
+Type of Variable: `Num`  
+SAS Variable Name: `BCPREFER`  
 Question Prologue: 
-Question: `If you could use any birth control method you wanted, what method would you use?`
+Question: `If you could use any birth control method you wanted, what method would you use?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5713,15 +5713,15 @@ Question: `If you could use any birth control method you wanted, what method wou
 
 ### How do other people usually classify you in this country?
 
-Label: `How do other people usually classify you in this country?`
-Section Name: `Reactions to Race`
-Module Number: `28`
-Question Number: `1`
-Column: `654-655`
-Type of Variable: `Num`
-SAS Variable Name: `RRCLASS3`
+Label: `How do other people usually classify you in this country?`  
+Section Name: `Reactions to Race`  
+Module Number: `28`  
+Question Number: `1`  
+Column: `654-655`  
+Type of Variable: `Num`  
+SAS Variable Name: `RRCLASS3`  
 Question Prologue: 
-Question: `How do other people usually classify you in this country? Would you say White, Black or African American, Hispanic or Latino, Asian, Native Hawaiian or Other Pacific Islander, American Indian or Alaska Native, or some other group?`
+Question: `How do other people usually classify you in this country? Would you say White, Black or African American, Hispanic or Latino, Asian, Native Hawaiian or Other Pacific Islander, American Indian or Alaska Native, or some other group?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5741,15 +5741,15 @@ Question: `How do other people usually classify you in this country? Would you s
 
 ### How often do you think about your race?
 
-Label: `How often do you think about your race?`
-Section Name: `Reactions to Race`
-Module Number: `28`
-Question Number: `2`
-Column: `656`
-Type of Variable: `Num`
-SAS Variable Name: `RRCOGNT2`
+Label: `How often do you think about your race?`  
+Section Name: `Reactions to Race`  
+Module Number: `28`  
+Question Number: `2`  
+Column: `656`  
+Type of Variable: `Num`  
+SAS Variable Name: `RRCOGNT2`  
 Question Prologue: 
-Question: `How often do you think about your race? Would you say never, once a year, once a month, once a week, once a day, once an hour, or constantly?`
+Question: `How often do you think about your race? Would you say never, once a year, once a month, once a week, once a day, once an hour, or constantly?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5768,15 +5768,15 @@ Question: `How often do you think about your race? Would you say never, once a y
 
 ### Were you treated worse than, the same, or better than people of other races?
 
-Label: `Were you treated worse than, the same, or better than people of other races?`
-Section Name: `Reactions to Race`
-Module Number: `28`
-Question Number: `3`
-Column: `657`
-Type of Variable: `Num`
-SAS Variable Name: `RRTREAT`
+Label: `Were you treated worse than, the same, or better than people of other races?`  
+Section Name: `Reactions to Race`  
+Module Number: `28`  
+Question Number: `3`  
+Column: `657`  
+Type of Variable: `Num`  
+SAS Variable Name: `RRTREAT`  
 Question Prologue: 
-Question: `Within the past 12 months, do you feel that in general you were treated worse than, the same as, or better than people of other races?`
+Question: `Within the past 12 months, do you feel that in general you were treated worse than, the same as, or better than people of other races?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5793,15 +5793,15 @@ Question: `Within the past 12 months, do you feel that in general you were treat
 
 ### How do you feel you were treated at work compared to people of other races in past 12 months?
 
-Label: `How do you feel you were treated at work compared to people of other races in past 12 months?`
-Section Name: `Reactions to Race`
-Module Number: `28`
-Question Number: `4`
-Column: `658`
-Type of Variable: `Num`
-SAS Variable Name: `RRATWRK2`
+Label: `How do you feel you were treated at work compared to people of other races in past 12 months?`  
+Section Name: `Reactions to Race`  
+Module Number: `28`  
+Question Number: `4`  
+Column: `658`  
+Type of Variable: `Num`  
+SAS Variable Name: `RRATWRK2`  
 Question Prologue: 
-Question: `Within the past 12 months at work, do you feel you were treated worse than, the same as, or better than people of other races?`
+Question: `Within the past 12 months at work, do you feel you were treated worse than, the same as, or better than people of other races?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5818,15 +5818,15 @@ Question: `Within the past 12 months at work, do you feel you were treated worse
 
 ### When seeking health care past 12 months, was experience worse, same, better than people of other races?
 
-Label: `When seeking health care past 12 months, was experience worse, same, better than people of other races?`
-Section Name: `Reactions to Race`
-Module Number: `28`
-Question Number: `5`
-Column: `659`
-Type of Variable: `Num`
-SAS Variable Name: `RRHCARE4`
+Label: `When seeking health care past 12 months, was experience worse, same, better than people of other races?`  
+Section Name: `Reactions to Race`  
+Module Number: `28`  
+Question Number: `5`  
+Column: `659`  
+Type of Variable: `Num`  
+SAS Variable Name: `RRHCARE4`  
 Question Prologue: 
-Question: `Within the past 12 months when seeking health care, do you feel your experiences were worse than, the same as, or better than for people of other races?`
+Question: `Within the past 12 months when seeking health care, do you feel your experiences were worse than, the same as, or better than for people of other races?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5844,15 +5844,15 @@ Question: `Within the past 12 months when seeking health care, do you feel your 
 
 ### Times past 30 days felt physical symptoms because of treatment due to your race
 
-Label: `Times past 30 days felt physical symptoms because of treatment due to your race`
-Section Name: `Reactions to Race`
-Module Number: `28`
-Question Number: `6`
-Column: `660`
-Type of Variable: `Num`
-SAS Variable Name: `RRPHYSM2`
+Label: `Times past 30 days felt physical symptoms because of treatment due to your race`  
+Section Name: `Reactions to Race`  
+Module Number: `28`  
+Question Number: `6`  
+Column: `660`  
+Type of Variable: `Num`  
+SAS Variable Name: `RRPHYSM2`  
 Question Prologue: 
-Question: `Within the past 30 days, have you experienced any physical symptoms, for example, a headache, an upset stomach, tensing of your muscles, or a pounding heart, as a result of how you were treated based on your race?`
+Question: `Within the past 30 days, have you experienced any physical symptoms, for example, a headache, an upset stomach, tensing of your muscles, or a pounding heart, as a result of how you were treated based on your race?`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5868,15 +5868,15 @@ Question: `Within the past 30 days, have you experienced any physical symptoms, 
 
 ### Questionnaire Version Identifier
 
-Label: `Questionnaire Version Identifier`
-Section Name: `Questionnaire Version`
-Module Number: `1`
-Question Number: `1`
-Column: `665-666`
-Type of Variable: `Num`
-SAS Variable Name: `QSTVER`
+Label: `Questionnaire Version Identifier`  
+Section Name: `Questionnaire Version`  
+Module Number: `1`  
+Question Number: `1`  
+Column: `665-666`  
+Type of Variable: `Num`  
+SAS Variable Name: `QSTVER`  
 Question Prologue: 
-Question: `Questionnaire Version Identifier`
+Question: `Questionnaire Version Identifier`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5895,15 +5895,15 @@ Question: `Questionnaire Version Identifier`
 
 ### Language identifier
 
-Label: `Language identifier`
-Section Name: `Questionnaire Language`
-Module Number: `1`
-Question Number: `1`
-Column: `667-668`
-Type of Variable: `Num`
-SAS Variable Name: `QSTLANG`
+Label: `Language identifier`  
+Section Name: `Questionnaire Language`  
+Module Number: `1`  
+Question Number: `1`  
+Column: `667-668`  
+Type of Variable: `Num`  
+SAS Variable Name: `QSTLANG`  
 Question Prologue: 
-Question: `Language identifier`
+Question: `Language identifier`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5916,15 +5916,15 @@ Question: `Language identifier`
 
 ### Metropolitan Status
 
-Label: `Metropolitan Status`
-Section Name: `Urban Rural`
-Module Number: `1`
-Question Number: `2`
-Column: `1402`
-Type of Variable: `Num`
-SAS Variable Name: `_METSTAT`
+Label: `Metropolitan Status`  
+Section Name: `Urban Rural`  
+Module Number: `1`  
+Question Number: `2`  
+Column: `1402`  
+Type of Variable: `Num`  
+SAS Variable Name: `_METSTAT`  
 Question Prologue: 
-Question: `Metropolitan Status`
+Question: `Metropolitan Status`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5936,15 +5936,15 @@ Question: `Metropolitan Status`
 
 ### Urban/Rural Status
 
-Label: `Urban/Rural Status`
-Section Name: `Urban Rural`
-Module Number: `1`
-Question Number: `3`
-Column: `1403`
-Type of Variable: `Num`
-SAS Variable Name: `_URBSTAT`
+Label: `Urban/Rural Status`  
+Section Name: `Urban Rural`  
+Module Number: `1`  
+Question Number: `3`  
+Column: `1403`  
+Type of Variable: `Num`  
+SAS Variable Name: `_URBSTAT`  
 Question Prologue: 
-Question: `Urban/Rural Status`
+Question: `Urban/Rural Status`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5958,15 +5958,15 @@ Question: `Urban/Rural Status`
 
 ### Metropolitan Status Code
 
-Label: `Metropolitan Status Code`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `2`
-Column: `1409`
-Type of Variable: `Num`
-SAS Variable Name: `MSCODE`
+Label: `Metropolitan Status Code`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `2`  
+Column: `1409`  
+Type of Variable: `Num`  
+SAS Variable Name: `MSCODE`  
 Question Prologue: 
-Question: `Metropolitan Status Code`
+Question: `Metropolitan Status Code`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5980,15 +5980,15 @@ Question: `Metropolitan Status Code`
 
 ### Sample Design Stratification Variable
 
-Label: `Sample Design Stratification Variable`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `3`
-Column: `1410-1415`
-Type of Variable: `Num`
-SAS Variable Name: `_STSTR`
+Label: `Sample Design Stratification Variable`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `3`  
+Column: `1410-1415`  
+Type of Variable: `Num`  
+SAS Variable Name: `_STSTR`  
 Question Prologue: 
-Question: `Sample Design Stratification Variable  (Prior to 2011:  _STSTR is a five digit number that combines the values for _STATE (first two characters), _GEOSTR (third and fourth character), and _DENSTR2 (final character).)`
+Question: `Sample Design Stratification Variable  (Prior to 2011:  _STSTR is a five digit number that combines the values for _STATE (first two characters), _GEOSTR (third and fourth character), and _DENSTR2 (final character).)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -5998,15 +5998,15 @@ Question: `Sample Design Stratification Variable  (Prior to 2011:  _STSTR is a f
 
 ### Stratum weight
 
-Label: `Stratum weight`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `4`
-Column: `1416-1425`
-Type of Variable: `Num`
-SAS Variable Name: `_STRWT`
+Label: `Stratum weight`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `4`  
+Column: `1416-1425`  
+Type of Variable: `Num`  
+SAS Variable Name: `_STRWT`  
 Question Prologue: 
-Question: `Stratum weight  (Number of records in a stratum (NRECSTR) divided by the number of records selected (NRECSEL).)`
+Question: `Stratum weight  (Number of records in a stratum (NRECSTR) divided by the number of records selected (NRECSEL).)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6016,15 +6016,15 @@ Question: `Stratum weight  (Number of records in a stratum (NRECSTR) divided by 
 
 ### Raw weighting factor used in raking
 
-Label: `Raw weighting factor used in raking`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `7`
-Column: `1446-1455`
-Type of Variable: `Num`
-SAS Variable Name: `_RAWRAKE`
+Label: `Raw weighting factor used in raking`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `7`  
+Column: `1446-1455`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RAWRAKE`  
 Question Prologue: 
-Question: `Raw weighting factor used in raking  (Number of adults in the household (NUMADULT, maximum of 5) divided by the imputed number of phones (_IMPNPH, maximum of 3).)`
+Question: `Raw weighting factor used in raking  (Number of adults in the household (NUMADULT, maximum of 5) divided by the imputed number of phones (_IMPNPH, maximum of 3).)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6034,15 +6034,15 @@ Question: `Raw weighting factor used in raking  (Number of adults in the househo
 
 ### Design weight use in raking
 
-Label: `Design weight use in raking`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `8`
-Column: `1456-1465`
-Type of Variable: `Num`
-SAS Variable Name: `_WT2RAKE`
+Label: `Design weight use in raking`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `8`  
+Column: `1456-1465`  
+Type of Variable: `Num`  
+SAS Variable Name: `_WT2RAKE`  
 Question Prologue: 
-Question: `Design weight used in raking  (Stratum weight (_STRWT) multiplied by the raw weighting factor (_RAWRAKE).)`
+Question: `Design weight used in raking  (Stratum weight (_STRWT) multiplied by the raw weighting factor (_RAWRAKE).)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6052,15 +6052,15 @@ Question: `Design weight used in raking  (Stratum weight (_STRWT) multiplied by 
 
 ### Imputed race/ethnicity value
 
-Label: `Imputed race/ethnicity value`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `12`
-Column: `1471-1472`
-Type of Variable: `Num`
-SAS Variable Name: `_IMPRACE`
+Label: `Imputed race/ethnicity value`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `12`  
+Column: `1471-1472`  
+Type of Variable: `Num`  
+SAS Variable Name: `_IMPRACE`  
 Question Prologue: 
-Question: `Imputed race/ethnicity value  (This value is the reported race/ethnicity or an imputed race/ethnicity, if the respondent refused to give a race/ethnicity. The value of the imputed race/ethnicity will be the most common race/ethnicity response for that region of the state)`
+Question: `Imputed race/ethnicity value  (This value is the reported race/ethnicity or an imputed race/ethnicity, if the respondent refused to give a race/ethnicity. The value of the imputed race/ethnicity will be the most common race/ethnicity response for that region of the state)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6077,15 +6077,15 @@ Question: `Imputed race/ethnicity value  (This value is the reported race/ethnic
 
 ### Child Hispanic, Latino/a, or Spanish origin calculated variable
 
-Label: `Child Hispanic, Latino/a, or Spanish origin calculated variable`
-Section Name: `Child Demographic Variables`
-Module Number: `1`
-Question Number: `01`
-Column: `1482`
-Type of Variable: `Num`
-SAS Variable Name: `_CHISPNC`
+Label: `Child Hispanic, Latino/a, or Spanish origin calculated variable`  
+Section Name: `Child Demographic Variables`  
+Module Number: `1`  
+Question Number: `01`  
+Column: `1482`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CHISPNC`  
 Question Prologue: 
-Question: `Child Hispanic, Latino/a, or Spanish origin calculated variable`
+Question: `Child Hispanic, Latino/a, or Spanish origin calculated variable`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6098,15 +6098,15 @@ Question: `Child Hispanic, Latino/a, or Spanish origin calculated variable`
 
 ### Child Non-Hispanic Race including Multiracial
 
-Label: `Child Non-Hispanic Race including Multiracial`
-Section Name: `Child Demographic Variables`
-Module Number: `1`
-Question Number: `04`
-Column: `1539-1540`
-Type of Variable: `Num`
-SAS Variable Name: `_CRACE2`
+Label: `Child Non-Hispanic Race including Multiracial`  
+Section Name: `Child Demographic Variables`  
+Module Number: `1`  
+Question Number: `04`  
+Column: `1539-1540`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CRACE2`  
 Question Prologue: 
-Question: `Child multiracial race categorization`
+Question: `Child multiracial race categorization`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6125,15 +6125,15 @@ Question: `Child multiracial race categorization`
 
 ### Preferred Child Race Categories
 
-Label: `Preferred Child Race Categories`
-Section Name: `Child Demographic Variables`
-Module Number: `1`
-Question Number: `05`
-Column: `1541-1542`
-Type of Variable: `Num`
-SAS Variable Name: `_CPRACE2`
+Label: `Preferred Child Race Categories`  
+Section Name: `Child Demographic Variables`  
+Module Number: `1`  
+Question Number: `05`  
+Column: `1541-1542`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CPRACE2`  
 Question Prologue: 
-Question: `Preferred Child Race Categories`
+Question: `Preferred Child Race Categories`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6154,15 +6154,15 @@ Question: `Preferred Child Race Categories`
 
 ### Four level child age
 
-Label: `Four level child age`
-Section Name: `Child Weighting Variables`
-Module Number: `1`
-Question Number: `04`
-Column: `1569`
-Type of Variable: `Num`
-SAS Variable Name: `CAGEG`
+Label: `Four level child age`  
+Section Name: `Child Weighting Variables`  
+Module Number: `1`  
+Question Number: `04`  
+Column: `1569`  
+Type of Variable: `Num`  
+SAS Variable Name: `CAGEG`  
 Question Prologue: 
-Question: `Four level child age`
+Question: `Four level child age`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6176,15 +6176,15 @@ Question: `Four level child age`
 
 ### Final child weight: Land-line and Cell-Phone data
 
-Label: `Final child weight: Land-line and Cell-Phone data`
-Section Name: `Child Weighting Variables`
-Module Number: `1`
-Question Number: `5`
-Column: `1585-1594`
-Type of Variable: `Num`
-SAS Variable Name: `_CLLCPWT`
+Label: `Final child weight: Land-line and Cell-Phone data`  
+Section Name: `Child Weighting Variables`  
+Module Number: `1`  
+Question Number: `5`  
+Column: `1585-1594`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CLLCPWT`  
 Question Prologue: 
-Question: `Final child weight: Land-line and Cell-Phone data  (Raking derived weight)`
+Question: `Final child weight: Land-line and Cell-Phone data  (Raking derived weight)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6196,15 +6196,15 @@ Question: `Final child weight: Land-line and Cell-Phone data  (Raking derived we
 
 ### Dual Phone Use Categories
 
-Label: `Dual Phone Use Categories`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `2`
-Column: `1682`
-Type of Variable: `Num`
-SAS Variable Name: `_DUALUSE`
+Label: `Dual Phone Use Categories`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `2`  
+Column: `1682`  
+Type of Variable: `Num`  
+SAS Variable Name: `_DUALUSE`  
 Question Prologue: 
-Question: `Dual Phone Use Categories`
+Question: `Dual Phone Use Categories`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6216,15 +6216,15 @@ Question: `Dual Phone Use Categories`
 
 ### Dual Phone Use Correction Factor
 
-Label: `Dual Phone Use Correction Factor`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `3`
-Column: `1683-1692`
-Type of Variable: `Num`
-SAS Variable Name: `_DUALCOR`
+Label: `Dual Phone Use Correction Factor`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `3`  
+Column: `1683-1692`  
+Type of Variable: `Num`  
+SAS Variable Name: `_DUALCOR`  
 Question Prologue: 
-Question: `Dual phone use correction factor`
+Question: `Dual phone use correction factor`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6234,15 +6234,15 @@ Question: `Dual phone use correction factor`
 
 ### Truncated design weight used in adult combined land line and cell phone raking
 
-Label: `Truncated design weight used in adult combined land line and cell phone raking`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `4`
-Column: `1693-1702`
-Type of Variable: `Num`
-SAS Variable Name: `_LLCPWT2`
+Label: `Truncated design weight used in adult combined land line and cell phone raking`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `4`  
+Column: `1693-1702`  
+Type of Variable: `Num`  
+SAS Variable Name: `_LLCPWT2`  
 Question Prologue: 
-Question: `Truncated design weight used in adult combined land line and cell phone raking`
+Question: `Truncated design weight used in adult combined land line and cell phone raking`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6252,15 +6252,15 @@ Question: `Truncated design weight used in adult combined land line and cell pho
 
 ### Final weight: Land-line and cell-phone data
 
-Label: `Final weight: Land-line and cell-phone data`
-Section Name: `Weighting Variables`
-Module Number: `1`
-Question Number: `21`
-Column: `1751-1760`
-Type of Variable: `Num`
-SAS Variable Name: `_LLCPWT`
+Label: `Final weight: Land-line and cell-phone data`  
+Section Name: `Weighting Variables`  
+Module Number: `1`  
+Question Number: `21`  
+Column: `1751-1760`  
+Type of Variable: `Num`  
+SAS Variable Name: `_LLCPWT`  
 Question Prologue: 
-Question: `Final weight assigned to each  respondent: Land-line and cell-phone data  (Raking derived weight)`
+Question: `Final weight assigned to each  respondent: Land-line and cell-phone data  (Raking derived weight)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6272,15 +6272,15 @@ Question: `Final weight assigned to each  respondent: Land-line and cell-phone d
 
 ### Adults with good or better health
 
-Label: `Adults with good or better health`
-Section Name: `Calculated Variables`
-Module Number: `1`
-Question Number: `1`
-Column: `1899`
-Type of Variable: `Num`
-SAS Variable Name: `_RFHLTH`
+Label: `Adults with good or better health`  
+Section Name: `Calculated Variables`  
+Module Number: `1`  
+Question Number: `1`  
+Column: `1899`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFHLTH`  
 Question Prologue: 
-Question: `Adults with good or better health`
+Question: `Adults with good or better health`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6292,15 +6292,15 @@ Question: `Adults with good or better health`
 
 ### Computed Physical Health Status
 
-Label: `Computed Physical Health Status`
-Section Name: `Calculated Variables`
-Module Number: `2`
-Question Number: `1`
-Column: `1900`
-Type of Variable: `Num`
-SAS Variable Name: `_PHYS14D`
+Label: `Computed Physical Health Status`  
+Section Name: `Calculated Variables`  
+Module Number: `2`  
+Question Number: `1`  
+Column: `1900`  
+Type of Variable: `Num`  
+SAS Variable Name: `_PHYS14D`  
 Question Prologue: 
-Question: `3 level not good physical health status: 0 days, 1-13 days, 14-30 days`
+Question: `3 level not good physical health status: 0 days, 1-13 days, 14-30 days`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6313,15 +6313,15 @@ Question: `3 level not good physical health status: 0 days, 1-13 days, 14-30 day
 
 ### Computed Mental Health Status
 
-Label: `Computed Mental Health Status`
-Section Name: `Calculated Variables`
-Module Number: `2`
-Question Number: `2`
-Column: `1901`
-Type of Variable: `Num`
-SAS Variable Name: `_MENT14D`
+Label: `Computed Mental Health Status`  
+Section Name: `Calculated Variables`  
+Module Number: `2`  
+Question Number: `2`  
+Column: `1901`  
+Type of Variable: `Num`  
+SAS Variable Name: `_MENT14D`  
 Question Prologue: 
-Question: `3 level not good mental health status: 0 days, 1-13 days, 14-30 days`
+Question: `3 level not good mental health status: 0 days, 1-13 days, 14-30 days`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6334,15 +6334,15 @@ Question: `3 level not good mental health status: 0 days, 1-13 days, 14-30 days`
 
 ### Have any health insurance
 
-Label: `Have any health insurance`
-Section Name: `Calculated Variables`
-Module Number: `3`
-Question Number: `1`
-Column: `1902`
-Type of Variable: `Num`
-SAS Variable Name: `_HLTHPLN`
+Label: `Have any health insurance`  
+Section Name: `Calculated Variables`  
+Module Number: `3`  
+Question Number: `1`  
+Column: `1902`  
+Type of Variable: `Num`  
+SAS Variable Name: `_HLTHPLN`  
 Question Prologue: 
-Question: `Adults who had some form of health insurance`
+Question: `Adults who had some form of health insurance`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6354,15 +6354,15 @@ Question: `Adults who had some form of health insurance`
 
 ### Respondents aged 18-64 with health insurance
 
-Label: `Respondents aged 18-64 with health insurance`
-Section Name: `Calculated Variables`
-Module Number: `3`
-Question Number: `2`
-Column: `1903`
-Type of Variable: `Num`
-SAS Variable Name: `_HCVU652`
+Label: `Respondents aged 18-64 with health insurance`  
+Section Name: `Calculated Variables`  
+Module Number: `3`  
+Question Number: `2`  
+Column: `1903`  
+Type of Variable: `Num`  
+SAS Variable Name: `_HCVU652`  
 Question Prologue: 
-Question: `Respondents aged 18-64 who have any form of health insurance`
+Question: `Respondents aged 18-64 who have any form of health insurance`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6374,15 +6374,15 @@ Question: `Respondents aged 18-64 who have any form of health insurance`
 
 ### Leisure Time Physical Activity Calculated Variable
 
-Label: `Leisure Time Physical Activity Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `4`
-Question Number: `1`
-Column: `1904`
-Type of Variable: `Num`
-SAS Variable Name: `_TOTINDA`
+Label: `Leisure Time Physical Activity Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `4`  
+Question Number: `1`  
+Column: `1904`  
+Type of Variable: `Num`  
+SAS Variable Name: `_TOTINDA`  
 Question Prologue: 
-Question: `Adults who reported doing physical activity or exercise during the past 30 days other than their regular job`
+Question: `Adults who reported doing physical activity or exercise during the past 30 days other than their regular job`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6394,15 +6394,15 @@ Question: `Adults who reported doing physical activity or exercise during the pa
 
 ### Adults aged 18+ that have had permanent teeth extracted
 
-Label: `Adults aged 18+ that have had permanent teeth extracted`
-Section Name: `Calculated Variables`
-Module Number: `6`
-Question Number: `1`
-Column: `1905`
-Type of Variable: `Num`
-SAS Variable Name: `_EXTETH3`
+Label: `Adults aged 18+ that have had permanent teeth extracted`  
+Section Name: `Calculated Variables`  
+Module Number: `6`  
+Question Number: `1`  
+Column: `1905`  
+Type of Variable: `Num`  
+SAS Variable Name: `_EXTETH3`  
 Question Prologue: 
-Question: `Adults aged 18+ who have had permanent teeth extracted`
+Question: `Adults aged 18+ who have had permanent teeth extracted`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6414,15 +6414,15 @@ Question: `Adults aged 18+ who have had permanent teeth extracted`
 
 ### Adults aged 65+ who have had all their natural teeth extracted
 
-Label: `Adults aged 65+ who have had all their natural teeth extracted`
-Section Name: `Calculated Variables`
-Module Number: `6`
-Question Number: `2`
-Column: `1906`
-Type of Variable: `Num`
-SAS Variable Name: `_ALTETH3`
+Label: `Adults aged 65+ who have had all their natural teeth extracted`  
+Section Name: `Calculated Variables`  
+Module Number: `6`  
+Question Number: `2`  
+Column: `1906`  
+Type of Variable: `Num`  
+SAS Variable Name: `_ALTETH3`  
 Question Prologue: 
-Question: `Adults aged 65+ who have had all their natural teeth extracted`
+Question: `Adults aged 65+ who have had all their natural teeth extracted`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6435,15 +6435,15 @@ Question: `Adults aged 65+ who have had all their natural teeth extracted`
 
 ### Adults that have visited a dentist, dental hygenist or dental clinic within the past year
 
-Label: `Adults that have visited a dentist, dental hygenist or dental clinic within the past year`
-Section Name: `Calculated Variables`
-Module Number: `6`
-Question Number: `3`
-Column: `1907`
-Type of Variable: `Num`
-SAS Variable Name: `_DENVST3`
+Label: `Adults that have visited a dentist, dental hygenist or dental clinic within the past year`  
+Section Name: `Calculated Variables`  
+Module Number: `6`  
+Question Number: `3`  
+Column: `1907`  
+Type of Variable: `Num`  
+SAS Variable Name: `_DENVST3`  
 Question Prologue: 
-Question: `Adults who have visited a dentist, dental hygenist or dental clinic within the past year`
+Question: `Adults who have visited a dentist, dental hygenist or dental clinic within the past year`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6456,15 +6456,15 @@ Question: `Adults who have visited a dentist, dental hygenist or dental clinic w
 
 ### Ever had CHD or MI
 
-Label: `Ever had CHD or MI`
-Section Name: `Calculated Variables`
-Module Number: `7`
-Question Number: `1`
-Column: `1908`
-Type of Variable: `Num`
-SAS Variable Name: `_MICHD`
+Label: `Ever had CHD or MI`  
+Section Name: `Calculated Variables`  
+Module Number: `7`  
+Question Number: `1`  
+Column: `1908`  
+Type of Variable: `Num`  
+SAS Variable Name: `_MICHD`  
 Question Prologue: 
-Question: `Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)`
+Question: `Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6476,15 +6476,15 @@ Question: `Respondents that have ever reported having coronary heart disease (CH
 
 ### Lifetime Asthma Calculated Variable
 
-Label: `Lifetime Asthma Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `7`
-Question Number: `2`
-Column: `1909`
-Type of Variable: `Num`
-SAS Variable Name: `_LTASTH1`
+Label: `Lifetime Asthma Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `7`  
+Question Number: `2`  
+Column: `1909`  
+Type of Variable: `Num`  
+SAS Variable Name: `_LTASTH1`  
 Question Prologue: 
-Question: `Adults who have ever been told they have asthma`
+Question: `Adults who have ever been told they have asthma`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6496,15 +6496,15 @@ Question: `Adults who have ever been told they have asthma`
 
 ### Current Asthma Calculated Variable
 
-Label: `Current Asthma Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `7`
-Question Number: `3`
-Column: `1910`
-Type of Variable: `Num`
-SAS Variable Name: `_CASTHM1`
+Label: `Current Asthma Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `7`  
+Question Number: `3`  
+Column: `1910`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CASTHM1`  
 Question Prologue: 
-Question: `Adults who have been told they currently have asthma`
+Question: `Adults who have been told they currently have asthma`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6516,15 +6516,15 @@ Question: `Adults who have been told they currently have asthma`
 
 ### Computed Asthma Status
 
-Label: `Computed Asthma Status`
-Section Name: `Calculated Variables`
-Module Number: `7`
-Question Number: `4`
-Column: `1911`
-Type of Variable: `Num`
-SAS Variable Name: `_ASTHMS1`
+Label: `Computed Asthma Status`  
+Section Name: `Calculated Variables`  
+Module Number: `7`  
+Question Number: `4`  
+Column: `1911`  
+Type of Variable: `Num`  
+SAS Variable Name: `_ASTHMS1`  
 Question Prologue: 
-Question: `Computed asthma status`
+Question: `Computed asthma status`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6537,15 +6537,15 @@ Question: `Computed asthma status`
 
 ### Respondents diagnosed with arthritis
 
-Label: `Respondents diagnosed with arthritis`
-Section Name: `Calculated Variables`
-Module Number: `7`
-Question Number: `5`
-Column: `1912`
-Type of Variable: `Num`
-SAS Variable Name: `_DRDXAR2`
+Label: `Respondents diagnosed with arthritis`  
+Section Name: `Calculated Variables`  
+Module Number: `7`  
+Question Number: `5`  
+Column: `1912`  
+Type of Variable: `Num`  
+SAS Variable Name: `_DRDXAR2`  
 Question Prologue: 
-Question: `Respondents who have had a doctor diagnose them as having some form of arthritis`
+Question: `Respondents who have had a doctor diagnose them as having some form of arthritis`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6559,15 +6559,15 @@ Question: `Respondents who have had a doctor diagnose them as having some form o
 
 ### Computed Preferred Race
 
-Label: `Computed Preferred Race`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `3`
-Column: `1969-1970`
-Type of Variable: `Num`
-SAS Variable Name: `_PRACE2`
+Label: `Computed Preferred Race`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `3`  
+Column: `1969-1970`  
+Type of Variable: `Num`  
+SAS Variable Name: `_PRACE2`  
 Question Prologue: 
-Question: `Preferred race category`
+Question: `Preferred race category`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6586,15 +6586,15 @@ Question: `Preferred race category`
 
 ### Calculated non-Hispanic Race including multiracial
 
-Label: `Calculated non-Hispanic Race including multiracial`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `4`
-Column: `1971-1972`
-Type of Variable: `Num`
-SAS Variable Name: `_MRACE2`
+Label: `Calculated non-Hispanic Race including multiracial`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `4`  
+Column: `1971-1972`  
+Type of Variable: `Num`  
+SAS Variable Name: `_MRACE2`  
 Question Prologue: 
-Question: `Calculated multiracial race categorization`
+Question: `Calculated multiracial race categorization`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6613,15 +6613,15 @@ Question: `Calculated multiracial race categorization`
 
 ### Hispanic, Latino/a, or Spanish origin calculated variable
 
-Label: `Hispanic, Latino/a, or Spanish origin calculated variable`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `6`
-Column: `1975`
-Type of Variable: `Num`
-SAS Variable Name: `_HISPANC`
+Label: `Hispanic, Latino/a, or Spanish origin calculated variable`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `6`  
+Column: `1975`  
+Type of Variable: `Num`  
+SAS Variable Name: `_HISPANC`  
 Question Prologue: 
-Question: `Hispanic, Latino/a, or Spanish origin calculated variable`
+Question: `Hispanic, Latino/a, or Spanish origin calculated variable`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6633,15 +6633,15 @@ Question: `Hispanic, Latino/a, or Spanish origin calculated variable`
 
 ### Computed Race-Ethnicity grouping
 
-Label: `Computed Race-Ethnicity grouping`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `7`
-Column: `1976`
-Type of Variable: `Num`
-SAS Variable Name: `_RACE1`
+Label: `Computed Race-Ethnicity grouping`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `7`  
+Column: `1976`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RACE1`  
 Question Prologue: 
-Question: `Race/ethnicity categories`
+Question: `Race/ethnicity categories`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6659,15 +6659,15 @@ Question: `Race/ethnicity categories`
 
 ### Create Computed Non-Hispanic Whites/All Others Race Categories Race/Ethnic Group Codes Used In Post-Stratification Variable
 
-Label: `Create Computed Non-Hispanic Whites/All Others Race Categories Race/Ethnic Group Codes Used In Post-Stratification Variable`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `8`
-Column: `1977`
-Type of Variable: `Num`
-SAS Variable Name: `_RACEG22`
+Label: `Create Computed Non-Hispanic Whites/All Others Race Categories Race/Ethnic Group Codes Used In Post-Stratification Variable`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `8`  
+Column: `1977`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RACEG22`  
 Question Prologue: 
-Question: `White non-Hispanic race group`
+Question: `White non-Hispanic race group`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6680,15 +6680,15 @@ Question: `White non-Hispanic race group`
 
 ### Computed Five level race/ethnicity category.
 
-Label: `Computed Five level race/ethnicity category.`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `9`
-Column: `1978`
-Type of Variable: `Num`
-SAS Variable Name: `_RACEGR4`
+Label: `Computed Five level race/ethnicity category.`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `9`  
+Column: `1978`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RACEGR4`  
 Question Prologue: 
-Question: `Five-level race/ethnicity category`
+Question: `Five-level race/ethnicity category`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6704,15 +6704,15 @@ Question: `Five-level race/ethnicity category`
 
 ### Computed race groups used for internet prevalence tables
 
-Label: `Computed race groups used for internet prevalence tables`
-Section Name: `Calculated Race Variables`
-Module Number: `8`
-Question Number: `10`
-Column: `1979`
-Type of Variable: `Num`
-SAS Variable Name: `_RACEPR1`
+Label: `Computed race groups used for internet prevalence tables`  
+Section Name: `Calculated Race Variables`  
+Module Number: `8`  
+Question Number: `10`  
+Column: `1979`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RACEPR1`  
 Question Prologue: 
-Question: `Computed race groups used for internet prevalence tables`
+Question: `Computed race groups used for internet prevalence tables`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6730,15 +6730,15 @@ Question: `Computed race groups used for internet prevalence tables`
 
 ### Calculated sex variable
 
-Label: `Calculated sex variable`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `11`
-Column: `1980`
-Type of Variable: `Num`
-SAS Variable Name: `_SEX`
+Label: `Calculated sex variable`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `11`  
+Column: `1980`  
+Type of Variable: `Num`  
+SAS Variable Name: `_SEX`  
 Question Prologue: 
-Question: `Calculated sex variable`
+Question: `Calculated sex variable`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6749,15 +6749,15 @@ Question: `Calculated sex variable`
 
 ### Reported age in five-year age categories calculated variable
 
-Label: `Reported age in five-year age categories calculated variable`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `12`
-Column: `1981-1982`
-Type of Variable: `Num`
-SAS Variable Name: `_AGEG5YR`
+Label: `Reported age in five-year age categories calculated variable`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `12`  
+Column: `1981-1982`  
+Type of Variable: `Num`  
+SAS Variable Name: `_AGEG5YR`  
 Question Prologue: 
-Question: `Fourteen-level age category`
+Question: `Fourteen-level age category`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6780,15 +6780,15 @@ Question: `Fourteen-level age category`
 
 ### Reported age in two age groups calculated variable
 
-Label: `Reported age in two age groups calculated variable`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `13`
-Column: `1983`
-Type of Variable: `Num`
-SAS Variable Name: `_AGE65YR`
+Label: `Reported age in two age groups calculated variable`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `13`  
+Column: `1983`  
+Type of Variable: `Num`  
+SAS Variable Name: `_AGE65YR`  
 Question Prologue: 
-Question: `Two-level age category`
+Question: `Two-level age category`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6800,15 +6800,15 @@ Question: `Two-level age category`
 
 ### Imputed Age value collapsed above 80
 
-Label: `Imputed Age value collapsed above 80`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `14`
-Column: `1984-1985`
-Type of Variable: `Num`
-SAS Variable Name: `_AGE80`
+Label: `Imputed Age value collapsed above 80`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `14`  
+Column: `1984-1985`  
+Type of Variable: `Num`  
+SAS Variable Name: `_AGE80`  
 Question Prologue: 
-Question: `Imputed Age value collapsed above 80`
+Question: `Imputed Age value collapsed above 80`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6830,15 +6830,15 @@ Question: `Imputed Age value collapsed above 80`
 
 ### Imputed age in six groups
 
-Label: `Imputed age in six groups`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `15`
-Column: `1986`
-Type of Variable: `Num`
-SAS Variable Name: `_AGE_G`
+Label: `Imputed age in six groups`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `15`  
+Column: `1986`  
+Type of Variable: `Num`  
+SAS Variable Name: `_AGE_G`  
 Question Prologue: 
-Question: `Six-level imputed age category`
+Question: `Six-level imputed age category`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6853,15 +6853,15 @@ Question: `Six-level imputed age category`
 
 ### Computed Height in Inches
 
-Label: `Computed Height in Inches`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `16`
-Column: `1987-1989`
-Type of Variable: `Num`
-SAS Variable Name: `HTIN4`
+Label: `Computed Height in Inches`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `16`  
+Column: `1987-1989`  
+Type of Variable: `Num`  
+SAS Variable Name: `HTIN4`  
 Question Prologue: 
-Question: `Reported height in inches`
+Question: `Reported height in inches`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6872,15 +6872,15 @@ Question: `Reported height in inches`
 
 ### Computed Height in Meters
 
-Label: `Computed Height in Meters`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `17`
-Column: `1990-1992`
-Type of Variable: `Num`
-SAS Variable Name: `HTM4`
+Label: `Computed Height in Meters`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `17`  
+Column: `1990-1992`  
+Type of Variable: `Num`  
+SAS Variable Name: `HTM4`  
 Question Prologue: 
-Question: `Reported height in meters`
+Question: `Reported height in meters`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6891,15 +6891,15 @@ Question: `Reported height in meters`
 
 ### Computed Weight in Kilograms
 
-Label: `Computed Weight in Kilograms`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `18`
-Column: `1993-1997`
-Type of Variable: `Num`
-SAS Variable Name: `WTKG3`
+Label: `Computed Weight in Kilograms`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `18`  
+Column: `1993-1997`  
+Type of Variable: `Num`  
+SAS Variable Name: `WTKG3`  
 Question Prologue: 
-Question: `Reported weight in kilograms`
+Question: `Reported weight in kilograms`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6910,15 +6910,15 @@ Question: `Reported weight in kilograms`
 
 ### Computed body mass index
 
-Label: `Computed body mass index`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `19`
-Column: `1998-2001`
-Type of Variable: `Num`
-SAS Variable Name: `_BMI5`
+Label: `Computed body mass index`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `19`  
+Column: `1998-2001`  
+Type of Variable: `Num`  
+SAS Variable Name: `_BMI5`  
 Question Prologue: 
-Question: `Body Mass Index (BMI)`
+Question: `Body Mass Index (BMI)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6929,15 +6929,15 @@ Question: `Body Mass Index (BMI)`
 
 ### Computed body mass index categories
 
-Label: `Computed body mass index categories`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `20`
-Column: `2002`
-Type of Variable: `Num`
-SAS Variable Name: `_BMI5CAT`
+Label: `Computed body mass index categories`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `20`  
+Column: `2002`  
+Type of Variable: `Num`  
+SAS Variable Name: `_BMI5CAT`  
 Question Prologue: 
-Question: `Four-categories of Body Mass Index (BMI)`
+Question: `Four-categories of Body Mass Index (BMI)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6951,15 +6951,15 @@ Question: `Four-categories of Body Mass Index (BMI)`
 
 ### Overweight or obese calculated variable
 
-Label: `Overweight or obese calculated variable`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `21`
-Column: `2003`
-Type of Variable: `Num`
-SAS Variable Name: `_RFBMI5`
+Label: `Overweight or obese calculated variable`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `21`  
+Column: `2003`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFBMI5`  
 Question Prologue: 
-Question: `Adults who have a body mass index greater than 25.00 (Overweight or Obese)`
+Question: `Adults who have a body mass index greater than 25.00 (Overweight or Obese)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6971,15 +6971,15 @@ Question: `Adults who have a body mass index greater than 25.00 (Overweight or O
 
 ### Computed number of children in household
 
-Label: `Computed number of children in household`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `22`
-Column: `2004`
-Type of Variable: `Num`
-SAS Variable Name: `_CHLDCNT`
+Label: `Computed number of children in household`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `22`  
+Column: `2004`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CHLDCNT`  
 Question Prologue: 
-Question: `Number of children in household`
+Question: `Number of children in household`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -6996,15 +6996,15 @@ Question: `Number of children in household`
 
 ### Computed level of education completed categories
 
-Label: `Computed level of education completed categories`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `23`
-Column: `2005`
-Type of Variable: `Num`
-SAS Variable Name: `_EDUCAG`
+Label: `Computed level of education completed categories`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `23`  
+Column: `2005`  
+Type of Variable: `Num`  
+SAS Variable Name: `_EDUCAG`  
 Question Prologue: 
-Question: `Level of education completed`
+Question: `Level of education completed`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7018,15 +7018,15 @@ Question: `Level of education completed`
 
 ### Computed income categories
 
-Label: `Computed income categories`
-Section Name: `Calculated Variables`
-Module Number: `8`
-Question Number: `24`
-Column: `2006`
-Type of Variable: `Num`
-SAS Variable Name: `_INCOMG1`
+Label: `Computed income categories`  
+Section Name: `Calculated Variables`  
+Module Number: `8`  
+Question Number: `24`  
+Column: `2006`  
+Type of Variable: `Num`  
+SAS Variable Name: `_INCOMG1`  
 Question Prologue: 
-Question: `Income categories`
+Question: `Income categories`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7043,15 +7043,15 @@ Question: `Income categories`
 
 ### Women respondents aged 40+ who have had a mammogram in the past two years
 
-Label: `Women respondents aged 40+ who have had a mammogram in the past two years`
-Section Name: `Calculated Variables`
-Module Number: `10`
-Question Number: `1`
-Column: `2007`
-Type of Variable: `Num`
-SAS Variable Name: `_RFMAM22`
+Label: `Women respondents aged 40+ who have had a mammogram in the past two years`  
+Section Name: `Calculated Variables`  
+Module Number: `10`  
+Question Number: `1`  
+Column: `2007`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFMAM22`  
 Question Prologue: 
-Question: `Women respondents aged 40+ who have had a mammogram in the past two years`
+Question: `Women respondents aged 40+ who have had a mammogram in the past two years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7064,15 +7064,15 @@ Question: `Women respondents aged 40+ who have had a mammogram in the past two y
 
 ### Women respondents aged 50-74 that have had a mammogram in the past two years
 
-Label: `Women respondents aged 50-74 that have had a mammogram in the past two years`
-Section Name: `Calculated Variables`
-Module Number: `10`
-Question Number: `2`
-Column: `2008`
-Type of Variable: `Num`
-SAS Variable Name: `_MAM5023`
+Label: `Women respondents aged 50-74 that have had a mammogram in the past two years`  
+Section Name: `Calculated Variables`  
+Module Number: `10`  
+Question Number: `2`  
+Column: `2008`  
+Type of Variable: `Num`  
+SAS Variable Name: `_MAM5023`  
 Question Prologue: 
-Question: `Women respondents aged 50-74 who have had a mammogram in the past two years`
+Question: `Women respondents aged 50-74 who have had a mammogram in the past two years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7084,15 +7084,15 @@ Question: `Women respondents aged 50-74 who have had a mammogram in the past two
 
 ### Had colonoscopy calculated variable
 
-Label: `Had colonoscopy calculated variable`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `1`
-Column: `2009`
-Type of Variable: `Num`
-SAS Variable Name: `_HADCOLN`
+Label: `Had colonoscopy calculated variable`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `1`  
+Column: `2009`  
+Type of Variable: `Num`  
+SAS Variable Name: `_HADCOLN`  
 Question Prologue: 
-Question: `Had colonoscopy calculated variable`
+Question: `Had colonoscopy calculated variable`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7104,15 +7104,15 @@ Question: `Had colonoscopy calculated variable`
 
 ### Respondents aged 45-75 who have had a colonoscopy within the past ten years
 
-Label: `Respondents aged 45-75 who have had a colonoscopy within the past ten years`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `2`
-Column: `2010`
-Type of Variable: `Num`
-SAS Variable Name: `_CLNSCP1`
+Label: `Respondents aged 45-75 who have had a colonoscopy within the past ten years`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `2`  
+Column: `2010`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CLNSCP1`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a colonoscopy within the past ten years`
+Question: `Respondents aged 45-75 who have had a colonoscopy within the past ten years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7125,15 +7125,15 @@ Question: `Respondents aged 45-75 who have had a colonoscopy within the past ten
 
 ### Had sigmoidoscopy calculated variable
 
-Label: `Had sigmoidoscopy calculated variable`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `3`
-Column: `2011`
-Type of Variable: `Num`
-SAS Variable Name: `_HADSIGM`
+Label: `Had sigmoidoscopy calculated variable`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `3`  
+Column: `2011`  
+Type of Variable: `Num`  
+SAS Variable Name: `_HADSIGM`  
 Question Prologue: 
-Question: `Had sigmoidoscopy calculated variable`
+Question: `Had sigmoidoscopy calculated variable`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7145,15 +7145,15 @@ Question: `Had sigmoidoscopy calculated variable`
 
 ### Respondents aged 45-75 who have had a sigmoidoscopy within the past five years
 
-Label: `Respondents aged 45-75 who have had a sigmoidoscopy within the past five years`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `4`
-Column: `2012`
-Type of Variable: `Num`
-SAS Variable Name: `_SGMSCP1`
+Label: `Respondents aged 45-75 who have had a sigmoidoscopy within the past five years`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `4`  
+Column: `2012`  
+Type of Variable: `Num`  
+SAS Variable Name: `_SGMSCP1`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past five years`
+Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past five years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7166,15 +7166,15 @@ Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past f
 
 ### Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years
 
-Label: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `5`
-Column: `2013`
-Type of Variable: `Num`
-SAS Variable Name: `_SGMS101`
+Label: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `5`  
+Column: `2013`  
+Type of Variable: `Num`  
+SAS Variable Name: `_SGMS101`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years`
+Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7187,15 +7187,15 @@ Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past t
 
 ### Respondents aged 45-75 who have had a stool test within the past year
 
-Label: `Respondents aged 45-75 who have had a stool test within the past year`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `6`
-Column: `2014`
-Type of Variable: `Num`
-SAS Variable Name: `_RFBLDS5`
+Label: `Respondents aged 45-75 who have had a stool test within the past year`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `6`  
+Column: `2014`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFBLDS5`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a stool test within the past year`
+Question: `Respondents aged 45-75 who have had a stool test within the past year`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7208,15 +7208,15 @@ Question: `Respondents aged 45-75 who have had a stool test within the past year
 
 ### Respondents aged 45-75 who have had a stool DNA test within the past three years
 
-Label: `Respondents aged 45-75 who have had a stool DNA test within the past three years`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `7`
-Column: `2015`
-Type of Variable: `Num`
-SAS Variable Name: `_STOLDN1`
+Label: `Respondents aged 45-75 who have had a stool DNA test within the past three years`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `7`  
+Column: `2015`  
+Type of Variable: `Num`  
+SAS Variable Name: `_STOLDN1`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a stool DNA test within the past three years`
+Question: `Respondents aged 45-75 who have had a stool DNA test within the past three years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7229,15 +7229,15 @@ Question: `Respondents aged 45-75 who have had a stool DNA test within the past 
 
 ### Respondents aged 45-75 who have had a virtual colonoscopy within the past five years
 
-Label: `Respondents aged 45-75 who have had a virtual colonoscopy within the past five years`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `8`
-Column: `2016`
-Type of Variable: `Num`
-SAS Variable Name: `_VIRCOL1`
+Label: `Respondents aged 45-75 who have had a virtual colonoscopy within the past five years`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `8`  
+Column: `2016`  
+Type of Variable: `Num`  
+SAS Variable Name: `_VIRCOL1`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a virtual colonoscopy within the past five years`
+Question: `Respondents aged 45-75 who have had a virtual colonoscopy within the past five years`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7250,15 +7250,15 @@ Question: `Respondents aged 45-75 who have had a virtual colonoscopy within the 
 
 ### Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years and a blood stool test in the past year
 
-Label: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years and a blood stool test in the past year`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `9`
-Column: `2017`
-Type of Variable: `Num`
-SAS Variable Name: `_SBONTI1`
+Label: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years and a blood stool test in the past year`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `9`  
+Column: `2017`  
+Type of Variable: `Num`  
+SAS Variable Name: `_SBONTI1`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years and a blood stool test in the past year`
+Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past ten years and a blood stool test in the past year`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7271,15 +7271,15 @@ Question: `Respondents aged 45-75 who have had a sigmoidoscopy within the past t
 
 ### Respondents aged 45-75 who have fully met the USPSTF recommendations
 
-Label: `Respondents aged 45-75 who have fully met the USPSTF recommendations`
-Section Name: `Calculated Variables`
-Module Number: `11`
-Question Number: `10`
-Column: `2018`
-Type of Variable: `Num`
-SAS Variable Name: `_CRCREC2`
+Label: `Respondents aged 45-75 who have fully met the USPSTF recommendations`  
+Section Name: `Calculated Variables`  
+Module Number: `11`  
+Question Number: `10`  
+Column: `2018`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CRCREC2`  
 Question Prologue: 
-Question: `Respondents aged 45-75 who have fully met the USPSTF recommendations`
+Question: `Respondents aged 45-75 who have fully met the USPSTF recommendations`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7292,15 +7292,15 @@ Question: `Respondents aged 45-75 who have fully met the USPSTF recommendations`
 
 ### Computed Smoking Status
 
-Label: `Computed Smoking Status`
-Section Name: `Calculated Variables`
-Module Number: `12`
-Question Number: `1`
-Column: `2019`
-Type of Variable: `Num`
-SAS Variable Name: `_SMOKER3`
+Label: `Computed Smoking Status`  
+Section Name: `Calculated Variables`  
+Module Number: `12`  
+Question Number: `1`  
+Column: `2019`  
+Type of Variable: `Num`  
+SAS Variable Name: `_SMOKER3`  
 Question Prologue: 
-Question: `Four-level smoker status:  Everyday smoker, Someday smoker, Former smoker, Non-smoker`
+Question: `Four-level smoker status:  Everyday smoker, Someday smoker, Former smoker, Non-smoker`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7314,15 +7314,15 @@ Question: `Four-level smoker status:  Everyday smoker, Someday smoker, Former sm
 
 ### Current Smoking Calculated Variable
 
-Label: `Current Smoking Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `12`
-Question Number: `2`
-Column: `2020`
-Type of Variable: `Num`
-SAS Variable Name: `_RFSMOK3`
+Label: `Current Smoking Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `12`  
+Question Number: `2`  
+Column: `2020`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFSMOK3`  
 Question Prologue: 
-Question: `Adults who are current smokers`
+Question: `Adults who are current smokers`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7334,15 +7334,15 @@ Question: `Adults who are current smokers`
 
 ### Current E-cigarette User Calculated Variable
 
-Label: `Current E-cigarette User Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `12`
-Question Number: `3`
-Column: `2021`
-Type of Variable: `Num`
-SAS Variable Name: `_CURECI2`
+Label: `Current E-cigarette User Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `12`  
+Question Number: `3`  
+Column: `2021`  
+Type of Variable: `Num`  
+SAS Variable Name: `_CURECI2`  
 Question Prologue: 
-Question: `Adults who are current e-cigarette users`
+Question: `Adults who are current e-cigarette users`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7354,15 +7354,15 @@ Question: `Adults who are current e-cigarette users`
 
 ### Number of years smoked cigarettes
 
-Label: `Number of years smoked cigarettes`
-Section Name: `Calculated Variables`
-Module Number: `13`
-Question Number: `1`
-Column: `2022-2024`
-Type of Variable: `Num`
-SAS Variable Name: `_YRSSMOK`
+Label: `Number of years smoked cigarettes`  
+Section Name: `Calculated Variables`  
+Module Number: `13`  
+Question Number: `1`  
+Column: `2022-2024`  
+Type of Variable: `Num`  
+SAS Variable Name: `_YRSSMOK`  
 Question Prologue: 
-Question: `Number of years respondent smoked cigarettes`
+Question: `Number of years respondent smoked cigarettes`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7373,15 +7373,15 @@ Question: `Number of years respondent smoked cigarettes`
 
 ### Number of packs of cigarettes smoked per day
 
-Label: `Number of packs of cigarettes smoked per day`
-Section Name: `Calculated Variables`
-Module Number: `13`
-Question Number: `2`
-Column: `2025-2029`
-Type of Variable: `Num`
-SAS Variable Name: `_PACKDAY`
+Label: `Number of packs of cigarettes smoked per day`  
+Section Name: `Calculated Variables`  
+Module Number: `13`  
+Question Number: `2`  
+Column: `2025-2029`  
+Type of Variable: `Num`  
+SAS Variable Name: `_PACKDAY`  
 Question Prologue: 
-Question: `Number of packs of cigarettes smoked per day`
+Question: `Number of packs of cigarettes smoked per day`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7392,15 +7392,15 @@ Question: `Number of packs of cigarettes smoked per day`
 
 ### Years smoked reported packs per day
 
-Label: `Years smoked reported packs per day`
-Section Name: `Calculated Variables`
-Module Number: `13`
-Question Number: `3`
-Column: `2030-2033`
-Type of Variable: `Num`
-SAS Variable Name: `_PACKYRS`
+Label: `Years smoked reported packs per day`  
+Section Name: `Calculated Variables`  
+Module Number: `13`  
+Question Number: `3`  
+Column: `2030-2033`  
+Type of Variable: `Num`  
+SAS Variable Name: `_PACKYRS`  
 Question Prologue: 
-Question: `Number of years smoked reported number of packs per day`
+Question: `Number of years smoked reported number of packs per day`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7411,15 +7411,15 @@ Question: `Number of years smoked reported number of packs per day`
 
 ### Number of years since quit smoking cigarettes
 
-Label: `Number of years since quit smoking cigarettes`
-Section Name: `Calculated Variables`
-Module Number: `13`
-Question Number: `4`
-Column: `2034-2035`
-Type of Variable: `Num`
-SAS Variable Name: `_YRSQUIT`
+Label: `Number of years since quit smoking cigarettes`  
+Section Name: `Calculated Variables`  
+Module Number: `13`  
+Question Number: `4`  
+Column: `2034-2035`  
+Type of Variable: `Num`  
+SAS Variable Name: `_YRSQUIT`  
 Question Prologue: 
-Question: `Number of years since quit smoking cigarettes`
+Question: `Number of years since quit smoking cigarettes`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7430,15 +7430,15 @@ Question: `Number of years since quit smoking cigarettes`
 
 ### Smoking Group
 
-Label: `Smoking Group`
-Section Name: `Calculated Variables`
-Module Number: `13`
-Question Number: `5`
-Column: `2036`
-Type of Variable: `Num`
-SAS Variable Name: `_SMOKGRP`
+Label: `Smoking Group`  
+Section Name: `Calculated Variables`  
+Module Number: `13`  
+Question Number: `5`  
+Column: `2036`  
+Type of Variable: `Num`  
+SAS Variable Name: `_SMOKGRP`  
 Question Prologue: 
-Question: `Smoking Group`
+Question: `Smoking Group`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7452,15 +7452,15 @@ Question: `Smoking Group`
 
 ### Lung cancer screening recommendation status
 
-Label: `Lung cancer screening recommendation status`
-Section Name: `Calculated Variables`
-Module Number: `13`
-Question Number: `6`
-Column: `2037`
-Type of Variable: `Num`
-SAS Variable Name: `_LCSREC`
+Label: `Lung cancer screening recommendation status`  
+Section Name: `Calculated Variables`  
+Module Number: `13`  
+Question Number: `6`  
+Column: `2037`  
+Type of Variable: `Num`  
+SAS Variable Name: `_LCSREC`  
 Question Prologue: 
-Question: `Lung cancer screening recommendation status`
+Question: `Lung cancer screening recommendation status`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7472,15 +7472,15 @@ Question: `Lung cancer screening recommendation status`
 
 ### Drink any alcoholic beverages in past 30 days
 
-Label: `Drink any alcoholic beverages in past 30 days`
-Section Name: `Calculated Variables`
-Module Number: `14`
-Question Number: `1`
-Column: `2038`
-Type of Variable: `Num`
-SAS Variable Name: `DRNKANY6`
+Label: `Drink any alcoholic beverages in past 30 days`  
+Section Name: `Calculated Variables`  
+Module Number: `14`  
+Question Number: `1`  
+Column: `2038`  
+Type of Variable: `Num`  
+SAS Variable Name: `DRNKANY6`  
 Question Prologue: 
-Question: `Adults who reported having had at least one drink of alcohol in the past 30 days.`
+Question: `Adults who reported having had at least one drink of alcohol in the past 30 days.`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7493,15 +7493,15 @@ Question: `Adults who reported having had at least one drink of alcohol in the p
 
 ### Computed drink-occasions-per-day
 
-Label: `Computed drink-occasions-per-day`
-Section Name: `Calculated Variables`
-Module Number: `14`
-Question Number: `2`
-Column: `2039-2041`
-Type of Variable: `Num`
-SAS Variable Name: `DROCDY4_`
+Label: `Computed drink-occasions-per-day`  
+Section Name: `Calculated Variables`  
+Module Number: `14`  
+Question Number: `2`  
+Column: `2039-2041`  
+Type of Variable: `Num`  
+SAS Variable Name: `DROCDY4_`  
 Question Prologue: 
-Question: `Drink-occasions-per-day`
+Question: `Drink-occasions-per-day`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7514,15 +7514,15 @@ Question: `Drink-occasions-per-day`
 
 ### Binge Drinking Calculated Variable
 
-Label: `Binge Drinking Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `14`
-Question Number: `3`
-Column: `2042`
-Type of Variable: `Num`
-SAS Variable Name: `_RFBING6`
+Label: `Binge Drinking Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `14`  
+Question Number: `3`  
+Column: `2042`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFBING6`  
 Question Prologue: 
-Question: `Binge drinkers (males having five or more drinks on one occasion, females having four or more drinks on one occasion)`
+Question: `Binge drinkers (males having five or more drinks on one occasion, females having four or more drinks on one occasion)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7534,15 +7534,15 @@ Question: `Binge drinkers (males having five or more drinks on one occasion, fem
 
 ### Computed number of drinks of alcohol beverages per week
 
-Label: `Computed number of drinks of alcohol beverages per week`
-Section Name: `Calculated Variables`
-Module Number: `14`
-Question Number: `4`
-Column: `2043-2047`
-Type of Variable: `Num`
-SAS Variable Name: `_DRNKWK2`
+Label: `Computed number of drinks of alcohol beverages per week`  
+Section Name: `Calculated Variables`  
+Module Number: `14`  
+Question Number: `4`  
+Column: `2043-2047`  
+Type of Variable: `Num`  
+SAS Variable Name: `_DRNKWK2`  
 Question Prologue: 
-Question: `Calculated total number of alcoholic beverages consumed per week`
+Question: `Calculated total number of alcoholic beverages consumed per week`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7554,15 +7554,15 @@ Question: `Calculated total number of alcoholic beverages consumed per week`
 
 ### Heavy Alcohol Consumption  Calculated Variable
 
-Label: `Heavy Alcohol Consumption  Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `14`
-Question Number: `5`
-Column: `2048`
-Type of Variable: `Num`
-SAS Variable Name: `_RFDRHV8`
+Label: `Heavy Alcohol Consumption  Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `14`  
+Question Number: `5`  
+Column: `2048`  
+Type of Variable: `Num`  
+SAS Variable Name: `_RFDRHV8`  
 Question Prologue: 
-Question: `Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)`
+Question: `Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7574,15 +7574,15 @@ Question: `Heavy drinkers (adult men having more than 14 drinks per week and adu
 
 ### Flu Shot Calculated Variable
 
-Label: `Flu Shot Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `15`
-Question Number: `1`
-Column: `2049`
-Type of Variable: `Num`
-SAS Variable Name: `_FLSHOT7`
+Label: `Flu Shot Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `15`  
+Question Number: `1`  
+Column: `2049`  
+Type of Variable: `Num`  
+SAS Variable Name: `_FLSHOT7`  
 Question Prologue: 
-Question: `Adults aged 65+ who have had a flu shot within the past year`
+Question: `Adults aged 65+ who have had a flu shot within the past year`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7595,15 +7595,15 @@ Question: `Adults aged 65+ who have had a flu shot within the past year`
 
 ### Pneumonia Vaccination Calculated Variable
 
-Label: `Pneumonia Vaccination Calculated Variable`
-Section Name: `Calculated Variables`
-Module Number: `15`
-Question Number: `2`
-Column: `2050`
-Type of Variable: `Num`
-SAS Variable Name: `_PNEUMO3`
+Label: `Pneumonia Vaccination Calculated Variable`  
+Section Name: `Calculated Variables`  
+Module Number: `15`  
+Question Number: `2`  
+Column: `2050`  
+Type of Variable: `Num`  
+SAS Variable Name: `_PNEUMO3`  
 Question Prologue: 
-Question: `Adults aged 65+ who have ever had a pneumonia vaccination`
+Question: `Adults aged 65+ who have ever had a pneumonia vaccination`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
@@ -7616,15 +7616,15 @@ Question: `Adults aged 65+ who have ever had a pneumonia vaccination`
 
 ### Ever been tested for HIV calculated variable
 
-Label: `Ever been tested for HIV calculated variable`
-Section Name: `Calculated Variables`
-Module Number: `16`
-Question Number: `1`
-Column: `2051`
-Type of Variable: `Num`
-SAS Variable Name: `_AIDTST4`
+Label: `Ever been tested for HIV calculated variable`  
+Section Name: `Calculated Variables`  
+Module Number: `16`  
+Question Number: `1`  
+Column: `2051`  
+Type of Variable: `Num`  
+SAS Variable Name: `_AIDTST4`  
 Question Prologue: 
-Question: `Adults who have ever been tested for HIV`
+Question: `Adults who have ever been tested for HIV`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
