@@ -4,15 +4,15 @@
 
 ### State FIPS Code
 
-Label: `State FIPS Code`
-Section Name: `Record Identification`
-Section Number: `0`
-Question Number: `1`
-Column: `1-2`
-Type of Variable: `Num`
-SAS Variable Name: `_STATE`
-Question Prologue: 
-Question: `State FIPS Code`
+Label: `State FIPS Code`  
+Section Name: `Record Identification`  
+Section Number: `0`  
+Question Number: `1`  
+Column: `1-2`  
+Type of Variable: `Num`  
+SAS Variable Name: `_STATE`  
+Question Prologue:  
+Question: `State FIPS Code`  
 
 | Value | Value Label | Frequency | Percentage | Weighted Percentage |
 | --- | --- | --- | --- | --- |
