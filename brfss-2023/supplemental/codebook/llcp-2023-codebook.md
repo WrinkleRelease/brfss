@@ -1,6 +1,7 @@
 # LLCP 2023 Codebook
 
 ##  Record Identification
+> table: `record_identification`
 
 ### State FIPS Code
 
@@ -270,6 +271,7 @@ Question: `Primary Sampling Unit (Equal to Annual Sequence Number)`
 <br>
 
 ##  Land Line Introduction
+> table: `land_line_introduction`
 
 ### Correct telephone number?
 
@@ -457,6 +459,7 @@ Question: `Are you?`
 <br>
 
 ##  Cell Phone Introduction
+> table: `cell_phone_introduction`
 
 ### Safe time to talk
 
@@ -659,6 +662,7 @@ Question: `How many members of your household, including yourself, are 18 years 
 <br>
 
 ##  Respondent Sex
+> table: `respondent_sex`
 
 ### Sex of Respondent
 
@@ -680,6 +684,7 @@ Question: `Sex of Respondent`
 <br>
 
 ##  Health Status
+> table: `health_status`
 
 ### General Health
 
@@ -707,6 +712,7 @@ Question: `Would you say that in general your health is:`
 <br>
 
 ##  Healthy Days
+> table: `healthy_days`
 
 ### Number of Days Physical Health Not Good
 
@@ -775,6 +781,7 @@ Question: `During the past 30 days, for about how many days did poor physical or
 <br>
 
 ##  Health Care Access
+> table: `health_care_access`
 
 ### What is Current Primary Source of Health Insurance?
 
@@ -878,6 +885,7 @@ Question: `About how long has it been since you last visited a doctor for a rout
 <br>
 
 ##  Exercise (Physical Activity)
+> table: `exercise`
 
 ### Exercise in Past 30 Days
 
@@ -1076,6 +1084,7 @@ Question: `During the past month, how many times per week or per month did you d
 <br>
 
 ##  Hypertension Awareness
+> table: `hypertension`
 
 ### Ever Told Blood Pressure High
 
@@ -1124,6 +1133,7 @@ Question: `Are you currently taking prescription medicine for your high blood pr
 <br>
 
 ##  Cholesterol Awareness
+> table: `cholesterol`
 
 ### How Long since Cholesterol Checked
 
@@ -1197,6 +1207,7 @@ Question: `Are you currently taking medicine prescribed by your doctor or other 
 <br>
 
 ##  Chronic Health Conditions
+> table: `chronic_health_conditions`
 
 ### Ever Diagnosed with Heart Attack
 
@@ -1486,6 +1497,7 @@ Question: `How old were you when you were first told you had diabetes?`
 <br>
 
 ##  Demographics
+> table: `demographics`
 
 ### Marital Status
 
@@ -1796,6 +1808,7 @@ Question: `About how tall are you without shoes?  (If respondent answers in metr
 <br>
 
 ##  Disability
+> table: `disability`
 
 ### Are you deaf or do you have serious difficulty hearing?
 
@@ -1930,6 +1943,7 @@ Question: `Because of a physical, mental, or emotional condition, do you have di
 <br>
 
 ##  Falls
+> table: `falls`
 
 ### Had Fall Past Twelve Months
 
@@ -1976,6 +1990,7 @@ Question: `How many of these falls caused an injury that limited your regular ac
 <br>
 
 ##  Tobacco Use
+> table: `tabacco_use`
 
 ### Smoked at Least 100 Cigarettes
 
@@ -2070,6 +2085,7 @@ Question: `Would you say you have never used e-cigarettes or other electronic va
 <br>
 
 ##  Alcohol Consumption
+> table: `alcohol_consumption`
 
 ### Days in past 30 had alcoholic beverage
 
@@ -2161,6 +2177,7 @@ Question: `During the past 30 days, what is the largest number of drinks you had
 <br>
 
 ##  Immunization
+> table: `immunization`
 
 ### Adult flu shot/spray past 12 mos
 
@@ -2250,6 +2267,7 @@ Question: `Have you ever had the shingles or zoster vaccine?`
 <br>
 
 ##  HIV/AIDS
+> table: `hiv_aids`
 
 ### Ever tested H.I.V.
 
@@ -2295,6 +2313,7 @@ Question: `Not including blood donations, in what month and year was your last H
 <br>
 
 ##  Seatbelt Use and Drinking and Driving
+> table: `seatbelt_drink_drive`
 
 ### How often use seatbelts in car?
 
@@ -2345,6 +2364,7 @@ Question: `During the past 30 days, how many times have you driven when you've h
 <br>
 
 ##  Long-term COVID Effects
+> table: `long_term_covid`
 
 ### Have you ever tested positive for COVID-19?
 
@@ -2414,6 +2434,7 @@ Question: `Do these long-term symptoms reduce your ability to carry out day-to-d
 <br>
 
 ##  Pre-Diabetes
+> table: `pre_diabetes`
 
 ### When was your last blood test for high blood sugar?
 
@@ -2466,6 +2487,7 @@ Question: `Has a doctor or other health professional ever told you that you had 
 <br>
 
 ##  Diabetes
+> table: `diabetes`
 
 ### What type of diabetes do you have?
 
@@ -2634,6 +2656,7 @@ Question: `Have you ever had any sores or irritations on your feet that took mor
 <br>
 
 ##  Arthritis
+> table: `arthritis`
 
 ### Dr. Suggest Use of Physical Activity or Exercise for Arthritis or Joint Symptoms
 
@@ -2753,6 +2776,7 @@ Question: `During the past 30 days, how bad was your joint pain on average on a 
 <br>
 
 ##  Lung Cancer Screening
+> table: `lung_cancer_screen`
 
 ### How old when you first started smoking?
 
@@ -2889,6 +2913,7 @@ Question: `When did you have your most recent CT or CAT scan of your chest area 
 <br>
 
 ##  Breast and Cervical Cancer Screening
+> table: `breast_cervical_cancer_screen`
 
 ### Have You Ever Had a Mammogram
 
@@ -3047,6 +3072,7 @@ Question: `Have you had a hysterectomy?  (A hysterectomy is an operation to remo
 <br>
 
 ##  Prostate Cancer Screening
+> table: `prostate_cancer_screen`
 
 ### Ever Had PSA Test
 
@@ -3166,6 +3192,7 @@ Question: `When you met with a doctor, nurse, or other health professional, did 
 <br>
 
 ##  Colorectal Cancer Screening
+> table: `colorectal_cancer_screen`
 
 ### Ever Had Sigmoidoscopy/Colonoscopy
 
@@ -3467,6 +3494,7 @@ Question: `How long has it been since you had this test?`
 <br>
 
 ##  Cancer Survivorship: Type of Cancer
+> table: `cancer_survivor_type`
 
 ### How Many Types of Cancer?
 
@@ -3563,6 +3591,7 @@ Question: `What kind of cancer is it?`
 <br>
 
 ##  Cancer Survivorship: Course of Treatment
+> table: `cancer_survivor_treat`
 
 ### Currently Receiving Treatment for Cancer
 
@@ -3752,6 +3781,7 @@ Question: `Did you participate in a clinical trial as part of your cancer treatm
 <br>
 
 ##  Cancer Survivorship: Pain Management
+> table: `cancer_survivor_pain`
 
 ### Currently Have Physical Pain From Cancer Or Treatment?
 
@@ -3800,6 +3830,7 @@ Question: `Would you say your pain is currently under control?`
 <br>
 
 ##  Indoor Tanning
+> table: `indoor_tanning`
 
 ### Times used an indoor tanning device
 
@@ -3820,6 +3851,7 @@ Question: `Not including spray-on tans, during the past 12 months, how many time
 <br>
 
 ##  Excess Sun Exposure
+> table `excess_sun_exposure`
 
 ### Number Of Sunburns In Past 12 Months
 
@@ -3894,6 +3926,7 @@ Question: `On weekends in the summer, how long are you outside each day between 
 <br>
 
 ##  Cognitive Decline
+> table: `cognitive_decline`
 
 ### Have you experienced difficulties with thinking or memory that is happening more often or is getting worse?
 
@@ -4006,6 +4039,7 @@ Question: `During the past 12 months, have your difficulties with thinking or me
 <br>
 
 ##  Caregiver
+> table: `caregiver`
 
 ### Provided regular care for family or friend
 
@@ -4238,6 +4272,7 @@ Question: `In the next 2 years, do you expect to provide care or assistance to a
 <br>
 
 ##  Tobacco Cessation
+> table: `tabacco_cessation`
 
 ### Interval Since Last Smoked
 
@@ -4290,6 +4325,7 @@ Question: `During the past 12 months, have you stopped smoking for one day or lo
 <br>
 
 ##  Other Tobacco Use
+> table: `other_tabacco_use`
 
 ### Do you usually smoke menthol cigarettes?
 
@@ -4358,6 +4394,7 @@ Question: `Before today, have you heard of heated tobacco products?`
 <br>
 
 ##  Firearm Safety
+> table: `firearm_safety`
 
 ### Any Firearms in Home
 
@@ -4426,6 +4463,7 @@ Question: `Are any of these loaded firearms also unlocked?`
 <br>
 
 ##  Heart Attack and Stroke
+> table: `heart_attack_stroke`
 
 ### Heart Attack Symptoms - Jaw/Back/Neck Pain
 
@@ -4717,6 +4755,7 @@ Question: `If you thought someone was having a heart attack or a stroke, what is
 <br>
 
 ##  Aspirin for CVD Prevention
+> table: `aspirin_cvd`
 
 ### How often do you take an aspirin
 
@@ -4743,6 +4782,7 @@ Question: `How often do you take an aspirin to prevent or control heart disease,
 <br>
 
 ##  Sexual Orientation
+> table: `sexual_orientation`
 
 ### Sexual orientation
 
@@ -5308,7 +5348,7 @@ Question: `How many HPV shots did you receive?`
 
 <br>
 
-##  Tetanus Diphtheria (Tdap) (Adults)
+##  Tetanus Diphtheria (TDAP) (Adults)
 
 ### Received Tetanus Shot Since 2005?
 
@@ -7861,6 +7901,4 @@ Question: `Drinking and Driving  (Reported having driven at least once when perh
 | 1 | Have driven after having too much to drink | 6,192 | 1.43 | 1.36 |
 | 2 | Have not driven after having too much to drink | 205,541 | 47.43 | 45.81 |
 | 9 | Don't know/Not Sure/Refused/Missing | 221,590 | 51.14 | 52.83 |
-
-<br>
 

@@ -5,8 +5,8 @@ services:
     ports:
       - 5432:5432
     environment: 
-      POSTGRES_USER: username
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: chummy
       POSTGRES_DB: brfss_2023
     volumes:
     - postgres_data:/var/lib/postgresql/data
