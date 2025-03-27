@@ -24,7 +24,7 @@ The `.r` file I used to convert the XPT file to CSV is included.
 
 # SQL Schema & Splitting the CSV
 
-My Postgres schema is based of the codebook, which lists the SAS Variable names along with the Section Name. Each Section is its own table, and each column is an SAS Variable in that section. 
+My Postgres schema is based on the codebook, which lists the SAS Variable names along with the Section Name. Each Section is its own table, and each column is an SAS Variable in that section. 
 
 I was unable to successfully import the entire CSV file into a Postgres instance with an `init.sql` file. Instead, I split the full CSV into smaller files, one per section. 
 
