@@ -1,0 +1,17 @@
+# This filename is for example purposes
+# Be sure to change the filename back to docker-compose.yml once its on your system
+services:
+  postgres:
+    image: postgres:17
+    container_name: your_container_name
+    ports:
+      - 5432:5432
+    environment: 
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: your_database_name
+    volumes:
+    - postgres_data:/var/lib/postgresql/data
+    - ./data:/docker-entrypoint-initdb.d # Mount the local data folder for init
+volumes:
+  postgres_data:

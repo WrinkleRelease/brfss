@@ -3830,7 +3830,7 @@ Question: `Would you say your pain is currently under control?`
 <br>
 
 ##  Indoor Tanning
-> table: `indoor_tanning`
+> table: `indoor_tan`
 
 ### Times used an indoor tanning device
 
@@ -4833,6 +4833,7 @@ Question: `Which of the following best represents how you think of yourself?`
 <br>
 
 ##  Marijuana Use
+> table: `marijuana_use`
 
 ### During the past 30 days, on how many days did you use marijuana or hashish?
 
@@ -4967,6 +4968,7 @@ Question: `Did you use it in some other way?`
 <br>
 
 ##  Adverse Childhood Experiences
+> table: `ace`
 
 ### Live With Anyone Depressed, Mentally Ill, Or Suicidal?
 
@@ -5268,6 +5270,7 @@ Question: `For how much of your childhood was there an adult in your household w
 <br>
 
 ##  Place of Flu Vaccination
+> table: `flu_vaccination`
 
 ### Where did you get your last flu shot/vaccine?
 
@@ -5301,6 +5304,7 @@ Question: `At what kind of place did you get your last flu shot or vaccine?`
 <br>
 
 ##  HPV Vaccination
+> table: `hpv_vaccination`
 
 ### Have you ever had an H.P.V. vaccination?
 
@@ -5349,6 +5353,7 @@ Question: `How many HPV shots did you receive?`
 <br>
 
 ##  Tetanus Diphtheria (TDAP) (Adults)
+> table: `tdap_adults`
 
 ### Received Tetanus Shot Since 2005?
 
@@ -5375,6 +5380,7 @@ Question: `Have you received a tetanus shot in the past 10 years?  (If yes, ask:
 <br>
 
 ##  COVID Vaccination
+> table: `covid_vaccination`
 
 ### Received at least one COVID-19 vaccination
 
@@ -5448,6 +5454,7 @@ Question: `How many COVID-19 vaccinations have you received?`
 <br>
 
 ##  Social Determinants
+> table: `social_determinants`
 
 ### Satisfaction with life
 
@@ -5684,6 +5691,7 @@ Question: `Within the last 30 days, how often have you felt this kind of stress?
 <br>
 
 ##  Reactions to Race
+> table: `race_reactions`
 
 ### How do other people usually classify you in this country?
 
@@ -5838,6 +5846,7 @@ Question: `Within the past 30 days, have you experienced any physical symptoms, 
 <br>
 
 ##  Random Child Selection
+> table: `random_child_selection`
 
 ### Sex of child
 
@@ -5887,6 +5896,7 @@ Question: `How are you related to the child?`
 <br>
 
 ##  Childhood Asthma Prevalence
+> table: `childhood_asthma`
 
 ### Hlth pro ever said child has asthma
 
@@ -5933,6 +5943,7 @@ Question: `Does the child still have asthma?`
 <br>
 
 ##  Questionnaire Version
+> table: `questionnaire_version`
 
 ### Questionnaire Version Identifier
 
@@ -5960,6 +5971,7 @@ Question: `Questionnaire Version Identifier`
 <br>
 
 ##  Questionnaire Language
+> table: `questionnaire_language`
 
 ### Language identifier
 
@@ -5982,6 +5994,7 @@ Question: `Language identifier`
 <br>
 
 ##  Urban Rural
+> table: `urban_rural`
 
 ### Metropolitan Status
 
@@ -6023,7 +6036,8 @@ Question: `Urban/Rural Status`
 
 <br>
 
-##  Weighting Variables
+##  Weighting Variables (1)
+> table: `weighting_variables_1`
 
 ### Metropolitan Status Code
 
@@ -6143,6 +6157,7 @@ Question: `Imputed race/ethnicity value  (This value is the reported race/ethnic
 <br>
 
 ##  Child Demographic Variables
+> table: `child_demographics`
 
 ### Child Hispanic, Latino/a, or Spanish origin calculated variable
 
@@ -6193,6 +6208,7 @@ Question: `Child multiracial race categorization`
 <br>
 
 ##  Child Weighting Variables
+> table: `child_weighting_variables`
 
 ### Four level child age
 
@@ -6234,7 +6250,8 @@ Question: `Final child weight: Land-line and Cell-Phone data  (Raking derived we
 
 <br>
 
-##  Weighting Variables
+##  Weighting Variables (2)
+> table: `weighting_variables_2`
 
 ### Dual Phone Use Categories
 
@@ -6310,7 +6327,8 @@ Question: `Final weight assigned to each  respondent: Land-line and cell-phone d
 
 <br>
 
-##  Calculated Variables
+##  Calculated Variables (1)
+> table: `calculated_variables_1`
 
 ### Adults with good or better health
 
@@ -7158,6 +7176,7 @@ Question: `Respondents who have had a doctor diagnose them as having some form o
 <br>
 
 ##  Calculated Race Variables
+> table: `calculated_race_variables`
 
 ### Calculated non-Hispanic Race including multiracial
 
@@ -7304,7 +7323,8 @@ Question: `Computed race groups used for internet prevalence tables`
 
 <br>
 
-##  Calculated Variables
+##  Calculated Variables (2)
+> table: `calculated_variables_2`
 
 ### Calculated sex variable
 
