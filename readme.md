@@ -2,9 +2,13 @@ This repository aims to provide instructions on how to run the CDC's BRFSS data 
 
 The schema presented here divide the BRFSS into sixty-three discreet tables grouped by section name (as indicated in the LLCP codebook). By using the markdown-formatted version of the codebook presented in this repo, one can call tables or individual variables as needed in R, saving time and resources.
 
+<br>
+
 # Obtain the BRFSS File
 
 The CDC hosts the data file in either `.xpt` or `.asc` format. They can be downloaded, zipped, from [this location](https://www.cdc.gov/brfss/annual_data/annual_2023.html). Scroll down to the section entitled **Data Files** and choose the format you prefer. I worked with the `.xpt` file as the `.asc` requires a separate file (known as a dictionary file) to correctly assign column names and etc.
+
+<br>
 
 # Convert XPT to a SQL Friendly Format
 
@@ -16,6 +20,8 @@ SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/b
 **2. Using a simple `.r` script in RStudio**
 The `.r` file I used to convert the XPT file to CSV is included.
 
+<br>
+
 # SQL Schema & Splitting the CSV
 
 My Postgres schema is based of the codebook, which lists the SAS Variable names along with the Section Name. Each Section is its own table, and each column is an SAS Variable in that section. 
@@ -26,6 +32,8 @@ I was unable to successfully import the entire CSV file into a Postgres instance
 cut -d ',' -f [column numbers separated by commas] ~/path/to/master.csv > section_name.csv
 ```
 Move all these files into the `container-name/data/` folder.
+
+<br>
 
 # Setting up a Docker PostgreSQL instance
 
@@ -58,6 +66,8 @@ docker exec -t your-container-name pg_dump -U username your-db-name > db_name_ba
 # restore db
 docker exec -i your-container-name pg_dump -U username your-db-name > db_name_backup.sql
 ```
+
+<br>
 
 # Connecting to the database from RStudio
 
@@ -96,6 +106,8 @@ Once finished, disconnect
 dbDisconnect(con)
 ```
 
+<br>
+
 # Supplemental Material
 
 The following supplemental material is provided for each year.
@@ -103,6 +115,8 @@ The following supplemental material is provided for each year.
 **Codebook**: The codebook gives the variable name, location, and frequency of values for all reporting areas combined for the landline and cell phone data set. The CDC distributes the codebook as an `.html` file which can be found on their site. Through python scripts, I've converted the codebook into a `.md` file with section and question headers, which greatly reduce seek time when looking up a variable, its SAS code and answer codes.
 
 **Variable Layout**: Knowing the variable layout helps when building a new schema and creating queries.
+
+<br>
 
 # Handling Errors
 
