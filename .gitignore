@@ -4,4 +4,4 @@ brfss-2023/data/
 brfss-2022/data/
 brfss-2023/brfss_2023_backup.sql
 brfss-2023/docker-compose.yml
-brfss-2023/supplemental/sas-section-line-numbers.txt
+brfss-2023/supplemental/sas-section-line-numbers.md
