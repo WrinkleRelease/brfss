@@ -1,0 +1,551 @@
+--BEGIN SECTION--
+record_identification
+     1  _state
+     2  fmonth
+     3  idate
+     4  imonth
+     5  iday
+     6  iyear
+     7  dispcode
+     8  seqno
+     9  _psu
+--END SECTION--
+
+--BEGIN SECTION--
+land_line_introduction
+    10  ctelenm1
+    11  pvtresd1
+    12  colghous
+    13  statere1
+    14  celphon1
+    15  ladult1
+    16  colgsex1
+    17  numadult
+    18  landsex1
+    19  nummen
+    20  numwomen
+    21  respslct
+--END SECTION--
+
+--BEGIN SECTION--
+cell_phone_introduction
+    22  safetime
+    23  ctelnum1
+    24  cellfon5
+    25  cadult1
+    26  cellsex1
+    27  pvtresd3
+    28  cclghous
+    29  cstate1
+    30  landline
+    31  hhadult
+--END SECTION--
+
+--BEGIN SECTION--
+respondent_sex
+    32  sexvar
+--END SECTION--
+
+--BEGIN SECTION--
+healthy_days
+    33  genhlth
+    34  physhlth
+    35  menthlth
+    36  poorhlth
+--END SECTION--
+
+--BEGIN SECTION--
+health_care_access
+    37  priminsr
+    38  persdoc3
+    39  medcost1
+    40  checkup1
+--END SECTION--
+
+--BEGIN SECTION--
+exercise
+    41  exerany2
+--END SECTION--
+
+--BEGIN SECTION--
+inadequate_sleep
+    42  sleptim1
+--END SECTION--
+
+--BEGIN SECTION--
+oral_health
+    43  lastden4
+    44  rmvteth4
+--END SECTION--
+
+--BEGIN SECTION--
+chronic_health_conditions
+    45  cvdinfr4
+    46  cvdcrhd4
+    47  cvdstrk3
+    48  asthma3
+    49  asthnow
+    50  chcscnc1
+    51  chcocnc1
+    52  chccopd3
+    53  addepev3
+    54  chckdny2
+    55  havarth4
+    56  diabete4
+--END SECTION--
+
+--BEGIN SECTION--
+demographics
+    57  marital
+    58  educa
+    59  renthom1
+    60  numhhol4
+    61  veteran3
+    62  employ1
+    63  children
+    64  income3
+    65  pregnant
+    66  weight2
+    67  height3
+--END SECTION--
+
+--BEGIN SECTION--
+disability
+    68  deaf
+    69  blind
+    70  decide
+    71  diffwalk
+    72  diffdres
+    73  diffalon
+--END SECTION--
+
+--BEGIN SECTION--
+breast_cervical_cancer_screen
+    74  hadmam
+    75  howlong
+    76  cervscrn
+    77  crvclcnc
+    78  crvclpap
+    79  crvclhpv
+    80  hadhyst2
+--END SECTION--
+
+--BEGIN SECTION--
+colorectal_cancer_screen
+    81  hadsigm4
+    82  colnsigm
+    83  colntes1
+    84  sigmtes1
+    85  lastsig4
+    86  colncncr
+    87  vircolo1
+    88  vclntes2
+    89  smalstol
+    90  stoltest
+    91  stooldn2
+    92  bldstfit
+    93  sdnates1
+--END SECTION--
+
+--BEGIN SECTION--
+tobacco_use
+    94  smoke100
+    95  smokday2
+    96  usenow3
+    97  ecignow2
+--END SECTION--
+
+--BEGIN SECTION--
+lung_cancer_screen
+    98  lcsfirst
+    99  lcslast
+   100  lcsnumcg
+   101  lcsctsc1
+   102  lcsscncr
+   103  lcsctwhn
+--END SECTION--
+
+--BEGIN SECTION--
+alcohol_consumption
+   104  alcday4
+   105  avedrnk3
+   106  drnk3ge5
+   107  maxdrnks
+--END SECTION--
+
+--BEGIN SECTION--
+immunization
+   108  flushot7
+   109  flshtmy3
+   110  pneuvac4
+   111  tetanus1
+--END SECTION--
+
+--BEGIN SECTION--
+hiv_aids
+   112  hivtst7
+   113  hivtstd3
+   114  hivrisk5
+--END SECTION--
+
+--BEGIN SECTION--
+long_term_covid
+   115  covidpos
+   116  covidsmp
+   117  covidprm
+--END SECTION--
+
+--BEGIN SECTION--
+pre_diabetes
+   118  pdiabts1
+   119  prediab2
+--END SECTION--
+
+--BEGIN SECTION--
+diabetes
+   120  diabtype
+   121  insulin1
+   122  chkhemo3
+   123  eyeexam1
+   124  diabeye1
+   125  diabedu1
+   126  feetsore
+--END SECTION--
+
+--BEGIN SECTION--
+me_cfs
+   127  toldcfs
+   128  havecfs
+   129  workcfs
+--END SECTION--
+
+--BEGIN SECTION--
+flu_vaccination
+   130  imfvpla3
+--END SECTION--
+
+--BEGIN SECTION--
+hpv_vaccination
+   131  hpvadvc4
+   132  hpvadsht
+--END SECTION--
+
+--BEGIN SECTION--
+shingles_vaccination
+   133  shingle2
+--END SECTION--
+
+--BEGIN SECTION--
+covid_vaccination
+   134  covidva1
+   135  covacget
+   136  covidnu1
+   137  covidint
+   138  covidfs1
+   139  covidse1
+--END SECTION--
+
+--BEGIN SECTION--
+respiratory_health
+   140  copdcogh
+   141  copdflem
+   142  copdbrth
+   143  copdbtst
+   144  copdsmok
+--END SECTION--
+
+--BEGIN SECTION--
+cancer_survivor_type
+   145  cncrdiff
+   146  cncrage
+   147  cncrtyp2
+--END SECTION--
+
+--BEGIN SECTION--
+cancer_survivor_treat
+   148  csrvtrt3
+   149  csrvdoc1
+   150  csrvsum
+   151  csrvrtrn
+   152  csrvinst
+   153  csrvinsr
+   154  csrvdein
+   155  csrvclin
+--END SECTION--
+
+--BEGIN SECTION--
+cancer_survivor_pain
+   156  csrvpain
+   157  csrvctl2
+--END SECTION--
+
+--BEGIN SECTION--
+prostate_cancer_screen
+   158  psatest1
+   159  psatime1
+   160  pcpsars2
+   161  psasugst
+   162  pcstalk1
+--END SECTION--
+
+--BEGIN SECTION--
+cognitive_decline
+   163  cimemlos
+   164  cdhouse
+   165  cdassist
+   166  cdhelp
+   167  cdsocial
+   168  cddiscus
+--END SECTION--
+
+--BEGIN SECTION--
+caregiver
+   169  caregiv1
+   170  crgvrel4
+   171  crgvlng1
+   172  crgvhrs1
+   173  crgvprb3
+   174  crgvalzd
+   175  crgvper1
+   176  crgvhou1
+   177  crgvexpt
+--END SECTION--
+
+--BEGIN SECTION--
+ace
+   178  acedeprs
+   179  acedrink
+   180  acedrugs
+   181  aceprisn
+   182  acedivrc
+   183  acepunch
+   184  acehurt1
+   185  aceswear
+   186  acetouch
+   187  acetthem
+   188  acehvsex
+   189  aceadsaf
+   190  aceadned
+--END SECTION--
+
+--BEGIN SECTION--
+social_determinants
+   191  lsatisfy
+   192  emtsuprt
+   193  sdhisolt
+   194  sdhemply
+   195  foodstmp
+   196  sdhfood1
+   197  sdhbills
+   198  sdhutils
+   199  sdhtrnsp
+   200  sdhstre1
+--END SECTION--
+
+--BEGIN SECTION--
+marijuana_use
+   201  marijan1
+   202  marjsmok
+   203  marjeat
+   204  marjvape
+   205  marjdab
+   206  marjothr
+--END SECTION--
+
+--BEGIN SECTION--
+tobacco_cessation
+   207  lastsmk2
+   208  stopsmk2
+--END SECTION--
+
+--BEGIN SECTION--
+other_tobacco_use
+   209  mentcigs
+   210  mentecig
+   211  heattbco
+--END SECTION--
+
+--BEGIN SECTION--
+alcohol_screen
+   212  asbialch
+   213  asbidrnk
+   214  asbibing
+   215  asbiadvc
+   216  asbirduc
+--END SECTION--
+
+--BEGIN SECTION--
+firearm_safety
+   217  firearm5
+   218  gunload
+   219  loadulk2
+--END SECTION--
+
+--BEGIN SECTION--
+random_child_select
+   220  rcsgend1
+   221  rcsxbrth
+   222  rcsrltn2
+--END SECTION--
+
+--BEGIN SECTION--
+childhood_asthma
+   223  casthdx2
+   224  casthno2
+--END SECTION--
+
+--BEGIN SECTION--
+sex_at_birth
+   225  birthsex
+--END SECTION--
+
+--BEGIN SECTION--
+sexual_orientation
+   226  somale
+   227  sofemale
+   228  trnsgndr
+--END SECTION--
+
+--BEGIN SECTION--
+family_plan
+   229  hadsex
+   230  pfpprvn4
+   231  typcntr9
+   232  brthcnt4
+   233  whereget
+   234  nobcuse8
+   235  bcprefer
+--END SECTION--
+
+--BEGIN SECTION--
+race_reactions
+   236  rrclass3
+   237  rrcognt2
+   238  rrtreat
+   239  rratwrk2
+   240  rrhcare4
+   241  rrphysm2
+--END SECTION--
+
+--BEGIN SECTION--
+questionnaire_ver
+   242  qstver
+--END SECTION--
+
+--BEGIN SECTION--
+questionnaire_lang
+   243  qstlang
+--END SECTION--
+
+--BEGIN SECTION--
+urban_rural
+   244  _metstat
+   245  _urbstat
+--END SECTION--
+
+--BEGIN SECTION--
+weighting_variables_1
+   246  mscode
+   247  _ststr
+   248  _strwt
+   249  _rawrake
+   250  _wt2rake
+   251  _imprace
+--END SECTION--
+
+--BEGIN SECTION--
+child_demographics
+   252  _chispnc
+   253  _crace2
+   254  _cprace2
+--END SECTION--
+
+--BEGIN SECTION--
+child_weighting_variables
+   255  cageg
+   256  _cllcpwt
+--END SECTION--
+
+--BEGIN SECTION--
+weighting_variables_2
+   257  _dualuse
+   258  _dualcor
+   259  _llcpwt2
+   260  _llcpwt
+--END SECTION--
+
+--BEGIN SECTION--
+calculated_variables_1
+   261  _rfhlth
+   262  _phys14d
+   263  _ment14d
+   264  _hlthpln
+   265  _hcvu652
+   266  _totinda
+   267  _exteth3
+   268  _alteth3
+   269  _denvst3
+   270  _michd
+   271  _ltasth1
+   272  _casthm1
+   273  _asthms1
+   274  _drdxar2
+--END SECTION--
+
+--BEGIN SECTION--
+calculated_race_variables
+   275  _prace2
+   276  _mrace2
+   277  _hispanc
+   278  _race1
+   279  _raceg22
+   280  _racegr4
+   281  _racepr1
+--END SECTION--
+
+--BEGIN SECTION--
+calculated_variables_2
+   282  _sex
+   283  _ageg5yr
+   284  _age65yr
+   285  _age80
+   286  _age_g
+   287  htin4
+   288  htm4
+   289  wtkg3
+   290  _bmi5
+   291  _bmi5cat
+   292  _rfbmi5
+   293  _chldcnt
+   294  _educag
+   295  _incomg1
+   296  _rfmam22
+   297  _mam5023
+   298  _hadcoln
+   299  _clnscp1
+   300  _hadsigm
+   301  _sgmscp1
+   302  _sgms101
+   303  _rfblds5
+   304  _stoldn1
+   305  _vircol1
+   306  _sbonti1
+   307  _crcrec2
+   308  _smoker3
+   309  _rfsmok3
+   310  _cureci2
+   311  _yrssmok
+   312  _packday
+   313  _packyrs
+   314  _yrsquit
+   315  _smokgrp
+   316  _lcsrec
+   317  drnkany6
+   318  drocdy4_
+   319  _rfbing6
+   320  _drnkwk2
+   321  _rfdrhv8
+   322  _flshot7
+   323  _pneumo3
+   324  _aidtst4
+--END SECTION--

@@ -1,6 +1,7 @@
 # LLCP 2022 Codebook
 
 ##  Record Identification
+`record_identification`
 
 ### State FIPS Code
 
@@ -5106,7 +5107,7 @@ Question: `Before today, have you heard of heated tobacco products?`
 
 ##  Alcohol Screening & Brief Intervention (ASBI)
 
-### Asked during checkup if you drink alchohol
+### Asked during checkup if you drink alcohol
 
 Label: `Asked during checkup if you drink alchohol`  
 Section Name: `Alcohol Screening & Brief Intervention (ASBI)`  
@@ -5954,7 +5955,7 @@ Question: `Urban/Rural Status`
 
 <br>
 
-##  Weighting Variables
+##  Weighting Variables 1
 
 ### Metropolitan Status Code
 
@@ -6192,7 +6193,7 @@ Question: `Final child weight: Land-line and Cell-Phone data  (Raking derived we
 
 <br>
 
-##  Weighting Variables
+##  Weighting Variables 2
 
 ### Dual Phone Use Categories
 
@@ -6268,7 +6269,7 @@ Question: `Final weight assigned to each  respondent: Land-line and cell-phone d
 
 <br>
 
-##  Calculated Variables
+##  Calculated Variables 1
 
 ### Adults with good or better health
 
@@ -6726,7 +6727,7 @@ Question: `Computed race groups used for internet prevalence tables`
 
 <br>
 
-##  Calculated Variables
+##  Calculated Variables 2
 
 ### Calculated sex variable
 

@@ -1,8 +1,8 @@
-This repository aims to provide instructions on how to run the CDC's BRFSS data in a PostgreSQL database while accessing it from RStudio to perform analysis.
+This repository aims to provide instructions on how to run the CDC's BRFSS data for 2022 and 2023 in a PostgreSQL database while accessing it from RStudio to perform analysis.
 
 The schema presented here divide the BRFSS into sixty tables grouped by section name (as indicated in the LLCP codebook). The resulting SQL db is around 530MB, half that of the XPT file. This, along with the ability to only pull the table or column you needed into R, means a faster, more responsive analysis environment.
 
- I also provide a markdown-formatted version of the codebook.
+ I also provide a markdown-formatted version of the codebook for both years.
 
 <br>
 
@@ -39,7 +39,7 @@ Move all these files into the `container-name/data/` folder.
 
 # Setting up a Docker PostgreSQL instance
 
-Install Docker Desktop and get the latest PostgreSQL image. The `docker-compose.yml` files found in brfss-2022-container and brfss-2023-container are the instructions for starting up your Postgres db. The compose file is structured to give a persistent db even if the container is stopped and restarted. 
+Install Docker Desktop and get the latest PostgreSQL image. The `docker-compose.yml` files found in `brfss-2022` and `brfss-2023` directories are the instructions for starting up your Postgres db. The compose file is structured to give a persistent db even if the container is stopped and restarted. 
 
 > [!CAUTION]
 > If you want to keep your Postgres data, sping the container down with `docker-compose down`. Do _not_ use `docker-compose down -v` unless you want to scrub completely and re-initialize.
@@ -116,21 +116,28 @@ The following supplemental material is provided for each year.
 
 **Codebook**: The codebook gives the variable name, location, and frequency of values for all reporting areas combined for the landline and cell phone data set. The CDC distributes the codebook as an `.html` file which can be found on their site. Through python scripts, I've converted the codebook into a `.md` file with section and question headers, which greatly reduce seek time when looking up a variable, its SAS code and answer codes.
 
-**Variable Layout**: Knowing the variable layout helps when building a new schema and creating queries.
-
 <br>
 
 # Handling Errors
 
+Discrepancies between the CDC's codebook and the dataset existed for both years. 
+
+I omitted the columns from the dataset that didn't appear in the codebook. After all, without knowing the question or how the answered were coded, the columns are useless.
+
 ## 2022
+
+| SAS Variable | Column Number | In Codebook | In Dataset | Remediation      |
+|--------------|---------------|-------------|------------|------------------|
+| `usemrjn4`   | 210           | No          | Yes        | Removed from csv |
+| `diabage4`   | 57            | No          | Yes        | Removed from csv |
+| `numphon4`   | 62            | No          | Yes        | Removed from csv |
+| `cpdemo1c`   | 63            | No          | Yes        | Removed from csv |
 
 ## 2023
 
-Oddly, there ended up being some SAS Variables that either weren't listed in the Codebook or were listed in the Codebook but weren't in the original XPT file. My solution was to simply remove the columns from the dataset that didn't appear in the codebook. After all, without knowing the question or how the answered were coded, the columns are useless.
-
 | SAS Variable | Column Number | In Codebook | In Dataset | Remediation             |
 |--------------|---------------|-------------|------------|-------------------------|
-| `rcsborg1`   | NA            | Yes         | No         | Removed from `init.sql` |
+| `rcsborg1`   | NA            | Yes         | No         | Omitted |
 | `usemrjn4`   | 215           | No          | Yes        | Removed from csv        |
 | `birthsex`   | 205           | No          | Yes        | Removed from csv        |
 | `celsxbrt`   | 25            | No          | Yes        | Removed from csv        |

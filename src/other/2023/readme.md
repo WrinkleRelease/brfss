@@ -1,0 +1,3 @@
+I didn't use this init files as intended. Originally, the plan was to spin up the Postgres instance upon container initialization, let it read the init, create all the tables, and populate them at the same time. 
+
+That never worked correctly, but the structure of the data in the file made it too valuable to delete. I created the tables for 2023 manually in dBeaver by simply copying and pasting in the `CREATE TABLE` commands, complete with column names and datatypes. Then, when I was use `psql` to copy the `.csv` files into the db, I used the portion in the `COPY` statement that contained the table name and column names, saving me the hassle of having the type them in terminal.
