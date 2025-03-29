@@ -22,17 +22,23 @@ SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/b
 **2. Using a simple `.r` script in RStudio**
 The `.r` file I used to convert the XPT file to CSV is included.
 
+Next, re-write the headers in lowercase if you want:
+```shell
+awk 'BEGIN{FS=OFS=","} NR==1 {for (i=1; i<=NF; i++) $i=tolower($i)} 1' input.csv > output.csv
+```
+
+As of the publication of this documentation, both years represented here have columns present in the dataset but missing from the codebook. Find these indices of these columns the remove them. Replace your CSV file path in line 42 then run `find_column_indices.py` then run `column_remover.py`. Both are in the `src/python` folder.
+
 <br>
 
 # SQL Schema & Splitting the CSV
 
 My Postgres schema is based on the codebook, which lists the SAS Variable names along with the Section Name. Each Section is its own table, and each column is an SAS Variable in that section. 
 
-I was unable to successfully import the entire CSV file into a Postgres instance with an `init.sql` file. Instead, I split the full CSV into smaller files, one per section. 
+Using a csv file I compiled that lists the section name, variable, datatype, and index, I used a python script to split the master CSV into smaller files -- one csv per section. 
 
-```shell
-cut -d ',' -f [column numbers separated by commas] ~/path/to/master.csv > section_name.csv
-```
+The python file `cut_instructions.py` is in the `src/python` folder.
+
 Move all these files into the `container-name/data/` folder.
 
 <br>
@@ -44,9 +50,9 @@ Install Docker Desktop and get the latest PostgreSQL image. The `docker-compose.
 > [!CAUTION]
 > If you want to keep your Postgres data, sping the container down with `docker-compose down`. Do _not_ use `docker-compose down -v` unless you want to scrub completely and re-initialize.
 
-Since you started the docker container without an `init.db` the Postgres db exists but has no table or data in it.
+Since you started the docker container without an `init.db` the Postgres db exists but has no table or variable data in it.
 
-I added the tables one at a time in dBeaver then use pqsl in terminal to copy the data over. Here are the psql commands:
+I solved this by adding the tables in dBeaver then using pqsl in terminal to copy the data over. Here are the psql commands:
 
 ```shell
 # first 

@@ -5846,10 +5846,11 @@ Question: `Within the past 30 days, have you experienced any physical symptoms, 
 <br>
 
 ##  Random Child Selection
-> table: `random_child_selection`
+> table: `random_child_select`
 
 ### Sex of child
-
+_-- **NOTE:** Variable Not In Dataset --_  
+  
 Label: `Sex of child`  
 Section Name: `Random Child Selection`  
 Module Number: `31`  
@@ -5943,7 +5944,7 @@ Question: `Does the child still have asthma?`
 <br>
 
 ##  Questionnaire Version
-> table: `questionnaire_version`
+> table: `questionnaire_ver`
 
 ### Questionnaire Version Identifier
 
@@ -5971,7 +5972,7 @@ Question: `Questionnaire Version Identifier`
 <br>
 
 ##  Questionnaire Language
-> table: `questionnaire_language`
+> table: `questionnaire_lang`
 
 ### Language identifier
 
