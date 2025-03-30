@@ -48,7 +48,7 @@ Move all these files into the `container-name/data/` folder.
 Install Docker Desktop and get the latest PostgreSQL image. The `docker-compose.yml` files found in `brfss-2022` and `brfss-2023` directories are the instructions for starting up your Postgres db. The compose file is structured to give a persistent db even if the container is stopped and restarted. 
 
 > [!CAUTION]
-> If you want to keep your Postgres data, sping the container down with `docker-compose down`. Do _not_ use `docker-compose down -v` unless you want to scrub completely and re-initialize.
+> If you want to keep your Postgres data, spin the container down with `docker-compose down`. Do _not_ use `docker-compose down -v` unless you want to scrub completely and re-initialize. The `-v` flag scrubs the persistent volumes. You can see these volumes with `docker volume ls`. Nothing listed means no persistent docker volumes are present.
 
 Since you started the docker container without an `init.db` the Postgres db exists but has no table or variable data in it.
 
@@ -68,7 +68,7 @@ HEADER;
 
 Check to see if any of your tables are empty
 ```sql
--- A 0 indicates no rows have been inserted; thus, empty table
+# A 0 indicates no rows have been inserted; thus, empty table
 SELECT schemaname, relname, n_tup_ins 
 FROM pg_stat_all_tables 
 WHERE schemaname = 'public' 
