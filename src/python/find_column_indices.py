@@ -39,6 +39,6 @@ def list_columns(input_file):
 
 if __name__ == "__main__":
     # Replace with your CSV file path
-    input_file = "/path/to/brfss_2023.csv"
+    input_file = "/path/to/data.csv"
     
     list_columns(input_file)

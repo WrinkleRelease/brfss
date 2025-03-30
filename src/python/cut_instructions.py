@@ -1,15 +1,13 @@
-# This file produces takes two files: (1) the master CSV and a CSV file I compiled for each year that
-# contains the sections, variable names, datatypes and indices (brfss-YEAR-var-sec-type.csv). 
-
 # When run, this script produces a CSV for each section. These will be used to populate the db.
 
 import pandas as pd
 import os
 
-# Input files
-input_csv = "/path/to/brfss-2023-var-sec-type.csv"
-data_csv = "/path/to/brfss_2023.csv"
-output_dir = "/path/to/output_sections"
+# input_csv is the file that contains the section name, variable, datatype and 0-based col index
+# data_csv is the master csv file, the one converted from an XPT
+input_csv = "/path/to/var-sex-type-2022.csv"
+data_csv = "/path/to/data.csv"
+output_dir = "/path/to/project/output/"
 
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)

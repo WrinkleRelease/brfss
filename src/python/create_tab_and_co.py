@@ -4,10 +4,11 @@ import pandas as pd
 import os
 
 # Input CSV file
-input_csv = "/path/to/brfss-2023-var-sec-type.csv"
-# Output files
-create_table_file = "/output/create_tables.sql"
-copy_commands_file ="/output/copy_commands.sql"
+input_csv = "path/to/data.csv"
+
+# Create an output dir and set the path
+create_table_file = "/home/.../output/create_tables.sql"
+copy_commands_file ="/home/...output/copy_commands.sql"
 
 # Read the CSV file
 df = pd.read_csv(input_csv)

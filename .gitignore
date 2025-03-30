@@ -1,4 +1,3 @@
-brfss-venv/
 extra/
 brfss-2022/data/
 brfss-2023/data/
@@ -6,4 +5,3 @@ brfss-2022/backup/
 brfss-2023/backup/
 brfss-2023/docker-compose.yml
 brfss-2022/docker-compose.yml
-brfss-2023/supplemental/sas-section-line-numbers.md

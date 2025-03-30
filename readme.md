@@ -66,7 +66,16 @@ docker exec -it your_container_name psql -U your_user_name -d your_db_name
 HEADER;
 ```
 
-You can also backup and restore the Postgres db.
+Check to see if any of your tables are empty
+```sql
+-- A 0 indicates no rows have been inserted; thus, empty table
+SELECT schemaname, relname, n_tup_ins 
+FROM pg_stat_all_tables 
+WHERE schemaname = 'public' 
+ORDER BY n_tup_ins;
+```
+
+Backup and restore the Postgres db.
 ```shell
 # backup sql db
 docker exec -t your-container-name pg_dump -U username your-db-name > db_name_backup.sql
@@ -132,22 +141,22 @@ I omitted the columns from the dataset that didn't appear in the codebook. After
 
 ## 2022
 
-| SAS Variable | Column Number | In Codebook | In Dataset | Remediation      |
+| SAS Variable | 0-Based Column No. | In Codebook | In Dataset | Remediation      |
 |--------------|---------------|-------------|------------|------------------|
-| `usemrjn4`   | 210           | No          | Yes        | Removed from csv |
-| `diabage4`   | 57            | No          | Yes        | Removed from csv |
-| `numphon4`   | 62            | No          | Yes        | Removed from csv |
-| `cpdemo1c`   | 63            | No          | Yes        | Removed from csv |
+| `usemrjn4`   | 209           | No          | Yes        | Removed from csv |
+| `diabage4`   | 56            | No          | Yes        | Removed from csv |
+| `numphon4`   | 61            | No          | Yes        | Removed from csv |
+| `cpdemo1c`   | 62            | No          | Yes        | Removed from csv |
 
 ## 2023
 
-| SAS Variable | Column Number | In Codebook | In Dataset | Remediation             |
+| SAS Variable | 0-Based Column No. | In Codebook | In Dataset | Remediation             |
 |--------------|---------------|-------------|------------|-------------------------|
 | `rcsborg1`   | NA            | Yes         | No         | Omitted |
-| `usemrjn4`   | 215           | No          | Yes        | Removed from csv        |
-| `birthsex`   | 205           | No          | Yes        | Removed from csv        |
-| `celsxbrt`   | 25            | No          | Yes        | Removed from csv        |
-| `rcsgend1`   | 252           | No          | Yes        | Removed from csv        |
-| `rcsxbrth`   | 253           | No          | Yes        | Removed from csv        |
-| `lndsxbrt`   | 19            | No          | Yes        | Removed from csv        |
-| `trnsgndr`   | 208           | No          | Yes        | Removed from csv        |
+| `usemrjn4`   | 214           | No          | Yes        | Removed from csv        |
+| `birthsex`   | 204           | No          | Yes        | Removed from csv        |
+| `celsxbrt`   | 24            | No          | Yes        | Removed from csv        |
+| `rcsgend1`   | 251           | No          | Yes        | Removed from csv        |
+| `rcsxbrth`   | 252           | No          | Yes        | Removed from csv        |
+| `lndsxbrt`   | 18            | No          | Yes        | Removed from csv        |
+| `trnsgndr`   | 207           | No          | Yes        | Removed from csv        |

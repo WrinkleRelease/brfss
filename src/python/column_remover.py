@@ -43,9 +43,9 @@ def remove_columns(input_file, output_file, columns_to_remove):
 if __name__ == "__main__":
     
     # Replace these values with your actual column indices (0-based)
-    columns_to_remove = [18, 24, 204, 207, 214, 251, 252]
+    columns_to_remove = [56,61,62,209]
     
-    input_file = "/path/to/brfss_2023.csv"
+    input_file = "path/to/data.csv"
     output_file = "output.csv"
     
     remove_columns(input_file, output_file, columns_to_remove)
