@@ -22,12 +22,18 @@ SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/b
 **2. Using a simple `.r` script in RStudio**
 The `.r` file I used to convert the XPT file to CSV is included.
 
-Next, re-write the headers in lowercase if you want:
+<br>
+
+# Prepare the CSV
+
+Rewrite the headers in lowercase if you want:
 ```shell
 awk 'BEGIN{FS=OFS=","} NR==1 {for (i=1; i<=NF; i++) $i=tolower($i)} 1' input.csv > output.csv
 ```
 
-As of the publication of this documentation, both years represented here have columns present in the dataset but missing from the codebook. Find these indices of these columns the remove them. Replace your CSV file path in line 42 then run `find_column_indices.py` then run `column_remover.py`. Both are in the `src/python` folder.
+As of the publication of this documentation, both years represented here have columns present in the dataset but missing from the codebook. 
+
+To find these indices of these columns then remove them use `find_column_indices.py` in the `/src` folder and modify the path to point to your csv file. Next, run `column_remover.py`. 
 
 <br>
 
