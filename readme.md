@@ -1,8 +1,8 @@
 This repository aims to provide instructions on how to run the CDC's BRFSS data for 2022 and 2023 in a PostgreSQL database while accessing it from RStudio to perform analysis.
 
-The schema presented here divide the BRFSS into multiples tables grouped by section name (as indicated in the LLCP codebook). The resulting SQL db is around 530MB, half that of the XPT file. This, along with the ability to only pull the table or column you needed into R, means a faster, more responsive analysis environment.
+The schema presented here divide the BRFSS into multiples tables grouped by section name (as indicated in the LLCP codebook). The resulting SQL db for each year is around half that of the XPT file. This size reduction, along with the ability to only pull the table or column you need into R, means a faster, more responsive analysis environment.
 
- I also provide a markdown-formatted version of the codebook for both years.
+ A markdown-formatted version of the codebook is also privided for both years.
 
 <br>
 
