@@ -140,22 +140,22 @@ I omitted the columns from my final SQL database that didn't appear in the codeb
 
 ## 2022
 
-| SAS Variable | 0-Based Column No. | In Codebook | In Dataset | Remediation      |
-|--------------|---------------|-------------|------------|------------------|
-| `usemrjn4`   | 209           | No          | Yes        | Not included in db |
-| `diabage4`   | 56            | No          | Yes        | Not included in db |
-| `numphon4`   | 61            | No          | Yes        | Not included in db |
-| `cpdemo1c`   | 62            | No          | Yes        | Not included in db |
+| SAS Variable | 1-Based Column No. | In Codebook | In Dataset | Remediation   |
+|--------------|---------------|-------------|------------|--------------------|
+| `diabage4`   | 57            | No          | Yes        | Not included in db |
+| `numphon4`   | 62            | No          | Yes        | Not included in db |
+| `cpdemo1c`   | 63            | No          | Yes        | Not included in db |
+| `usemrjn4`   | 210           | No          | Yes        | Not included in db |
 
 ## 2023
 
-| SAS Variable | 0-Based Column No. | In Codebook | In Dataset | Remediation             |
-|--------------|---------------|-------------|------------|-------------------------|
-| `rcsborg1`   | NA            | Yes         | No         | Omitted |
-| `usemrjn4`   | 214           | No          | Yes        | Not included in db        |
-| `birthsex`   | 204           | No          | Yes        | Not included in db        |
-| `celsxbrt`   | 24            | No          | Yes        | Not included in db        |
-| `rcsgend1`   | 251           | No          | Yes        | Not included in db        |
-| `rcsxbrth`   | 252           | No          | Yes        | Not included in db        |
-| `lndsxbrt`   | 18            | No          | Yes        | Not included in db        |
-| `trnsgndr`   | 207           | No          | Yes        | Not included in db        |
+| SAS Variable | 1-Based Column No. | In Codebook | In Dataset | Remediation          |
+|--------------|---------------|-------------|------------|---------------------------|
+| `rcsborg1`   | NA            | Yes         | No         | Omitted                   |
+| `lndsxbrt`   | 19            | No          | Yes        | Not included in db        |
+| `celsxbrt`   | 25            | No          | Yes        | Not included in db        |
+| `birthsex`   | 205           | No          | Yes        | Not included in db        |
+| `usemrjn4`   | 215           | No          | Yes        | Not included in db        |
+| `rcsgend1`   | 252           | No          | Yes        | Not included in db        |
+| `rcsxbrth`   | 253           | No          | Yes        | Not included in db        |
+| `trnsgndr`   | 208           | No          | Yes        | Not included in db        |
