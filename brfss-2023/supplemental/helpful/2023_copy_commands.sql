@@ -1,121 +1,121 @@
 -- These are psql commands. I'm not sure they'd work as a batch in a SQL server. I ran them in terminal.
 
-\copy ace (acedeprs, acedrink, acedrugs, aceprisn, acedivrc, acepunch, acehurt1, aceswear, acetouch, acetthem, acehvsex, aceadsaf, aceadned) FROM '/docker-entrypoint-initdb.d/ace.csv' CSV HEADER;
+\copy ace (ACEDEPRS, ACEDRINK, ACEDRUGS, ACEPRISN, ACEDIVRC, ACEPUNCH, ACEHURT1, ACESWEAR, ACETOUCH, ACETTHEM, ACEHVSEX, ACEADSAF, ACEADNED) FROM '/docker-entrypoint-initdb.d/ace.csv' CSV HEADER;
 
-\copy alcohol_consumption (alcday4, avedrnk3, drnk3ge5, maxdrnks) FROM '/docker-entrypoint-initdb.d/alcohol_consumption.csv' CSV HEADER;
+\copy alcohol_consumption (ALCDAY4, AVEDRNK3, DRNK3GE5, MAXDRNKS) FROM '/docker-entrypoint-initdb.d/alcohol_consumption.csv' CSV HEADER;
 
-\copy arthritis (arthexer, arthedu, lmtjoin3, arthdis2, joinpai2) FROM '/docker-entrypoint-initdb.d/arthritis.csv' CSV HEADER;
+\copy arthritis (ARTHEXER, ARTHEDU, LMTJOIN3, ARTHDIS2, JOINPAI2) FROM '/docker-entrypoint-initdb.d/arthritis.csv' CSV HEADER;
 
-\copy aspirin_cvd (aspirin) FROM '/docker-entrypoint-initdb.d/aspirin_cvd.csv' CSV HEADER;
+\copy aspirin_cvd (ASPIRIN) FROM '/docker-entrypoint-initdb.d/aspirin_cvd.csv' CSV HEADER;
 
-\copy breast_cervical_cancer_screen (hadmam, howlong, cervscrn, crvclcnc, crvclpap, crvclhpv, hadhyst2) FROM '/docker-entrypoint-initdb.d/breast_cervical_cancer_screen.csv' CSV HEADER;
+\copy breast_cervical_cancer_screen (HADMAM, HOWLONG, CERVSCRN, CRVCLCNC, CRVCLPAP, CRVCLHPV, HADHYST2) FROM '/docker-entrypoint-initdb.d/breast_cervical_cancer_screen.csv' CSV HEADER;
 
-\copy calculated_race_variables (_mrace1, _hispanc, _race, _raceg21, _racegr3, _raceprv) FROM '/docker-entrypoint-initdb.d/calculated_race_variables.csv' CSV HEADER;
+\copy calculated_race_variables (_MRACE1, _HISPANC, _RACE, _RACEG21, _RACEGR3, _RACEPRV) FROM '/docker-entrypoint-initdb.d/calculated_race_variables.csv' CSV HEADER;
 
-\copy calculated_variables_1 (_rfhlth, _phys14d, _ment14d, _hlthpl1, _hcvu653, _totinda, metvl12_, metvl22_, maxvo21_, fc601_, actin13_, actin23_, padur1_, padur2_, pafreq1_, pafreq2_, _minac12, _minac22, strfreq_, pamiss3_, pamin13_, pamin23_, pa3min_, pavig13_, pavig23_, pa3vigm_, _pacat3, _paindx3, _pa150r4, _pa300r4, _pa30023, _pastrng, _parec3, _pastae3, _rfhype6, _cholch3, _rfchol3, _michd, _ltasth1, _casthm1, _asthms1, _drdxar2) FROM '/docker-entrypoint-initdb.d/calculated_variables_1.csv' CSV HEADER;
+\copy calculated_variables_1 (_RFHLTH, _PHYS14D, _MENT14D, _HLTHPL1, _HCVU653, _TOTINDA, METVL12_, METVL22_, MAXVO21_, FC601_, ACTIN13_, ACTIN23_, PADUR1_, PADUR2_, PAFREQ1_, PAFREQ2_, _MINAC12, _MINAC22, STRFREQ_, PAMISS3_, PAMIN13_, PAMIN23_, PA3MIN_, PAVIG13_, PAVIG23_, PA3VIGM_, _PACAT3, _PAINDX3, _PA150R4, _PA300R4, _PA30023, _PASTRNG, _PAREC3, _PASTAE3, _RFHYPE6, _CHOLCH3, _RFCHOL3, _MICHD, _LTASTH1, _CASTHM1, _ASTHMS1, _DRDXAR2) FROM '/docker-entrypoint-initdb.d/calculated_variables_1.csv' CSV HEADER;
 
-\copy calculated_variables_2 (_sex, _ageg5yr, _age65yr, _age80, _age_g, htin4, htm4, wtkg3, _bmi5, _bmi5cat, _rfbmi5, _chldcnt, _educag, _incomg1, _smoker3, _rfsmok3, _cureci2, drnkany6, drocdy4_, _rfbing6, _drnkwk2, _rfdrhv8, _flshot7, _pneumo3, _aidtst4, _rfseat2, _rfseat3, _drnkdrv) FROM '/docker-entrypoint-initdb.d/calculated_variables_2.csv' CSV HEADER;
+\copy calculated_variables_2 (_SEX, _AGEG5YR, _AGE65YR, _AGE80, _AGE_G, HTIN4, HTM4, WTKG3, _BMI5, _BMI5CAT, _RFBMI5, _CHLDCNT, _EDUCAG, _INCOMG1, _SMOKER3, _RFSMOK3, _CURECI2, DRNKANY6, DROCDY4_, _RFBING6, _DRNKWK2, _RFDRHV8, _FLSHOT7, _PNEUMO3, _AIDTST4, _RFSEAT2, _RFSEAT3, _DRNKDRV) FROM '/docker-entrypoint-initdb.d/calculated_variables_2.csv' CSV HEADER;
 
-\copy cancer_survivor_pain (csrvpain, csrvctl2) FROM '/docker-entrypoint-initdb.d/cancer_survivor_pain.csv' CSV HEADER;
+\copy cancer_survivor_pain (CSRVPAIN, CSRVCTL2) FROM '/docker-entrypoint-initdb.d/cancer_survivor_pain.csv' CSV HEADER;
 
-\copy cancer_survivor_treat (csrvtrt3, csrvdoc1, csrvsum, csrvrtrn, csrvinst, csrvinsr, csrvdein, csrvclin) FROM '/docker-entrypoint-initdb.d/cancer_survivor_treat.csv' CSV HEADER;
+\copy cancer_survivor_treat (CSRVTRT3, CSRVDOC1, CSRVSUM, CSRVRTRN, CSRVINST, CSRVINSR, CSRVDEIN, CSRVCLIN) FROM '/docker-entrypoint-initdb.d/cancer_survivor_treat.csv' CSV HEADER;
 
-\copy cancer_survivor_type (cncrdiff, cncrage, cncrtyp2) FROM '/docker-entrypoint-initdb.d/cancer_survivor_type.csv' CSV HEADER;
+\copy cancer_survivor_type (CNCRDIFF, CNCRAGE, CNCRTYP2) FROM '/docker-entrypoint-initdb.d/cancer_survivor_type.csv' CSV HEADER;
 
-\copy caregiver (caregiv1, crgvrel4, crgvlng1, crgvhrs1, crgvprb3, crgvalzd, crgvper1, crgvhou1, crgvexpt) FROM '/docker-entrypoint-initdb.d/caregiver.csv' CSV HEADER;
+\copy caregiver (CAREGIV1, CRGVREL4, CRGVLNG1, CRGVHRS1, CRGVPRB3, CRGVALZD, CRGVPER1, CRGVHOU1, CRGVEXPT) FROM '/docker-entrypoint-initdb.d/caregiver.csv' CSV HEADER;
 
-\copy cell_phone_introduction (safetime, ctelnum1, cellfon5, cadult1, cellsex2, pvtresd3, cclghous, cstate1, landline, hhadult) FROM '/docker-entrypoint-initdb.d/cell_phone_introduction.csv' CSV HEADER;
+\copy cell_phone_introduction (SAFETIME, CTELNUM1, CELLFON5, CADULT1, CELLSEX2, PVTRESD3, CCLGHOUS, CSTATE1, LANDLINE, HHADULT) FROM '/docker-entrypoint-initdb.d/cell_phone_introduction.csv' CSV HEADER;
 
-\copy child_demographics (_chispnc, _crace1) FROM '/docker-entrypoint-initdb.d/child_demographics.csv' CSV HEADER;
+\copy child_demographics (_CHISPNC, _CRACE1) FROM '/docker-entrypoint-initdb.d/child_demographics.csv' CSV HEADER;
 
-\copy child_weighting_variables (cageg, _cllcpwt) FROM '/docker-entrypoint-initdb.d/child_weighting_variables.csv' CSV HEADER;
+\copy child_weighting_variables (CAGEG, _CLLCPWT) FROM '/docker-entrypoint-initdb.d/child_weighting_variables.csv' CSV HEADER;
 
-\copy childhood_asthma (casthdx2, casthno2) FROM '/docker-entrypoint-initdb.d/childhood_asthma.csv' CSV HEADER;
+\copy childhood_asthma (CASTHDX2, CASTHNO2) FROM '/docker-entrypoint-initdb.d/childhood_asthma.csv' CSV HEADER;
 
-\copy cholesterol (cholmed3) FROM '/docker-entrypoint-initdb.d/cholesterol.csv' CSV HEADER;
+\copy cholesterol (CHOLMED3) FROM '/docker-entrypoint-initdb.d/cholesterol.csv' CSV HEADER;
 
-\copy chronic_health_conditions (cvdinfr4, cvdcrhd4, cvdstrk3, asthma3, asthnow, chcscnc1, chcocnc1, chccopd3, addepev3, chckdny2, havarth4, diabete4, diabage4) FROM '/docker-entrypoint-initdb.d/chronic_health_conditions.csv' CSV HEADER;
+\copy chronic_health_conditions (CVDINFR4, CVDCRHD4, CVDSTRK3, ASTHMA3, ASTHNOW, CHCSCNC1, CHCOCNC1, CHCCOPD3, ADDEPEV3, CHCKDNY2, HAVARTH4, DIABETE4, DIABAGE4) FROM '/docker-entrypoint-initdb.d/chronic_health_conditions.csv' CSV HEADER;
 
-\copy cognitive_decline (cimemlo1, cdworry, cddiscu1, cdhous1, cdsocia1) FROM '/docker-entrypoint-initdb.d/cognitive_decline.csv' CSV HEADER;
+\copy cognitive_decline (CIMEMLO1, CDWORRY, CDDISCU1, CDHOUS1, CDSOCIA1) FROM '/docker-entrypoint-initdb.d/cognitive_decline.csv' CSV HEADER;
 
-\copy colorectal_cancer_screen (hadsigm4, colnsigm, colntes1, sigmtes1, lastsig4, colncncr, vircolo1, vclntes2, smalstol, stoltest, stooldn2, bldstfit, sdnates1) FROM '/docker-entrypoint-initdb.d/colorectal_cancer_screen.csv' CSV HEADER;
+\copy colorectal_cancer_screen (HADSIGM4, COLNSIGM, COLNTES1, SIGMTES1, LASTSIG4, COLNCNCR, VIRCOLO1, VCLNTES2, SMALSTOL, STOLTEST, STOOLDN2, BLDSTFIT, SDNATES1) FROM '/docker-entrypoint-initdb.d/colorectal_cancer_screen.csv' CSV HEADER;
 
-\copy covid_vaccination (covidva1, covacge1, covidnu2) FROM '/docker-entrypoint-initdb.d/covid_vaccination.csv' CSV HEADER;
+\copy covid_vaccination (COVIDVA1, COVACGE1, COVIDNU2) FROM '/docker-entrypoint-initdb.d/covid_vaccination.csv' CSV HEADER;
 
-\copy demographics (marital, educa, renthom1, numhhol4, numphon4, cpdemo1c, veteran3, employ1, children, income3, pregnant, weight2, height3) FROM '/docker-entrypoint-initdb.d/demographics.csv' CSV HEADER;
+\copy demographics (MARITAL, EDUCA, RENTHOM1, NUMHHOL4, NUMPHON4, CPDEMO1C, VETERAN3, EMPLOY1, CHILDREN, INCOME3, PREGNANT, WEIGHT2, HEIGHT3) FROM '/docker-entrypoint-initdb.d/demographics.csv' CSV HEADER;
 
-\copy diabetes (diabtype, insulin1, chkhemo3, eyeexam1, diabeye1, diabedu1, feetsore) FROM '/docker-entrypoint-initdb.d/diabetes.csv' CSV HEADER;
+\copy diabetes (DIABTYPE, INSULIN1, CHKHEMO3, EYEEXAM1, DIABEYE1, DIABEDU1, FEETSORE) FROM '/docker-entrypoint-initdb.d/diabetes.csv' CSV HEADER;
 
-\copy disability (deaf, blind, decide, diffwalk, diffdres, diffalon) FROM '/docker-entrypoint-initdb.d/disability.csv' CSV HEADER;
+\copy disability (DEAF, BLIND, DECIDE, DIFFWALK, DIFFDRES, DIFFALON) FROM '/docker-entrypoint-initdb.d/disability.csv' CSV HEADER;
 
-\copy excess_sun_exposure (numburn3, sunprtct, wkdayout, wkendout) FROM '/docker-entrypoint-initdb.d/excess_sun_exposure.csv' CSV HEADER;
+\copy excess_sun_exposure (NUMBURN3, SUNPRTCT, WKDAYOUT, WKENDOUT) FROM '/docker-entrypoint-initdb.d/excess_sun_exposure.csv' CSV HEADER;
 
-\copy exercise (exerany2, exract12, exeroft1, exerhmm1, exract22, exeroft2, exerhmm2, strength) FROM '/docker-entrypoint-initdb.d/exercise.csv' CSV HEADER;
+\copy exercise (EXERANY2, EXRACT12, EXEROFT1, EXERHMM1, EXRACT22, EXEROFT2, EXERHMM2, STRENGTH) FROM '/docker-entrypoint-initdb.d/exercise.csv' CSV HEADER;
 
-\copy falls (fall12mn, fallinj5) FROM '/docker-entrypoint-initdb.d/falls.csv' CSV HEADER;
+\copy falls (FALL12MN, FALLINJ5) FROM '/docker-entrypoint-initdb.d/falls.csv' CSV HEADER;
 
-\copy firearm_safety (firearm5, gunload, loadulk2) FROM '/docker-entrypoint-initdb.d/firearm_safety.csv' CSV HEADER;
+\copy firearm_safety (FIREARM5, GUNLOAD, LOADULK2) FROM '/docker-entrypoint-initdb.d/firearm_safety.csv' CSV HEADER;
 
-\copy flu_vaccination (imfvpla4) FROM '/docker-entrypoint-initdb.d/flu_vaccination.csv' CSV HEADER;
+\copy flu_vaccination (IMFVPLA4) FROM '/docker-entrypoint-initdb.d/flu_vaccination.csv' CSV HEADER;
 
-\copy health_care_access (primins1, persdoc3, medcost1, checkup1) FROM '/docker-entrypoint-initdb.d/health_care_access.csv' CSV HEADER;
+\copy health_care_access (PRIMINS1, PERSDOC3, MEDCOST1, CHECKUP1) FROM '/docker-entrypoint-initdb.d/health_care_access.csv' CSV HEADER;
 
-\copy health_status (genhlth) FROM '/docker-entrypoint-initdb.d/health_status.csv' CSV HEADER;
+\copy health_status (GENHLTH) FROM '/docker-entrypoint-initdb.d/health_status.csv' CSV HEADER;
 
-\copy healthy_days (physhlth, menthlth, poorhlth) FROM '/docker-entrypoint-initdb.d/healthy_days.csv' CSV HEADER;
+\copy healthy_days (PHYSHLTH, MENTHLTH, POORHLTH) FROM '/docker-entrypoint-initdb.d/healthy_days.csv' CSV HEADER;
 
-\copy heart_attack_stroke (hasymp1, hasymp2, hasymp3, hasymp4, hasymp5, hasymp6, strsymp1, strsymp2, strsymp3, strsymp4, strsymp5, strsymp6, firstaid) FROM '/docker-entrypoint-initdb.d/heart_attack_stroke.csv' CSV HEADER;
+\copy heart_attack_stroke (HASYMP1, HASYMP2, HASYMP3, HASYMP4, HASYMP5, HASYMP6, STRSYMP1, STRSYMP2, STRSYMP3, STRSYMP4, STRSYMP5, STRSYMP6, FIRSTAID) FROM '/docker-entrypoint-initdb.d/heart_attack_stroke.csv' CSV HEADER;
 
-\copy hiv_aids (hivtst7, hivtstd3) FROM '/docker-entrypoint-initdb.d/hiv_aids.csv' CSV HEADER;
+\copy hiv_aids (HIVTST7, HIVTSTD3) FROM '/docker-entrypoint-initdb.d/hiv_aids.csv' CSV HEADER;
 
-\copy hpv_vaccination (hpvadvc4, hpvadsht) FROM '/docker-entrypoint-initdb.d/hpv_vaccination.csv' CSV HEADER;
+\copy hpv_vaccination (HPVADVC4, HPVADSHT) FROM '/docker-entrypoint-initdb.d/hpv_vaccination.csv' CSV HEADER;
 
-\copy hypertension (bphigh6, bpmeds1, cholchk3, toldhi3) FROM '/docker-entrypoint-initdb.d/hypertension.csv' CSV HEADER;
+\copy hypertension (BPHIGH6, BPMEDS1, CHOLCHK3, TOLDHI3) FROM '/docker-entrypoint-initdb.d/hypertension.csv' CSV HEADER;
 
-\copy immunization (flushot7, flshtmy3, pneuvac4, shingle2) FROM '/docker-entrypoint-initdb.d/immunization.csv' CSV HEADER;
+\copy immunization (FLUSHOT7, FLSHTMY3, PNEUVAC4, SHINGLE2) FROM '/docker-entrypoint-initdb.d/immunization.csv' CSV HEADER;
 
-\copy indoor_tan (indortan) FROM '/docker-entrypoint-initdb.d/indoor_tan.csv' CSV HEADER;
+\copy indoor_tan (INDORTAN) FROM '/docker-entrypoint-initdb.d/indoor_tan.csv' CSV HEADER;
 
-\copy land_line_introduction (ctelenm1, pvtresd1, colghous, statere1, celphon1, ladult1, numadult, respslc1, landsex2) FROM '/docker-entrypoint-initdb.d/land_line_introduction.csv' CSV HEADER;
+\copy land_line_introduction (CTELENM1, PVTRESD1, COLGHOUS, STATERE1, CELPHON1, LADULT1, NUMADULT, RESPSLC1, LANDSEX2) FROM '/docker-entrypoint-initdb.d/land_line_introduction.csv' CSV HEADER;
 
-\copy long_term_covid (covidpo1, covidsm1, covidact) FROM '/docker-entrypoint-initdb.d/long_term_covid.csv' CSV HEADER;
+\copy long_term_covid (COVIDPO1, COVIDSM1, COVIDACT) FROM '/docker-entrypoint-initdb.d/long_term_covid.csv' CSV HEADER;
 
-\copy lung_cancer_screen (lcsfirst, lcslast, lcsnumcg, lcsctsc1, lcsscncr, lcsctwhn) FROM '/docker-entrypoint-initdb.d/lung_cancer_screen.csv' CSV HEADER;
+\copy lung_cancer_screen (LCSFIRST, LCSLAST, LCSNUMCG, LCSCTSC1, LCSSCNCR, LCSCTWHN) FROM '/docker-entrypoint-initdb.d/lung_cancer_screen.csv' CSV HEADER;
 
-\copy marijuana_use (marijan1, marjsmok, marjeat, marjvape, marjdab, marjothr) FROM '/docker-entrypoint-initdb.d/marijuana_use.csv' CSV HEADER;
+\copy marijuana_use (MARIJAN1, MARJSMOK, MARJEAT, MARJVAPE, MARJDAB, MARJOTHR) FROM '/docker-entrypoint-initdb.d/marijuana_use.csv' CSV HEADER;
 
-\copy other_tabacco_use (mentcigs, mentecig, heattbco) FROM '/docker-entrypoint-initdb.d/other_tabacco_use.csv' CSV HEADER;
+\copy other_tabacco_use (MENTCIGS, MENTECIG, HEATTBCO) FROM '/docker-entrypoint-initdb.d/other_tabacco_use.csv' CSV HEADER;
 
-\copy pre_diabetes (pdiabts1, prediab2) FROM '/docker-entrypoint-initdb.d/pre_diabetes.csv' CSV HEADER;
+\copy pre_diabetes (PDIABTS1, PREDIAB2) FROM '/docker-entrypoint-initdb.d/pre_diabetes.csv' CSV HEADER;
 
-\copy prostate_cancer_screen (psatest1, psatime1, pcpsars2, psasugs1, pcstalk2) FROM '/docker-entrypoint-initdb.d/prostate_cancer_screen.csv' CSV HEADER;
+\copy prostate_cancer_screen (PSATEST1, PSATIME1, PCPSARS2, PSASUGS1, PCSTALK2) FROM '/docker-entrypoint-initdb.d/prostate_cancer_screen.csv' CSV HEADER;
 
-\copy questionnaire_lang (qstlang) FROM '/docker-entrypoint-initdb.d/questionnaire_lang.csv' CSV HEADER;
+\copy questionnaire_lang (QSTLANG) FROM '/docker-entrypoint-initdb.d/questionnaire_lang.csv' CSV HEADER;
 
-\copy questionnaire_ver (qstver) FROM '/docker-entrypoint-initdb.d/questionnaire_ver.csv' CSV HEADER;
+\copy questionnaire_ver (QSTVER) FROM '/docker-entrypoint-initdb.d/questionnaire_ver.csv' CSV HEADER;
 
-\copy race_reactions (rrclass3, rrcognt2, rrtreat, rratwrk2, rrhcare4, rrphysm2) FROM '/docker-entrypoint-initdb.d/race_reactions.csv' CSV HEADER;
+\copy race_reactions (RRCLASS3, RRCOGNT2, RRTREAT, RRATWRK2, RRHCARE4, RRPHYSM2) FROM '/docker-entrypoint-initdb.d/race_reactions.csv' CSV HEADER;
 
-\copy random_child_select (rcsrltn2) FROM '/docker-entrypoint-initdb.d/random_child_select.csv' CSV HEADER;
+\copy random_child_select (RCSRLTN2) FROM '/docker-entrypoint-initdb.d/random_child_select.csv' CSV HEADER;
 
-\copy record_identification (_state, fmonth, idate, imonth, iday, iyear, dispcode, seqno, _psu) FROM '/docker-entrypoint-initdb.d/record_identification.csv' CSV HEADER;
+\copy record_identification (_STATE, FMONTH, IDATE, IMONTH, IDAY, IYEAR, DISPCODE, SEQNO, _PSU) FROM '/docker-entrypoint-initdb.d/record_identification.csv' CSV HEADER;
 
-\copy respondent_sex (sexvar) FROM '/docker-entrypoint-initdb.d/respondent_sex.csv' CSV HEADER;
+\copy respondent_sex (SEXVAR) FROM '/docker-entrypoint-initdb.d/respondent_sex.csv' CSV HEADER;
 
-\copy seatbelt_drink_drive (seatbelt, drnkdri2) FROM '/docker-entrypoint-initdb.d/seatbelt_drink_drive.csv' CSV HEADER;
+\copy seatbelt_drink_drive (SEATBELT, DRNKDRI2) FROM '/docker-entrypoint-initdb.d/seatbelt_drink_drive.csv' CSV HEADER;
 
-\copy sexual_orientation (somale, sofemale) FROM '/docker-entrypoint-initdb.d/sexual_orientation.csv' CSV HEADER;
+\copy sexual_orientation (SOMALE, SOFEMALE) FROM '/docker-entrypoint-initdb.d/sexual_orientation.csv' CSV HEADER;
 
-\copy social_determinants (lsatisfy, emtsuprt, sdlonely, sdhemply, foodstmp, sdhfood1, sdhbills, sdhutils, sdhtrnsp, sdhstre1) FROM '/docker-entrypoint-initdb.d/social_determinants.csv' CSV HEADER;
+\copy social_determinants (LSATISFY, EMTSUPRT, SDLONELY, SDHEMPLY, FOODSTMP, SDHFOOD1, SDHBILLS, SDHUTILS, SDHTRNSP, SDHSTRE1) FROM '/docker-entrypoint-initdb.d/social_determinants.csv' CSV HEADER;
 
-\copy tabacco_cessation (lastsmk2, stopsmk2) FROM '/docker-entrypoint-initdb.d/tabacco_cessation.csv' CSV HEADER;
+\copy tabacco_cessation (LASTSMK2, STOPSMK2) FROM '/docker-entrypoint-initdb.d/tabacco_cessation.csv' CSV HEADER;
 
-\copy tabacco_use (smoke100, smokday2, usenow3, ecignow2) FROM '/docker-entrypoint-initdb.d/tabacco_use.csv' CSV HEADER;
+\copy tabacco_use (SMOKE100, SMOKDAY2, USENOW3, ECIGNOW2) FROM '/docker-entrypoint-initdb.d/tabacco_use.csv' CSV HEADER;
 
-\copy tdap_adults (tetanus1) FROM '/docker-entrypoint-initdb.d/tdap_adults.csv' CSV HEADER;
+\copy tdap_adults (TETANUS1) FROM '/docker-entrypoint-initdb.d/tdap_adults.csv' CSV HEADER;
 
-\copy urban_rural (_metstat, _urbstat) FROM '/docker-entrypoint-initdb.d/urban_rural.csv' CSV HEADER;
+\copy urban_rural (_METSTAT, _URBSTAT) FROM '/docker-entrypoint-initdb.d/urban_rural.csv' CSV HEADER;
 
-\copy weighting_variables_1 (mscode, _ststr, _strwt, _rawrake, _wt2rake, _imprace) FROM '/docker-entrypoint-initdb.d/weighting_variables_1.csv' CSV HEADER;
+\copy weighting_variables_1 (MSCODE, _STSTR, _STRWT, _RAWRAKE, _WT2RAKE, _IMPRACE) FROM '/docker-entrypoint-initdb.d/weighting_variables_1.csv' CSV HEADER;
 
-\copy weighting_variables_2 (_dualuse, _dualcor, _llcpwt2, _llcpwt) FROM '/docker-entrypoint-initdb.d/weighting_variables_2.csv' CSV HEADER;
+\copy weighting_variables_2 (_DUALUSE, _DUALCOR, _LLCPWT2, _LLCPWT) FROM '/docker-entrypoint-initdb.d/weighting_variables_2.csv' CSV HEADER;

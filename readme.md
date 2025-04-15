@@ -26,14 +26,7 @@ The `.r` file I used to convert the XPT file to CSV is included.
 
 # Prepare the CSV
 
-Rewrite the headers in lowercase if you want:
-```shell
-awk 'BEGIN{FS=OFS=","} NR==1 {for (i=1; i<=NF; i++) $i=tolower($i)} 1' input.csv > output.csv
-```
-
-As of the publication of this documentation, both years represented here have columns present in the dataset but missing from the codebook. 
-
-To find these indices of these columns then remove them use `find_column_indices.py` in the `/src` folder and modify the path to point to your csv file. Next, run `column_remover.py`. 
+As of the publication of this documentation, both years represented here have columns present in the dataset but missing from the codebook and all these columns are listed at the bottom of this readme. Dealing with these columns is simply as they are never extracted from the master csv in the first place. 2023 actually has a variable in the codebook not in the dataset (`rcsborg1`) and this was simply ignored when making individual csv files.
 
 <br>
 
@@ -143,26 +136,26 @@ The following supplemental material is provided for each year.
 
 Discrepancies between the CDC's codebook and the dataset existed for both years. 
 
-I omitted the columns from the dataset that didn't appear in the codebook. After all, without knowing the question or how the answered were coded, the columns are useless.
+I omitted the columns from my final SQL database that didn't appear in the codebook. 
 
 ## 2022
 
 | SAS Variable | 0-Based Column No. | In Codebook | In Dataset | Remediation      |
 |--------------|---------------|-------------|------------|------------------|
-| `usemrjn4`   | 209           | No          | Yes        | Removed from csv |
-| `diabage4`   | 56            | No          | Yes        | Removed from csv |
-| `numphon4`   | 61            | No          | Yes        | Removed from csv |
-| `cpdemo1c`   | 62            | No          | Yes        | Removed from csv |
+| `usemrjn4`   | 209           | No          | Yes        | Not included in db |
+| `diabage4`   | 56            | No          | Yes        | Not included in db |
+| `numphon4`   | 61            | No          | Yes        | Not included in db |
+| `cpdemo1c`   | 62            | No          | Yes        | Not included in db |
 
 ## 2023
 
 | SAS Variable | 0-Based Column No. | In Codebook | In Dataset | Remediation             |
 |--------------|---------------|-------------|------------|-------------------------|
 | `rcsborg1`   | NA            | Yes         | No         | Omitted |
-| `usemrjn4`   | 214           | No          | Yes        | Removed from csv        |
-| `birthsex`   | 204           | No          | Yes        | Removed from csv        |
-| `celsxbrt`   | 24            | No          | Yes        | Removed from csv        |
-| `rcsgend1`   | 251           | No          | Yes        | Removed from csv        |
-| `rcsxbrth`   | 252           | No          | Yes        | Removed from csv        |
-| `lndsxbrt`   | 18            | No          | Yes        | Removed from csv        |
-| `trnsgndr`   | 207           | No          | Yes        | Removed from csv        |
+| `usemrjn4`   | 214           | No          | Yes        | Not included in db        |
+| `birthsex`   | 204           | No          | Yes        | Not included in db        |
+| `celsxbrt`   | 24            | No          | Yes        | Not included in db        |
+| `rcsgend1`   | 251           | No          | Yes        | Not included in db        |
+| `rcsxbrth`   | 252           | No          | Yes        | Not included in db        |
+| `lndsxbrt`   | 18            | No          | Yes        | Not included in db        |
+| `trnsgndr`   | 207           | No          | Yes        | Not included in db        |
