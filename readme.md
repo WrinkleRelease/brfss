@@ -1,8 +1,8 @@
-This repository aims to provide instructions on how to run the CDC's BRFSS data for 2022 and 2023 in a PostgreSQL database while accessing it from RStudio to perform analysis.
+This repository aims to provide instructions on how to run the CDC's BRFSS data for 2022 and 2023 in a PostgreSQL database while accessing it from RStudio to perform analysis. 
 
-The schema presented here divide the BRFSS into multiples tables grouped by section name (as indicated in the LLCP codebook). The resulting SQL db for each year is around half that of the XPT file. This size reduction, along with the ability to only pull the table or column you need into R, means a faster, more responsive analysis environment.
+Before getting into that, let me jump right into what is, perhaps, of greatest utility: the codebooks for [2023](https://github.com/datatimp/brfss/blob/main/brfss-2023/supplemental/llcp-2023-codebook.md) and [2022](https://github.com/datatimp/brfss/blob/main/brfss-2022/supplemental/llcp-2022-codebook.md) re-formatted in markdown. Markdown's navigable outline feature makes these documents much more manageable.
 
- A markdown-formatted version of the codebook is also privided for both years.
+The schema presented here divide the BRFSS into multiples tables grouped by section name (as indicated in the LLCP codebook). The resulting SQL db for each year is around half that of the XPT file. This size reduction, along with the ability to only pull the table or column you need into R, means a faster, more responsive analysis environment. 
 
 <br>
 
