@@ -17,12 +17,10 @@ The CDC hosts the data file in either `.xpt` or `.asc` format. They can be downl
 I found two methods:
 
 **1. Using a simple `.r` script in RStudio**  
-The `.r` file I used to convert the XPT file to CSV is included. This file was slightly larger, but didn't contain those extra rows which made dealing with it slightly easier.
+The `.r` file I used to convert the XPT file to CSV is included. This file was slightly larger, but didn't contain extra rows which made dealing with it slightly easier.
 
 **2. SAS Universal Viewer**  
-SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/browse.htm?cat=74) that will open `.xpt` files and export `.csv`. You'll need an account to download the tool. The csv file it produced was nearly 100MB smaller than the version produced by RStudio, _however_ it contained 78 extra rows added onto the end of the file.<sup id="a1">[1](#f1)</sup> 
-
-
+SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/browse.htm?cat=74) that will open `.xpt` files and export `.csv`. You'll need an account to download the tool. The csv file it produced was nearly 100MB smaller than the version produced by RStudio, _however_ it contained 78 extra rows added onto the end of the file.[^1]
 
 <br>
 
@@ -165,8 +163,5 @@ I omitted the columns from my final SQL database that didn't appear in the codeb
 | `trnsgndr`   | 208           | No          | Yes        | Not included in db        |
 
 
-<hr>
 
-<b id="f1">1</b> The original XPT file, when read into RStudio, contains 433,323 rows or observations. The csv file produced by SAS Universal Viewer contains 78 more rows than that (rows 433,325 - 443,401) most likely due to metadata being written in as extra rows. 
-
-A quick check in `terminal` using `sed -n '433325p' file-name.csv` shows us empty data. In fact, use `sed -n '433324p' file-name.csv` and you'll see the difference as 433,324 is the last line of BRFSS data (the csv starts count on the header row, while R doesn't when reading in an XPT, hence the 1 digit difference in the last line). These need to be trimmed off before going further. For this reason I stuck with the R script.[↩](#a1)
+[^1]: Taking the LLCP2023.XPT file as an example: the original XPT file, when read into RStudio, contains 433,323 rows. The csv file produced by SAS Universal Viewer contains 78 more rows (rows 433,325 - 443,401) most likely due to metadata being written in as extra rows. <br><br> A quick check in `terminal` using `sed -n '433325p' file-name.csv` shows us empty data. Use `sed -n '433324p' file-name.csv` to see the difference. Line 433,324 is the last line of BRFSS data (the csv starts count on the header row, while R doesn't when reading in an XPT, hence the 1 digit difference in the last line). These need to be trimmed off before going further. For this reason I stuck with the R script.
