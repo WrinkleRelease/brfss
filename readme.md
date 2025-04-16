@@ -157,10 +157,10 @@ I omitted the columns from my final SQL database that didn't appear in the codeb
 | `lndsxbrt`   | 19            | No          | Yes        | Not included in db        |
 | `celsxbrt`   | 25            | No          | Yes        | Not included in db        |
 | `birthsex`   | 205           | No          | Yes        | Not included in db        |
+| `trnsgndr`   | 208           | No          | Yes        | Not included in db        |
 | `usemrjn4`   | 215           | No          | Yes        | Not included in db        |
 | `rcsgend1`   | 252           | No          | Yes        | Not included in db        |
 | `rcsxbrth`   | 253           | No          | Yes        | Not included in db        |
-| `trnsgndr`   | 208           | No          | Yes        | Not included in db        |
 
 
 
