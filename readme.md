@@ -20,7 +20,7 @@ I found two methods:
 The `.r` file I used to convert the XPT file to CSV is included. This file was slightly larger, but didn't contain extra rows which made dealing with it slightly easier.
 
 **2. SAS Universal Viewer**  
-SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/browse.htm?cat=74) that will open `.xpt` files and export `.csv`. You'll need an account to download the tool. The csv file it produced was nearly 100MB smaller than the version produced by RStudio, _however_ it contained 78 extra rows added onto the end of the file.[^1]
+SAS produces the free [SAS Universal Viewer](https://support.sas.com/downloads/browse.htm?cat=74) that will open `.xpt` files and export `.csv`. You'll need an account to download the tool. The csv file it produced was nearly 100MB smaller than the version produced by RStudio; however, it contained 78 _extra rows_ added to the bottom of the file.[^1]
 
 <br>
 
