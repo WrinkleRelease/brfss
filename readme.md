@@ -37,7 +37,7 @@ As of the publication of this readme, both years represented here have columns p
 My Postgres schema is based on the codebook, which lists the SAS Variable names along with the Section Name. Each Section is its own table, and each column is an SAS Variable in that section. 
 
 Taking the 2023 dataset as an example:
-1. Using the file `brfss-var-sec-type-2023.csv` file provided in the supplemental folder, cut the master csv file into sections. In Terminal `cut -d ',' -f[column number(s)] input-file.csv > output-file.csv` does the job. So, `cut -d ',' -f216,217,218,219,220,221,222,223,224,225,226,227,228 inpute-file.csv > ace.csv` returns what will become the `ace` table as a csv.
+1. Using the file `brfss-var-sec-type-2023.csv` file provided in the supplemental folder, cut the master csv file into sections. In Terminal, `cut -d ',' -f[column number(s)] input-file.csv > output-file.csv` does the job. So, `cut -d ',' -f216,217,218,219,220,221,222,223,224,225,226,227,228 inpute-file.csv > ace.csv` returns what will become the `ace` table as a csv.
 
 2. Once all individual csv files have been created and placed in the `/data` folder, run the `create_table_and_co.py` script, making sure the paths to your files and output are correct. This will produce the commands you'll use to create the tables in SQL and copy the data in using psql, or you can use the `.sql` files I generated. 
 
