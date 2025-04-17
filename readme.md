@@ -36,11 +36,16 @@ As of the publication of this readme, both years represented here have columns p
 
 My Postgres schema is based on the codebook, which lists the SAS Variable names along with the Section Name. Each Section is its own table, and each column is an SAS Variable in that section. 
 
-Using a csv file I compiled that lists the section name, variable, datatype, and index, I used a python script to split the master CSV into smaller files -- one csv per section. 
+Taking the 2023 dataset as an example:
+1. Using the file `brfss-var-sec-type-2023.csv` file provided in the supplemental folder, cut the master csv file into sections. In Terminal `cut -d ',' -f[column number(s)] input-file.csv > output-file.csv` does the job. So, `cut -d ',' -f216,217,218,219,220,221,222,223,224,225,226,227,228 inpute-file.csv > ace.csv` returns what will become the `ace` table as a csv.
 
-The python file `cut_instructions.py` is in the `src/python` folder.
+2. Once all individual csv files have been created and placed in the `/data` folder, run the `create_table_and_co.py` script, making sure the paths to your files and output are correct. This will produce the commands you'll use to create the tables in SQL and copy the data in using psql, or you can use the `.sql` files I generated. 
 
-Move all these files into the `container-name/data/` folder.
+<br>
+
+# NULL and Blank Values
+
+The conversion from XPT to CSV converted the blank values to `NA`. Most of the columns in the SQL db are of datatype INTEGER, which means `NA` isn't compatible. I chose to convert each `NA` to `NULL` when loading the data into Postgres and my psql commands reflect this.
 
 <br>
 
@@ -63,8 +68,7 @@ docker ps
 docker exec -it your_container_name psql -U your_user_name -d your_db_name
 
 # third
-\copy table_name ("columns","columns") from '/docker-entrypoint-initdb.d/file_name.csv' delimiter ',' CSV
-HEADER;
+\copy table_name ("column-name","column-name") from '/docker-entrypoint-initdb.d/file_name.csv' WITH (FORMAT CSV, HEADER, NULL 'NA');
 ```
 
 Check to see if any of your tables are empty

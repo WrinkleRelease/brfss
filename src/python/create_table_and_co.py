@@ -4,11 +4,11 @@ import pandas as pd
 import os
 
 # Input CSV file
-input_csv = "path/to/data.csv"
+input_csv = "/home/apvy/repos/brfss/brfss-2023/supplemental/helpful/brfss-var-sec-type-2023.csv"
 
 # Create an output dir and set the path
-create_table_file = "/home/.../output/create_tables.sql"
-copy_commands_file ="/home/...output/copy_commands.sql"
+create_table_file = "/home/apvy/repos/brfss/brfss-2023/supplemental/helpful/create_tables.sql"
+copy_commands_file ="/home/apvy/repos/brfss/brfss-2023/supplemental/helpful/copy_commands.sql"
 
 # Read the CSV file
 df = pd.read_csv(input_csv)
